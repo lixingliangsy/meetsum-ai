@@ -102,10 +102,8 @@ export function MeetingCard({ meeting, onView, onDelete }: MeetingCardProps) {
         </Button>
         
         <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button variant="ghost" size="icon">
-              <MoreHorizontal className="h-4 w-4" />
-            </Button>
+          <DropdownMenuTrigger className="p-2 rounded-md hover:bg-accent">
+            <MoreHorizontal className="h-4 w-4" />
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
             <DropdownMenuItem onClick={() => onView(meeting)}>
@@ -114,7 +112,6 @@ export function MeetingCard({ meeting, onView, onDelete }: MeetingCardProps) {
             </DropdownMenuItem>
             <DropdownMenuItem 
               onClick={() => onDelete(meeting)}
-              className="text-destructive focus:text-destructive"
             >
               <Trash2 className="mr-2 h-4 w-4" />
               Delete

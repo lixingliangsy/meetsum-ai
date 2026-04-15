@@ -6,16 +6,17 @@ export const openai = new OpenAI({
 
 // Whisper transcription
 export async function transcribeAudio(audioBuffer: Buffer): Promise<string> {
-  const file = new File([audioBuffer], 'audio.webm', { type: 'audio/webm' })
+  const uint8Array = new Uint8Array(audioBuffer)
+  const file = new File([uint8Array], 'audio.webm', { type: 'audio/webm' })
   
   const transcription = await openai.audio.transcriptions.create({
     file: file,
     model: 'whisper-1',
     response_format: 'text',
     language: 'en',
-  })
+  }) as unknown as string
   
-  return transcription.text
+  return transcription
 }
 
 // GPT-4 Turbo summarization

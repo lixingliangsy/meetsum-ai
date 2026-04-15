@@ -173,7 +173,8 @@ export async function transcribeAudio(
   provider: AIProvider = 'deepseek'
 ): Promise<string> {
   const formData = new FormData()
-  const blob = new Blob([audioBuffer], { type: 'audio/webm' })
+  const uint8Array = new Uint8Array(audioBuffer)
+  const blob = new Blob([uint8Array], { type: 'audio/webm' })
   formData.append('file', blob, 'audio.webm')
   formData.append('model', 'whisper-1')
   formData.append('response_format', 'text')
