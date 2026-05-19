@@ -120,11 +120,11 @@ const { content } = await chatCompletion(messages, {
    | NEXT_PUBLIC_SUPABASE_ANON_KEY | 你的Supabase Anon Key |
    | SUPABASE_SERVICE_ROLE_KEY | 你的Service Role Key |
    | OPENAI_API_KEY | 你的OpenAI Key |
-   | OPENROUTER_API_KEY | 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 |
-   | DEEPSEEK_API_KEY | sk-0f68cb8ec61a4eac90ef792f70a6e4f0 |
-   | ZHIPU_API_KEY | e605b3e3f62744d49d2536fa5ce0bfcc.IpAbjWQaE9ZBwOGf |
-   | DOUBAO_API_KEY | 01f19f51-230d-4466-8b31-a0bc010bc94c |
-   | JINA_API_KEY | sk-pmatjxbphiuldahrpibzqrxokpvawtdssgvratkfogshkyvj |
+   | OPENROUTER_API_KEY | sk-or-v1-... |
+   | DEEPSEEK_API_KEY | sk-your-deepseek-key |
+   | ZHIPU_API_KEY | your-zhipu-api-key |
+   | DOUBAO_API_KEY | your-doubao-api-key |
+   | JINA_API_KEY | your-jina-api-key |
    | DEFAULT_AI_PROVIDER | deepseek |
 
 4. **点击Deploy**
