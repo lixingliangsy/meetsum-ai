@@ -1,26 +1,26 @@
 [
   {
     "product": "scifigure-pro",
-    "verification_date": "2026-07-03T15:07:40.521937",
+    "verification_date": "2026-07-03T15:09:54.055790",
     "total_features_mentioned": 57,
     "features_checked": 10,
-    "implemented": 9,
-    "not_found": 1,
+    "implemented": 10,
+    "not_found": 0,
     "details": [
       {
-        "feature": "Use our custom template creator",
+        "feature": "</p>\n              <p><strong>Step 2:</strong> Upload your figure images (drag-and-drop or click to browse)",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "99/month, unlimited figures, all export formats), Team Plan ($24",
+        "feature": "</p>\n            </div>\n          </details>\n        </div>\n      </div>\n      \n      <div class=\"faq\">\n        <div class=\"question\">Q: What figure formats does SciFigure Pro support",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "SciFigure Pro integrates seamlessly with ImageJ/Fiji, GraphPad Prism, Photoshop, Illustrator",
-        "status": "NOT_FOUND",
-        "recommendation": "REMOVE_FROM_FAQ"
+        "feature": "Custom requests: Journal template requests (free), Custom feature development (quote provided)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
       },
       {
         "feature": "99/month:</strong> Unlimited figures, all export formats (TIFF, PNG, SVG, PDF), priority support, no watermark, batch processing",
@@ -28,32 +28,32 @@
         "recommendation": "KEEP"
       },
       {
-        "feature": ")</li>\n              </ul>\n              <p><strong>Custom Templates:</strong> Can't find your journal",
+        "feature": "Each template automatically adjusts: Dimensions (width/height in mm or inches), Resolution (300 DPI minimum), Color mode (CMYK for print, RGB for online), Font requirements (Arial, Helvetica, Times), Label style (A, B, C",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "Integration: Simple copy-paste from clipboard, Drag-and-drop interface, Batch processing (format 10+ figures at once), API access (Team plan) for custom workflows",
+        "feature": "</div>\n          <details>\n            <summary>Read full answer</summary>\n            <div class=\"answer-full\">\n              <p><strong>Documentation:</strong> Step-by-step guides, video tutorials, journal templates, FAQ",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "Priority support: Dedicated scientist support (Team plan)",
+        "feature": "\"\n        }\n      },\n      {\n        \"@type\": \"Question\",\n        \"name\": \"What kind of support does SciFigure Pro offer",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "\"\n        }\n      },\n      {\n        \"@type\": \"Question\",\n        \"name\": \"What figure formats does SciFigure Pro support",
+        "feature": "</div>\n        <div class=\"answer\">\n          <div class=\"answer-summary\"><strong>Answer:</strong> SciFigure Pro supports all major scientific image formats: PNG, TIFF, JPG, SVG, EPS, PDF for input; TIFF, PNG, SVG, PDF for output",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "Mobile is great for: Reviewing formatted figures, Downloading for presentations, Sharing with collaborators",
+        "feature": "</p>\n              <p><strong>Email Support:</strong> Response within 24 hours (free for all users)",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "\"\n        }\n      },\n      {\n        \"@type\": \"Question\",\n        \"name\": \"Can I export figures for specific journals",
+        "feature": "Supports copy-paste, drag-and-drop, batch processing",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       }
@@ -61,36 +61,31 @@
   },
   {
     "product": "resumeforge",
-    "verification_date": "2026-07-03T15:07:43.231566",
+    "verification_date": "2026-07-03T15:09:56.392754",
     "total_features_mentioned": 43,
     "features_checked": 10,
     "implemented": 9,
     "not_found": 1,
     "details": [
       {
-        "feature": "- **Import:** LinkedIn profile → resume draft (2 seconds) - **Export:** Resume → LinkedIn PDF / Featured section - **Job Boards:** Indeed, Glassdoor, ZipRecruiter, Monster, CareerBuilder - **Browser Extension:** Auto-fill application forms on 100+ job sites - **Calendar:** Sync interviews with Google Calendar / Outlook ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q8: How accurate and effective are ResumeForge's AI suggestions",
+        "feature": "| Support Type | Free | Premium | Professional | |--------------|------|---------|--------------| | Email support | ✓ (48hr) | ✓ (12hr) | ✓ (4hr) | | Live chat | — | ✓ | ✓ | | Phone support | — | — | ✓ | | 1-on-1 review | — | — | ✓ | | Onboarding call | — | — | ✓ | ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q10: How do I cancel my ResumeForge subscription",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "- **Import:** LinkedIn profile → resume draft (2 seconds) - **Export:** Resume → LinkedIn PDF / Featured section - **Job Boards:** Indeed, Glassdoor, ZipRecruiter, Monster, CareerBuilder - **Browser Extension:** Auto-fill application forms on 100+ job sites - **Calendar:** Sync interviews with Google Calendar / Outlook ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q8: How accurate and effective are ResumeForge's AI suggestions",
+        "feature": "7/5 - False positive rate (incorrect suggestions): <3% ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q9: What customer support does ResumeForge provide",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "7/5 user satisfaction rating for AI-generated content quality",
+        "feature": "| Support Type | Free | Premium | Professional | |--------------|------|---------|--------------| | Email support | ✓ (48hr) | ✓ (12hr) | ✓ (4hr) | | Live chat | — | ✓ | ✓ | | Phone support | — | — | ✓ | | 1-on-1 review | — | — | ✓ | | Onboarding call | — | — | ✓ | ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q10: How do I cancel my ResumeForge subscription",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "| Device | Supported | Notes | |--------|-----------|-------| | Windows (Chrome/Edge) | ✓ | Full feature parity | | macOS (Safari/Chrome) | ✓ | Full feature parity | | iPad | ✓ | Optimized tablet layout | | iPhone | ✓ | Dedicated iOS app | | Android | Beta | Web version functional | ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q7: Does ResumeForge integrate with job search platforms and LinkedIn",
+        "feature": "- SOC 2 Type II certified (annual independent audit) - GDPR compliant (EU users have full data portability and deletion rights) - CCPA compliant (California users) - No data resale or sharing with recruiters (contractually guaranteed) - Optional: local-only mode (data never leaves your device, available on Professional plan) ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q6: Can I use ResumeForge on mobile devices and which browsers are supported",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
-      },
-      {
-        "feature": "**Click \"Optimize\"** — AI naturally integrates missing keywords 4",
-        "status": "NOT_FOUND",
-        "recommendation": "REMOVE_FROM_FAQ"
       },
       {
         "feature": "- **Bullet Point Rewriter:** Transforms \\\"Responsible for managing team\\\" → \\\"Led 12-person engineering team to deliver $2M revenue project 3 weeks ahead of schedule\\\" - **ATS Keyword Optimizer:** Scans job description and inserts missing high-value keywords naturally - **Skills Suggestion Engine:** Recommends skills based on your experience and target role (95% accuracy validated by hiring managers) - **Professional Summary Generator:** Creates 3 summary options tailored to career level and industry - **Resume Score:** 0–100 score with actionable fixes (formatting, keywords, completeness, impact) ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q3: How do I create an ATS-optimized resume with ResumeForge",
@@ -98,22 +93,27 @@
         "recommendation": "KEEP"
       },
       {
-        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Select the \"ATS Optimizer\" tab, paste your target job description, and click \"Analyze",
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "- SOC 2 Type II certified (annual independent audit) - GDPR compliant (EU users have full data portability and deletion rights) - CCPA compliant (California users) - No data resale or sharing with recruiters (contractually guaranteed) - Optional: local-only mode (data never leaves your device, available on Professional plan) ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q6: Can I use ResumeForge on mobile devices and which browsers are supported",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "7/5 - False positive rate (incorrect suggestions): <3% ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q9: What customer support does ResumeForge provide",
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"ResumeForge's AI rewrites bullet points for impact (action verb + result + metric), optimizes for ATS keywords, suggests skills based on your target role, generates professional summaries, identifies and fixes weak phrasing, and provides a \\\"Resume Score\\\" with specific improvement suggestions",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Free users get email support (48-hour response) and knowledge base access",
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"ResumeForge exports to ATS-optimized PDF,",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "An internet connection is required; offline mode is roadmapped for late 2025",
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"ResumeForge offers four plans: Free (1 resume, 3 templates, basic AI suggestions), Premium ($9",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       }
@@ -121,21 +121,36 @@
   },
   {
     "product": "meeting-mind-mvp",
-    "verification_date": "2026-07-03T15:07:46.145210",
+    "verification_date": "2026-07-03T15:09:59.091694",
     "total_features_mentioned": 40,
     "features_checked": 10,
-    "implemented": 6,
-    "not_found": 4,
+    "implemented": 7,
+    "not_found": 3,
     "details": [
       {
-        "feature": "- SOC 2 Type II (annual audit since 2023) - HIPAA compliant (BAA signed on Pro and Team plans) - GDPR compliant (EU data residency available) - Data processing isolation: each meeting processed in a unique container, destroyed after 24 hours - Optional: on-premise deployment for Team plan (your servers, your data) ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q6: Can I export meeting notes and share them with my team",
+        "feature": "- **Monthly plans:** Cancel anytime; no further billing; access until month-end - **Annual plans:** Full refund within 30 days; after 30 days, access continues until year-end - **Data retention:** 90 days after cancellation (soft delete, fully restorable) - **Data export:** Available in JSON, PDF, or Markdown before cancellation - **Permanent deletion:** 90 days after cancellation (hard delete, not recoverable) ---\"\n      }\n    }\n  ]\n}\n    </script>\n    \n    <style>\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;\n            line-height: 1",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "Mobile recording is supported via the iOS app (Android in beta)",
+        "feature": "<a href=\"/\">Contact our support team</a>",
         "status": "NOT_FOUND",
         "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "com\\\" to your Zoom/Teams/Meet invite → bot auto-joins and records - **Option C (Upload):** Upload existing meeting recording (MP3, MP4, WAV) → AI processes within 5 minutes ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q4: Which meeting platforms and calendar systems does Meeting Mind support",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Meeting Mind exports summaries as PDF, Markdown, and integration-ready formats (Slack, Notion, Google Docs, Asana, Monday",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Team users get a dedicated customer success manager, custom onboarding for up to 20 users, and quarterly optimization reviews",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
       },
       {
         "feature": "No technical setup or manual uploading required",
@@ -143,27 +158,7 @@
         "recommendation": "REMOVE_FROM_FAQ"
       },
       {
-        "feature": "After the meeting, the AI generates a summary within 2 minutes",
-        "status": "NOT_FOUND",
-        "recommendation": "REMOVE_FROM_FAQ"
-      },
-      {
-        "feature": "com\" to your Zoom/Teams/Meet invite → bot auto-joins and records - **Option C (Upload):** Upload existing meeting recording (MP3, MP4, WAV) → AI processes within 5 minutes ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q4: Which meeting platforms and calendar systems does Meeting Mind support",
-        "status": "IMPLEMENTED",
-        "recommendation": "KEEP"
-      },
-      {
-        "feature": "Permanently deleted data can be exported beforehand in JSON or PDF format",
-        "status": "NOT_FOUND",
-        "recommendation": "REMOVE_FROM_FAQ"
-      },
-      {
-        "feature": "| Format | Best For | Action Items Included | |--------|----------|----------------------| | PDF | Email, archival | ✓ | | Markdown | Notion, Obsidian | ✓ | | Google Docs | Collaborative editing | ✓ | | Slack | Team notification | ✓ (as message) | | CRM (Salesforce/HubSpot) | Sales tracking | ✓ (as activity) | ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q7: Does Meeting Mind integrate with productivity and CRM tools",
-        "status": "IMPLEMENTED",
-        "recommendation": "KEEP"
-      },
-      {
-        "feature": "The \"Share Summary\" feature sends an email with the summary and action items to all meeting participants",
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Install the Chrome extension or desktop app, connect your calendar (Google/Outlook), and join a meeting—Meeting Mind auto-detects and starts recording",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
@@ -173,34 +168,34 @@
         "recommendation": "KEEP"
       },
       {
-        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Meeting Mind supports Zoom, Google Meet, Microsoft Teams, Webex, and GoToMeeting",
+        "feature": "</div>\n                <p class=\"answer-summary\"><strong>Answer:</strong> Install the Chrome extension or desktop app, connect your calendar (Google/Outlook), and join a meeting—Meeting Mind auto-detects and starts recording",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
+      },
+      {
+        "feature": "All major browsers are supported for the web version",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
       }
     ]
   },
   {
     "product": "fitness-challenge-tracker",
-    "verification_date": "2026-07-03T15:07:47.398180",
+    "verification_date": "2026-07-03T15:10:00.141086",
     "total_features_mentioned": 64,
     "features_checked": 10,
-    "implemented": 9,
-    "not_found": 1,
+    "implemented": 8,
+    "not_found": 2,
     "details": [
       {
-        "feature": "Coach users get phone support, 1-on-1 onboarding, and a de</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Free users get email support (72-hour response) and knowledge base access",
+        "feature": "- **Health Platforms:** Apple Health, Google Fit - **Wearables:** Fitbit, Garmin, Apple Watch, Whoop, Oura - **Apps:** Strava, MyFitnessPal, Nike Run Club, Adidas Running - **Gym Equipment:** Peloton, Tonal, Treadmill (via Fitbit) - **Automation:** Zapier (connect to 5,000+ apps) ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q8: How does the community and social features work—can I join challenges with friends",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Fitness Challenge Tracker supports 50+ challenge types: step challenges, plank challenges, push-up challenges, running challenges, hydration challenges, sleep challenges, nutrition challenges, meditation challenges, custom habit challenges, and team challenges",
+        "feature": ", \\\"pages read\\\") - **Duration:** 1 day to 1 year - **Scoring mode:** Cumulative (total over period), daily target (hit X every day), streak (consecutive days) - **Content:** Add descriptions, tips, and resource links for each day - **Privacy:** Public (discoverable), unlisted (link only), private (you only) - **Template:** Save as reusable template (Pro feature) ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q7: Does Fitness Challenge Tracker integrate with other fitness apps and devices",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
-      },
-      {
-        "feature": "Fitness Challenge Tracker has a community of 500,000+ users",
-        "status": "NOT_FOUND",
-        "recommendation": "REMOVE_FROM_FAQ"
       },
       {
         "feature": "| Platform | Status | Sync | |----------|--------|------| | iOS | ✓ | Real-time | | Android | ✓ | Real-time | | Web | ✓ | Real-time | | Apple Watch | ✓ | Real-time | | Fitbit | ✓ | Daily | | Garmin | ✓ | Daily | | Wear OS | Beta | Real-time | ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q5: Is my fitness and health data private and secure",
@@ -208,32 +203,37 @@
         "recommendation": "KEEP"
       },
       {
-        "feature": "- **Monthly plans:** Cancel anytime; no further billing; access until month-end - **Annual plans:** Full refund within 30 days; after 30 days, access continues until year-end - **Data retention:** 6 months after cancellation (soft delete) - **Data export:** CSV (numeric data), PDF (reports), ZIP (progress photos) - **Permanent deletion:** 6 months after cancellation (hard delete) ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        </div>\n    </div>\n</body>\n</html>",
+        "feature": "All data syncs across devices automatically",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Fitness Challenge Tracker supports 50+ challenge types: step challenges, plank challenges, push-up challenges, running challenges, hydration challenges, sleep challenges, nutrition challenges, meditat</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Fitness Challenge Tracker supports 50+ challenge types: step challenges, plank challenges, push-up challenges, running challenges, hydration challenges, sleep challenges, nutrition challenges, meditation challenges, custom habit challenges, and team challenges",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "The custom challenge creator lets you define any tracking metric (reps, minutes, distance, boolean completion, or custom units), set challenge duration (1 day to 1 year), choose scoring mode (cumulative, daily target, or streak), add educational content, and set privacy (public, unlisted, or private)",
+        "feature": "The custom challenge creator lets you define any tracking metric (reps, minutes, distance, boolean completion, or custom units), set challenge duration (1 day to 1 year), choose scoring mode (cum</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Yes",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Track progress via manual entry, photo logging, Apple Health/Google Fit auto-sync, or wearable device integration (Apple Watch, Fitbit, Garmin)",
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Metrics include: completion rate, streak length, improv</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Track progress via manual entry, photo logging, Apple Health/Google Fit auto-sync, or wearable device integration (Apple Watch, Fitbit, Garmin)",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "An Apple</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Fitness Challenge Tracker works on iOS, Android, and web",
+        "feature": "| Platform | Status | Sync | |----------|--------|------| | iOS | ✓ | Real-time | | Android | ✓ | Real-time | | Web | ✓ | Real-time | | Apple Watch | ✓ | Real-time | | Fitbit | ✓ | Daily | | Garmin | ✓ | Daily | | Wear OS | Beta | Real-time | ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q5: Is my fitness and health data private and secure",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "- **Monthly plans:** Cancel anytime; no further billing; access until month-end - **Annual plans:** Full refund within 30 days; after 30 days, access continues until year-end - **Data retention:** 6 months after cancellation (soft delete) - **Data export:** CSV (numeric data), PDF (reports), ZIP (progress photos) - **Permanent deletion:** 6 months after cancellation (hard delete) ---\"\n      }\n    }\n  ]\n}\n    </script>\n    \n    <style>\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;\n            line-height: 1",
-        "status": "IMPLEMENTED",
-        "recommendation": "KEEP"
-      },
-      {
-        "feature": "- **Manual entry:** Log reps, minutes, distance, or custom metric - **Photo logging:** Progress photos with pose guidance and privacy controls - **Auto-sync:** Apple Health, Google Fit, Fitbit, Garmin, Apple Watch - **Wearable:** Real-time tracking during workouts (heart rate, calories, zones) - Completion rate (% of challenge days completed) - Streak (current and longest) - Performance improvement (e",
+        "feature": "| Support Type | Free | Pro | Coach | |--------------|------|-----|-------| | Email support | ✓ (72hr) | ✓ (24hr) | ✓ (4hr) | | Live chat | — | ✓ | ✓ | | Phone support | — | — | ✓ | | 1-on-1 onboarding | — | — | ✓ | | Account manager | — | — | ✓ | ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q10: How do I cancel my subscription and what happens to my challenge data",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       }
@@ -241,59 +241,959 @@
   },
   {
     "product": "fitalliance-pro",
-    "verification_date": "2026-07-03T15:07:48.559194",
+    "verification_date": "2026-07-03T15:10:01.197497",
     "total_features_mentioned": 44,
     "features_checked": 10,
-    "implemented": 10,
-    "not_found": 0,
+    "implemented": 8,
+    "not_found": 2,
     "details": [
-      {
-        "feature": "An API is available on Pro and Enterprise plans for custom integrations",
-        "status": "IMPLEMENTED",
-        "recommendation": "KEEP"
-      },
-      {
-        "feature": "Enterprise users get a dedicated customer success manager, custom onboarding, and 99",
-        "status": "IMPLEMENTED",
-        "recommendation": "KEEP"
-      },
-      {
-        "feature": "FitAlliance Pro integrates with 25+ tools: Stripe (payments), Zoom (live classes), Google Calendar (events), Mailchimp (email marketing), Zapier (5,000+ app connections), Apple Health, Google Fit, Strava, Garmin, and Fitbit (challenge tracking)",
-        "status": "IMPLEMENTED",
-        "recommendation": "KEEP"
-      },
-      {
-        "feature": "**Launch:** Post your first welcome message and challenge ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q4: Which platforms and devices does FitAlliance Pro support",
-        "status": "IMPLEMENTED",
-        "recommendation": "KEEP"
-      },
-      {
-        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"FitAlliance Pro offers four plans: Free (individual, basic profile, join 3 groups), Creator ($19/month or $190/year, run 1 community, basic analytics, monetization at 8% fee), Pro ($49/month, unlimited communities, advanced analytics, monetization at 5% fee, API access), and Enterprise (custom pricing, white-label, SSO, dedicated infrastructure)",
-        "status": "IMPLEMENTED",
-        "recommendation": "KEEP"
-      },
-      {
-        "feature": "You can export all member data and content before canceling",
-        "status": "IMPLEMENTED",
-        "recommendation": "KEEP"
-      },
-      {
-        "feature": "- **Payments:** Stripe (connected account, direct payout) - **Video:** Zoom, Google Meet (live class integration) - **Fitness:** Apple Health, Google Fit, Strava, Garmin, Fitbit - **Marketing:** Mailchimp, ConvertKit, ActiveCampaign - **Automation:** Zapier, Make (custom workflows) - **Calendar:** Google Calendar, Outlook, Calendly ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q8: How does FitAlliance Pro help me grow my fitness community",
-        "status": "IMPLEMENTED",
-        "recommendation": "KEEP"
-      },
       {
         "feature": "Enterprise plans include dedicated integration support for custom workflows",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "- **Community:** Discussion boards, DMs, live chat, events calendar - **Challenges:** 50+ templates, custom creator, progress tracking, leaderboards - **Monetization:** Memberships (recurring), digital products, 1:1 coaching bookings - **Analytics:** Member growth, engagement rate, challenge completion, revenue - **Content:** Schedule posts, create courses, host live streams - **Gamification:** Badges, points, leaderboards, streak tracking - **Integrations:** Stripe, Zoom, Google Calendar, Apple Health, Strava ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q3: How do I set up my first fitness community on FitAlliance Pro",
+        "feature": "- **Monthly plans:** Cancel anytime; access until month-end; no refund - **Annual plans:** Full refund within 30 days; after 30 days, access continues until year-end - **Community archival:** After cancellation, community becomes read-only for 12 months - **Data export:** Member list (CSV), posts (JSON), analytics (PDF), challenges (CSV) - **Permanent deletion:** 12 months after cancellation (or on request) ---\"\n      }\n    }\n  ]\n}\n    </script>\n    \n    <style>\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;\n            line-height: 1",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       },
       {
-        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> FitAlliance Pro offers four plans: Free (individual, basic profile, join 3 groups), Creator ($19/month or $190/year, run 1 community, basic analytics, monetization at 8% fee), Pro ($49/month, unlimite</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        FitAlliance Pro offers four plans: Free (individual, basic profile, join 3 groups), Creator ($19/month or $190/year, run 1 community, basic analytics, monetization at 8% fee), Pro ($49/month, unlimited communities, advanced analytics, monetization at 5% fee, API access), and Enterprise (custom pricing, white-label, SSO, dedicated infrastructure)",
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "| Feature | Free | Creator | Pro | Enterprise | |---------|------|---------|-----|------------| | Communities | Join 3 | Run 1 | Unlimited | Unlimited | | Members/community | 50 | 500 | 10,000 | Unlimited | | Monetization fee | — | 8% | 5% | 0% | | Analytics | Basic | Basic | Advanced | Custom | | API access | — | — | ✓ | ✓ | | White-label | — | — | — | ✓ | | Price | $0 | $19/mo | $49/mo | Custom | ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q2: What features does FitAlliance Pro offer for building a fitness community",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "It integrates with Apple Health, Google Fit, Strava, Garmin, and Fitbit for automatic challenge progress syncing",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "The Pro plan API enables custom integrations",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Enterprise us</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Free and Creator users get email support (48-hour response) and knowledge base access",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- **Payments:** Stripe (connected account, direct payout) - **Video:** Zoom, Google Meet (live class integration) - **Fitness:** Apple Health, Google Fit, Strava, Garmin, Fitbit - **Marketing:** Mailchimp, ConvertKit, ActiveCampaign - **Automation:** Zapier, Make (custom workflows) - **Calendar:** Google Calendar, Outlook, Calendly ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q8: How does FitAlliance Pro help me grow my fitness community",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "FitAlliance Pro supports multiple monetization models: monthly memberships, one-time challenge fees, digital product sales (workout plans, meal guides), and 1:1 coaching bookings",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- **Community:** Discussion boards, DMs, live chat, events calendar - **Challenges:** 50+ templates, custom creator, progress tracking, leaderboards - **Monetization:** Memberships (recurring), digital products, 1:1 coaching bookings - **Analytics:** Member growth, engagement rate, challenge completion, revenue - **Content:** Schedule posts, create courses, host live streams - **Gamification:** Badges, points, leaderboards, streak tracking - **Integrations:** Stripe, Zoom, Google Calendar, Apple Health, Strava ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q3: How do I set up my first fitness community on FitAlliance Pro",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "articlesumm-pro",
+    "verification_date": "2026-07-03T15:10:02.329866",
+    "total_features_mentioned": 32,
+    "features_checked": 10,
+    "implemented": 6,
+    "not_found": 4,
+    "details": [
+      {
+        "feature": "Pro users receive email support within 24 hours",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Export your data before cancellation using the \\\"Download All\\\" feature",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"articlesumm-pro supports 47 languages for input and can summarize content in the original language or translate to 12 output languages including English, Spanish, French, German, Chinese, and Japanese",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Is my uploaded content secure and private",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Support covers technical issues, billing inquiries, and usage optimization",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Slack channel access",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Yes, export options include Markdown (for Notion/Obsidian), HTML (for web publishing), PDF (formatted reports with highlights), and JSON (for developers)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Sla</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Free users access community forum and knowledge base",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "What file formats does articlesumm-pro support",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "fitness-gamification-platform",
+    "verification_date": "2026-07-03T15:10:03.651280",
+    "total_features_mentioned": 32,
+    "features_checked": 10,
+    "implemented": 7,
+    "not_found": 3,
+    "details": [
+      {
+        "feature": "Pro users receive email support within 24 hours",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Export your data before cancellation using the \\\"Download All\\\" feature",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"articlesumm-pro supports 47 languages for input and can summarize content in the original language or translate to 12 output languages including English, Spanish, French, German, Chinese, and Japanese",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Is my uploaded content secure and private",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Support covers technical issues, billing inquiries, and usage optimization",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Slack channel access",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Yes, export options include Markdown (for Notion/Obsidian), HTML (for web publishing), PDF (formatted reports with highlights), and JSON (for developers)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Sla</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Free users access community forum and knowledge base",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "What file formats does articlesumm-pro support",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "running-training-plan",
+    "verification_date": "2026-07-03T15:10:06.338172",
+    "total_features_mentioned": 29,
+    "features_checked": 10,
+    "implemented": 8,
+    "not_found": 2,
+    "details": [
+      {
+        "feature": "Support covers plan adjustments, injury prevention advice, race strategy, and gear recommendations",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "API access (Elite plan) enables custom integrations",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Upon cancellation, export your plan history and race results",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> The AI analyzes: current fitness level (VO2 max estimate from recent runs), goal race/distance, target finish time, available training days/week, injury history, age, weight, and preferences (trail vs</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        The AI analyzes: current fitness level (VO2 max estimate from recent runs), goal race/distance, target finish time, available training days/week, injury history, age, weight, and preferences (trail vs",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Audio coaching integrates with Spotify/Apple Music (playl</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Premium+ users access real-time audio cues via smartphone: pace alerts, cadence reminders, heart rate zone guidance, and motivational prompts",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"The AI analyzes: current fitness level (VO2 max estimate from recent runs), goal race/distance, target finish time, available training days/week, injury history, age, weight, and preferences (trail vs",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Does it support race-specific training (marathon, ultramarathon, trail)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Premium users receive email support within 72 hours",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Which running apps and devices does it sync with",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "freelancer-portal",
+    "verification_date": "2026-07-03T15:10:07.335900",
+    "total_features_mentioned": 32,
+    "features_checked": 10,
+    "implemented": 6,
+    "not_found": 4,
+    "details": [
+      {
+        "feature": "Pro users receive email support within 24 hours",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Export your data before cancellation using the \\\"Download All\\\" feature",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"articlesumm-pro supports 47 languages for input and can summarize content in the original language or translate to 12 output languages including English, Spanish, French, German, Chinese, and Japanese",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Is my uploaded content secure and private",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Support covers technical issues, billing inquiries, and usage optimization",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Slack channel access",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Yes, export options include Markdown (for Notion/Obsidian), HTML (for web publishing), PDF (formatted reports with highlights), and JSON (for developers)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Sla</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Free users access community forum and knowledge base",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "What file formats does articlesumm-pro support",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "chartmind-ai",
+    "verification_date": "2026-07-03T15:10:08.373705",
+    "total_features_mentioned": 32,
+    "features_checked": 10,
+    "implemented": 6,
+    "not_found": 4,
+    "details": [
+      {
+        "feature": "Pro users receive email support within 24 hours",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Export your data before cancellation using the \\\"Download All\\\" feature",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"articlesumm-pro supports 47 languages for input and can summarize content in the original language or translate to 12 output languages including English, Spanish, French, German, Chinese, and Japanese",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Is my uploaded content secure and private",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Support covers technical issues, billing inquiries, and usage optimization",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Slack channel access",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Yes, export options include Markdown (for Notion/Obsidian), HTML (for web publishing), PDF (formatted reports with highlights), and JSON (for developers)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Sla</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Free users access community forum and knowledge base",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "What file formats does articlesumm-pro support",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "screenshot-annotator",
+    "verification_date": "2026-07-03T15:10:09.330275",
+    "total_features_mentioned": 24,
+    "features_checked": 10,
+    "implemented": 7,
+    "not_found": 3,
+    "details": [
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "</div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q7: Does Screenshot Annotator integrate with other tools",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Pro users get premium tools like AI-powered auto-blur, smart cropping, and branded templates",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Pro users get email support with 24-hour response time",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise plans get custom API access with webhooks and SCIM provisioning",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "</div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q9: What customer support options are available",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q9: What customer support options are available",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise plans include priority support (4-hour response), dedicated Slack channel, and quarterly success reviews",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Pro users can export as MP4 (for annotated walkthrough videos) and HTML (preserving clickable annotations)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"** Screenshot Annotator offers a free forever plan with basic annotation tools, a Pro plan at $9/month for advanced features like cloud sync and team collaboration, and an Enterprise plan at $29/user/month with SSO and admin controls",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "async-standup-tool",
+    "verification_date": "2026-07-03T15:10:10.368930",
+    "total_features_mentioned": 36,
+    "features_checked": 10,
+    "implemented": 8,
+    "not_found": 2,
+    "details": [
+      {
+        "feature": "Export standup summaries as PDF, CSV, or JSON",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> ** Free plans include email support (48-hour response) and a searchable knowledge base",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Premium features include sentiment analysis, sprint velocity tracking, and manager dashboards",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q6: Can I export standup data for reporting",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise plans get API access for custom analytics dashboards",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "</p>\n        \n        <div class=\"faq-list\">\n            \n        <div class=\"faq-item\">\n            <h3>Q1: How much does the Async Standup Tool cost",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q2: What features does the Async Standup Tool include",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"** The Async Standup Tool offers a Free plan for up to 10 team members, a Team plan at $5/user/month (billed annually) with unlimited members and integrations, and an Enterprise plan at $15/user/month with advanced analytics and custom workflows",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> ** Core features: automated daily standup reminders, template-based status updates (yesterday/today/blockers), AI-generated team summaries, timezone-aware scheduling, and integration with Slack, Teams</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        ** Core features: automated daily standup reminders, template-based status updates (yesterday/today/blockers), AI-generated team summaries, timezone-aware scheduling, and integration with Slack, Teams, and Discord",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "ai-changelog",
+    "verification_date": "2026-07-03T15:10:11.903476",
+    "total_features_mentioned": 30,
+    "features_checked": 10,
+    "implemented": 8,
+    "not_found": 2,
+    "details": [
+      {
+        "feature": "Set up webhooks or CI/CD integration (GitHub Actions, GitLab CI) to auto-generate and publish changelogs on every release tag",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "The API supports programmatic generation",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Enterprise plans include priority support (4-hour response), onboarding assistan</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        ** Free users get community Discord access and documentation",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q4: Can I customize the tone and format of generated changelogs",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"** The AI Changelog Generator offers a Free plan (1 project, monthly generation), a Pro plan at $19/month (unlimited projects, weekly generation, custom branding), and an Enterprise plan at $49/month (team collaboration, API access, white-label)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "You review an</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        ** Connect your Git repository (GitHub, GitLab, Bitbucket), and the AI analyzes commit messages, PR descriptions, and issue titles to auto-generate categorized, user-friendly changelogs",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "API access allows custom integrations",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q6: Does the AI Changelog Generator support team collaboration",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Save custom templates for consistent branding across releases",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "social-proof-widget",
+    "verification_date": "2026-07-03T15:10:13.236698",
+    "total_features_mentioned": 31,
+    "features_checked": 10,
+    "implemented": 9,
+    "not_found": 1,
+    "details": [
+      {
+        "feature": "Compatible with Shopify, WordPress, Webflow, Wix, Squarespace, and custom HTML sites",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q4: Which website platforms and e-commerce tools does it support",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> ** Notification data pulls directly from your e-commerce platform or analytics in real-time with <5-second delay",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "The widget loads asynchronously (non-blocking) with a footprint under 15KB gzipped—less than a single small image",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"** Display 12+ notification types: recent purchases, signups, reviews, live visitor count, limited stock alerts, countdown timers, custom messages, and referral source attribution",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Your account downgrades to a \"widget off\" state—data remains accessible for 30 days for export",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> ** All plans include email support (Starter: 48h response, Growth: 24h, Enterprise: 4h)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q4: Which website platforms and e-commerce tools does it support",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q9: What support is available if I need help",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "screenshot-to-demo",
+    "verification_date": "2026-07-03T15:10:14.589927",
+    "total_features_mentioned": 33,
+    "features_checked": 10,
+    "implemented": 9,
+    "not_found": 1,
+    "details": [
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q9: What customer support and resources are available",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q9: What customer support and resources are available",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> ** Upload 5-50 screenshots (or import directly from Figma, Sketch, or your browser), arrange them in sequence, add click zones and transitions, then preview and export as an interactive demo or MP4 vi</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        ** Upload 5-50 screenshots (or import directly from Figma, Sketch, or your browser), arrange them in sequence, add click zones and transitions, then preview and export as an interactive demo or MP4 video",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Agency and Enterprise plans get priority support (4h response), 1-o</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        ** Free users get access to video tutorials, templates, and community forum",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q3: What export formats and quality options are available",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Interactive demos support branching (different paths based on clicks)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "API access on </p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        ** Direct imports from Figma, Sketch, Adobe XD, and Chrome/Firefox browser extensions (capture directly from live websites)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"** Export as interactive HTML (clickable demo hosted on our CDN), MP4 video (720p, 1080p, or 4K), GIF, or embeddable iframe",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q8: Can I track how viewers interact with my demos",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "meeting-cost-calc",
+    "verification_date": "2026-07-03T15:10:15.878175",
+    "total_features_mentioned": 42,
+    "features_checked": 10,
+    "implemented": 10,
+    "not_found": 0,
+    "details": [
+      {
+        "feature": "- Free: Email support, 48-hour SLA, knowledge base - Pro: Priority email, 24-hour SLA, video tutorials - Enterprise: Phone support, 4-hour SLA, dedicated account manager ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q10: Can I cancel my subscription at any time",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "3x (industry standard for benefits, taxes, equipment) - Supported currencies: USD, EUR, GBP, CAD, AUD, JPY ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q3: Can I integrate Meeting Cost Calculator with Google Calendar",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Yes, all paid plans include CSV and Excel export",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "| Plan | Price | Meetings/Month | Key Features | |------|-------|----------------|--------------| | Free | $0 | 5 | Basic calculator, 1 user | | Pro | $9/month | Unlimited | Team analytics, CSV export | | Enterprise | $29/month | Unlimited | SSO, API access, priority support | ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q2: How does the meeting cost calculation work",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- Data source: Bureau of Labor Statistics, Glassdoor, PayScale - Accuracy: 100% with exact salary data, ~90% with benchmark estimates - Customization: Override any benchmark with actual rates ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q8: Can I track meeting costs by department or project",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Yes, Meeting Cost Calculator integrates seamlessly with Google Calendar, Outlook, and Calendly",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "xlsx), PDF, Google Sheets - Scheduled exports: Daily, weekly, or monthly (Enterprise plan) - Data included: Date, duration, attendees, cost, department, meeting type ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q6: Does Meeting Cost Calculator work with remote and hybrid teams",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- Tag types: Department, project, client, meeting type - Analytics: Cost by tag, trend over time, comparison reports - Limits: Unlimited tags on Pro and Enterprise plans ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q9: What kind of customer support do you offer",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "The analytics dashboard then breaks down costs by these tags, showing you which departments or projects are spending the most on</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Yes, you can tag meetings with departments, projects, or custom labels",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "ai-fitness-planner",
+    "verification_date": "2026-07-03T15:10:17.658834",
+    "total_features_mentioned": 37,
+    "features_checked": 10,
+    "implemented": 8,
+    "not_found": 2,
+    "details": [
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, AI Fitness Planner integrates with Apple Health, Google Fit, Fitbit, Garmin, and Whoop",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- Supported devices: Apple Watch, Fitbit, Garmin, Whoop, Oura Ring, Samsung Health - Synced data: Steps, heart rate, calories burned, sleep, active minutes - Benefits: More accurate calorie targets, recovery recommendations ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q9: What if I have an injury or medical condition",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "The AI analyzes your data and generates progress reports with predictions for future results if you stay consistent with your current plan",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "The system uses machine learning trained </p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Our AI analyzes your fitness goals, current fitness level, available equipment, time constraints, and dietary preferences to generate a fully customized plan",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "99/month and includes personalized workout plans and nutrition tracking",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- Tracking metrics: Weight, body fat %, measurements, strength gains, workout completion - Visualization: Progress charts, before/after photos, strength progression graphs - Predictions: AI forecasts results based on your current trajectory ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q7: Is my health data private and secure",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "99/month | AI coaching, predictions, injury prevention, meal plans | ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q2: How does the AI create a personalized fitness plan",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "99/month | Workout plans, nutrition tracking, progress photos | | Premium | $19",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "You can log workouts, take progress photos, record body measurements, and track strength gains",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "ai-fitness-plan-generator",
+    "verification_date": "2026-07-03T15:10:20.479727",
+    "total_features_mentioned": 48,
+    "features_checked": 10,
+    "implemented": 9,
+    "not_found": 1,
+    "details": [
+      {
+        "feature": "- Recommended frequency: Every 8-12 weeks - Plateau detection: AI monitors your progress and suggests updates - Plan history: All previous plans saved in your account ---\"\n      }\n    }\n  ]\n}\n    </script>\n    \n    <style>\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;\n            line-height: 1",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "The AI will then re-optimize th</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Yes, after the AI generates your initial plan, you can customize it",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Most users should regenerate their plan every 8-12 weeks to prevent plateaus and maintain progress",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "The PDF includes exercise descriptions, illustrations, and a workout log template",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- Generation time: 10-30 seconds average - Output: 4-12 week plan, 3-6 workouts per week, exercise descriptions - Immediate start: Download PDF or view in browser and begin working out ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q5: Can I generate plans for specific fitness goals",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> The AI generates a complete fitness plan in under 30 seconds",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- Assessment: 10-question quiz, 2 minutes - Benchmarks: Push-ups, squat depth, plank hold time, mile run time - Output: Beginner, intermediate, or advanced classification ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q10: How often should I regenerate my fitness plan",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "For unlimited generations and the ability to save/export plans, you can create a free account",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "You can also </p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Most users should regenerate their plan every 8-12 weeks to prevent plateaus and maintain progress",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "promptgen-pro",
+    "verification_date": "2026-07-03T15:10:22.112961",
+    "total_features_mentioned": 42,
+    "features_checked": 10,
+    "implemented": 9,
+    "not_found": 1,
+    "details": [
+      {
+        "feature": "You can generate prompts optimized for specific models, as each model responds better to different prompt structures",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, the Team plan includes a collaborative prompt library where team members can share, rate, and fork prompts",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "), fork them to your account, a</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Yes, PromptGen Pro includes a community prompt library where users share effective prompts",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Yes, PromptGen Pro includes a community prompt library where users share effective prompts",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- Collaboration: Shared library, forking, ratings, comments - Organization: Folders, tags, search, filters - Integrations: Slack, Notion, Google Workspace ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q6: Can I export prompts to use in other tools",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "The tool also supports A/B testing, where you compare multiple prompt variations to see which produces better results",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "- A/B testing: Compare 2-5 prompt variations side-by-side - History: All test results saved with timestamp and output ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q5: Does PromptGen Pro support team collaboration",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "The tool also supports A/B testing, where yo</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Yes, PromptGen Pro includes a built-in prompt testing feature",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": ", \\\"a blog post about fitness\\\"), and PromptGen Pro's AI generates 3-5 prompt variations optimized for your target AI model",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "fitness-community-platform",
+    "verification_date": "2026-07-03T15:10:25.362740",
+    "total_features_mentioned": 26,
+    "features_checked": 10,
+    "implemented": 7,
+    "not_found": 3,
+    "details": [
+      {
+        "feature": "- Tracking metrics: Workouts, weight, measurements, progress photos, nutrition - Privacy: Choose per-metric what's public vs",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "<a href=\"/\">Contact our support team</a>",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "| Plan | Price | Features | |------|-------|----------| | Basic | $0 | Forums, workout sharing, progress tracking | | Premium (Monthly) | $7",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "Challenges include a leaderboard, progress tracking, and community discussion",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "After that, your account reverts to Basic (free) with access to forums and basic tracking",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- Expert types: Certified personal trainers, nutritionists, fitness coaches, physical therapists - Verification: Credential review required for all experts - Premium features: Live Q&A, form checks, expert workout plans ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q5: How does progress tracking work in the community",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "You choose what to share publicly and what to keep private",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "You can filter by distance (for in-person workouts) or connect virtually",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "You can also create your own challenge and invite others to join",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "private - Social features: Likes, comments, challenge leaderboards ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q6: Can I create or join fitness challenges",
         "status": "IMPLEMENTED",
         "recommendation": "KEEP"
       }
