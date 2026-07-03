@@ -1,0 +1,302 @@
+[
+  {
+    "product": "scifigure-pro",
+    "verification_date": "2026-07-03T15:07:40.521937",
+    "total_features_mentioned": 57,
+    "features_checked": 10,
+    "implemented": 9,
+    "not_found": 1,
+    "details": [
+      {
+        "feature": "Use our custom template creator",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "99/month, unlimited figures, all export formats), Team Plan ($24",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "SciFigure Pro integrates seamlessly with ImageJ/Fiji, GraphPad Prism, Photoshop, Illustrator",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "99/month:</strong> Unlimited figures, all export formats (TIFF, PNG, SVG, PDF), priority support, no watermark, batch processing",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": ")</li>\n              </ul>\n              <p><strong>Custom Templates:</strong> Can't find your journal",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Integration: Simple copy-paste from clipboard, Drag-and-drop interface, Batch processing (format 10+ figures at once), API access (Team plan) for custom workflows",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Priority support: Dedicated scientist support (Team plan)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\"\n        }\n      },\n      {\n        \"@type\": \"Question\",\n        \"name\": \"What figure formats does SciFigure Pro support",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Mobile is great for: Reviewing formatted figures, Downloading for presentations, Sharing with collaborators",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\"\n        }\n      },\n      {\n        \"@type\": \"Question\",\n        \"name\": \"Can I export figures for specific journals",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "resumeforge",
+    "verification_date": "2026-07-03T15:07:43.231566",
+    "total_features_mentioned": 43,
+    "features_checked": 10,
+    "implemented": 9,
+    "not_found": 1,
+    "details": [
+      {
+        "feature": "- **Import:** LinkedIn profile → resume draft (2 seconds) - **Export:** Resume → LinkedIn PDF / Featured section - **Job Boards:** Indeed, Glassdoor, ZipRecruiter, Monster, CareerBuilder - **Browser Extension:** Auto-fill application forms on 100+ job sites - **Calendar:** Sync interviews with Google Calendar / Outlook ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q8: How accurate and effective are ResumeForge's AI suggestions",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- **Import:** LinkedIn profile → resume draft (2 seconds) - **Export:** Resume → LinkedIn PDF / Featured section - **Job Boards:** Indeed, Glassdoor, ZipRecruiter, Monster, CareerBuilder - **Browser Extension:** Auto-fill application forms on 100+ job sites - **Calendar:** Sync interviews with Google Calendar / Outlook ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q8: How accurate and effective are ResumeForge's AI suggestions",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "7/5 user satisfaction rating for AI-generated content quality",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "| Device | Supported | Notes | |--------|-----------|-------| | Windows (Chrome/Edge) | ✓ | Full feature parity | | macOS (Safari/Chrome) | ✓ | Full feature parity | | iPad | ✓ | Optimized tablet layout | | iPhone | ✓ | Dedicated iOS app | | Android | Beta | Web version functional | ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q7: Does ResumeForge integrate with job search platforms and LinkedIn",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "**Click \"Optimize\"** — AI naturally integrates missing keywords 4",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "- **Bullet Point Rewriter:** Transforms \\\"Responsible for managing team\\\" → \\\"Led 12-person engineering team to deliver $2M revenue project 3 weeks ahead of schedule\\\" - **ATS Keyword Optimizer:** Scans job description and inserts missing high-value keywords naturally - **Skills Suggestion Engine:** Recommends skills based on your experience and target role (95% accuracy validated by hiring managers) - **Professional Summary Generator:** Creates 3 summary options tailored to career level and industry - **Resume Score:** 0–100 score with actionable fixes (formatting, keywords, completeness, impact) ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q3: How do I create an ATS-optimized resume with ResumeForge",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Select the \"ATS Optimizer\" tab, paste your target job description, and click \"Analyze",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "7/5 - False positive rate (incorrect suggestions): <3% ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q9: What customer support does ResumeForge provide",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> Free users get email support (48-hour response) and knowledge base access",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "An internet connection is required; offline mode is roadmapped for late 2025",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "meeting-mind-mvp",
+    "verification_date": "2026-07-03T15:07:46.145210",
+    "total_features_mentioned": 40,
+    "features_checked": 10,
+    "implemented": 6,
+    "not_found": 4,
+    "details": [
+      {
+        "feature": "- SOC 2 Type II (annual audit since 2023) - HIPAA compliant (BAA signed on Pro and Team plans) - GDPR compliant (EU data residency available) - Data processing isolation: each meeting processed in a unique container, destroyed after 24 hours - Optional: on-premise deployment for Team plan (your servers, your data) ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q6: Can I export meeting notes and share them with my team",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Mobile recording is supported via the iOS app (Android in beta)",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "No technical setup or manual uploading required",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "After the meeting, the AI generates a summary within 2 minutes",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "com\" to your Zoom/Teams/Meet invite → bot auto-joins and records - **Option C (Upload):** Upload existing meeting recording (MP3, MP4, WAV) → AI processes within 5 minutes ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q4: Which meeting platforms and calendar systems does Meeting Mind support",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Permanently deleted data can be exported beforehand in JSON or PDF format",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "| Format | Best For | Action Items Included | |--------|----------|----------------------| | PDF | Email, archival | ✓ | | Markdown | Notion, Obsidian | ✓ | | Google Docs | Collaborative editing | ✓ | | Slack | Team notification | ✓ (as message) | | CRM (Salesforce/HubSpot) | Sales tracking | ✓ (as activity) | ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q7: Does Meeting Mind integrate with productivity and CRM tools",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "The \"Share Summary\" feature sends an email with the summary and action items to all meeting participants",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "| Feature | Free | Pro | Team | |---------|------|-----|------| | Meetings/month | 3 | Unlimited | Unlimited | | Transcription | Basic | Advanced (99% accuracy) | Advanced + Speaker ID | | AI Summary | 10 min | Unlimited | Unlimited | | Action Items | — | ✓ | ✓ | | Calendar Sync | — | ✓ | ✓ | | CRM Integration | — | — | ✓ | | Price | $0 | $14/mo | $29/seat/mo | ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q2: How does Meeting Mind's AI transcription and summarization work",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Meeting Mind supports Zoom, Google Meet, Microsoft Teams, Webex, and GoToMeeting",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "fitness-challenge-tracker",
+    "verification_date": "2026-07-03T15:07:47.398180",
+    "total_features_mentioned": 64,
+    "features_checked": 10,
+    "implemented": 9,
+    "not_found": 1,
+    "details": [
+      {
+        "feature": "Coach users get phone support, 1-on-1 onboarding, and a de</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Free users get email support (72-hour response) and knowledge base access",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Fitness Challenge Tracker supports 50+ challenge types: step challenges, plank challenges, push-up challenges, running challenges, hydration challenges, sleep challenges, nutrition challenges, meditation challenges, custom habit challenges, and team challenges",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Fitness Challenge Tracker has a community of 500,000+ users",
+        "status": "NOT_FOUND",
+        "recommendation": "REMOVE_FROM_FAQ"
+      },
+      {
+        "feature": "| Platform | Status | Sync | |----------|--------|------| | iOS | ✓ | Real-time | | Android | ✓ | Real-time | | Web | ✓ | Real-time | | Apple Watch | ✓ | Real-time | | Fitbit | ✓ | Daily | | Garmin | ✓ | Daily | | Wear OS | Beta | Real-time | ---\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q5: Is my fitness and health data private and secure",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- **Monthly plans:** Cancel anytime; no further billing; access until month-end - **Annual plans:** Full refund within 30 days; after 30 days, access continues until year-end - **Data retention:** 6 months after cancellation (soft delete) - **Data export:** CSV (numeric data), PDF (reports), ZIP (progress photos) - **Permanent deletion:** 6 months after cancellation (hard delete) ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        </div>\n    </div>\n</body>\n</html>",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "The custom challenge creator lets you define any tracking metric (reps, minutes, distance, boolean completion, or custom units), set challenge duration (1 day to 1 year), choose scoring mode (cumulative, daily target, or streak), add educational content, and set privacy (public, unlisted, or private)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Track progress via manual entry, photo logging, Apple Health/Google Fit auto-sync, or wearable device integration (Apple Watch, Fitbit, Garmin)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "An Apple</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        Fitness Challenge Tracker works on iOS, Android, and web",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- **Monthly plans:** Cancel anytime; no further billing; access until month-end - **Annual plans:** Full refund within 30 days; after 30 days, access continues until year-end - **Data retention:** 6 months after cancellation (soft delete) - **Data export:** CSV (numeric data), PDF (reports), ZIP (progress photos) - **Permanent deletion:** 6 months after cancellation (hard delete) ---\"\n      }\n    }\n  ]\n}\n    </script>\n    \n    <style>\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;\n            line-height: 1",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- **Manual entry:** Log reps, minutes, distance, or custom metric - **Photo logging:** Progress photos with pose guidance and privacy controls - **Auto-sync:** Apple Health, Google Fit, Fitbit, Garmin, Apple Watch - **Wearable:** Real-time tracking during workouts (heart rate, calories, zones) - Completion rate (% of challenge days completed) - Streak (current and longest) - Performance improvement (e",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  },
+  {
+    "product": "fitalliance-pro",
+    "verification_date": "2026-07-03T15:07:48.559194",
+    "total_features_mentioned": 44,
+    "features_checked": 10,
+    "implemented": 10,
+    "not_found": 0,
+    "details": [
+      {
+        "feature": "An API is available on Pro and Enterprise plans for custom integrations",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise users get a dedicated customer success manager, custom onboarding, and 99",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "FitAlliance Pro integrates with 25+ tools: Stripe (payments), Zoom (live classes), Google Calendar (events), Mailchimp (email marketing), Zapier (5,000+ app connections), Apple Health, Google Fit, Strava, Garmin, and Fitbit (challenge tracking)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "**Launch:** Post your first welcome message and challenge ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q4: Which platforms and devices does FitAlliance Pro support",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"FitAlliance Pro offers four plans: Free (individual, basic profile, join 3 groups), Creator ($19/month or $190/year, run 1 community, basic analytics, monetization at 8% fee), Pro ($49/month, unlimited communities, advanced analytics, monetization at 5% fee, API access), and Enterprise (custom pricing, white-label, SSO, dedicated infrastructure)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "You can export all member data and content before canceling",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- **Payments:** Stripe (connected account, direct payout) - **Video:** Zoom, Google Meet (live class integration) - **Fitness:** Apple Health, Google Fit, Strava, Garmin, Fitbit - **Marketing:** Mailchimp, ConvertKit, ActiveCampaign - **Automation:** Zapier, Make (custom workflows) - **Calendar:** Google Calendar, Outlook, Calendly ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q8: How does FitAlliance Pro help me grow my fitness community",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "Enterprise plans include dedicated integration support for custom workflows",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "- **Community:** Discussion boards, DMs, live chat, events calendar - **Challenges:** 50+ templates, custom creator, progress tracking, leaderboards - **Monetization:** Memberships (recurring), digital products, 1:1 coaching bookings - **Analytics:** Member growth, engagement rate, challenge completion, revenue - **Content:** Schedule posts, create courses, host live streams - **Gamification:** Badges, points, leaderboards, streak tracking - **Integrations:** Stripe, Zoom, Google Calendar, Apple Health, Strava ---\n                    </div>\n                </details>\n            </div>\n        </div>\n        \n        <div class=\"faq-item\">\n            <h3>Q3: How do I set up my first fitness community on FitAlliance Pro",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      },
+      {
+        "feature": "</h3>\n            <div class=\"answer\">\n                <p class=\"answer-summary\"><strong>Answer:</strong> FitAlliance Pro offers four plans: Free (individual, basic profile, join 3 groups), Creator ($19/month or $190/year, run 1 community, basic analytics, monetization at 8% fee), Pro ($49/month, unlimite</p>\n                <details>\n                    <summary>Read detailed explanation</summary>\n                    <div class=\"answer-details\">\n                        FitAlliance Pro offers four plans: Free (individual, basic profile, join 3 groups), Creator ($19/month or $190/year, run 1 community, basic analytics, monetization at 8% fee), Pro ($49/month, unlimited communities, advanced analytics, monetization at 5% fee, API access), and Enterprise (custom pricing, white-label, SSO, dedicated infrastructure)",
+        "status": "IMPLEMENTED",
+        "recommendation": "KEEP"
+      }
+    ]
+  }
+]
