@@ -49,81 +49,178 @@
             color: #667eea;
             margin-bottom: 10px;
         }
-        .faq-link {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
+        .feature-status {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .feature-status h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        .feature-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .feature-table th,
+        .feature-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .feature-table th {
             background: #667eea;
             color: white;
-            text-decoration: none;
-            border-radius: 5px;
         }
-        .faq-link:hover {
-            background: #5568d3;
+        .status-implemented {
+            color: #28a745;
+            font-weight: bold;
         }
-        footer {
+        .status-coming-soon {
+            color: #ffc107;
+            font-weight: bold;
+        }
+        .status-not-planned {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        .back-link {
             text-align: center;
-            padding: 40px 20px;
-            color: #666;
+            margin-top: 30px;
         }
-    style>
+        .back-link a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>📧 Support Center</h1>
-        <p>We're here to help you succeed</p>
+        <h1>Support Center</h1>
+        <p>Get help with Freelancer Portal</p>
     </header>
 
     <div class="container">
         <div class="support-options">
-            <div class="support-option">
-                <h3>📚 FAQ</h3>
-                <p>Find answers to common questions about features, pricing, and technical requirements.</p>
-                <a href="./faq.html" class="faq-link">View FAQ</a>
-            </div>
-
+            <h2>📞 Contact Support</h2>
+            
             <div class="support-option">
                 <h3>📧 Email Support</h3>
-                <p><strong>Free users:</strong> General questions and bug reports</p>
-                <p><strong>Pro users:</strong> Priority support within 48 hours</p>
-                <p><strong>Enterprise users:</strong> Dedicated support within 4 hours</p>
-                <p>Contact: support@freelancerportal.com</p>
+                <p><strong>Free users:</strong> Email support with 48-hour response time</p>
+                <p><strong>Pro users:</strong> Priority email support with 24-hour response time</p>
+                <p><strong>Enterprise users:</strong> Priority support with 4-hour response time</p>
+                <p>Contact: support@freelancer-portal.com</p>
             </div>
 
             <div class="support-option">
-                <h3>💬 Community</h3>
-                <p>Join our community to discuss features, share use cases, and get help from other users.</p>
-                <p>Coming soon...</p>
+                <h3>📚 Knowledge Base</h3>
+                <p>Visit our <a href="./faq.html">FAQ page</a> for common questions and answers.</p>
             </div>
 
             <div class="support-option">
-                <h3>📝 Feature Requests</h3>
-                <p>Have an idea for a new feature? We'd love to hear it!</p>
-                <p>Coming soon...</p>
-            </div>
-
-            <div class="support-option">
-                <h3>🐛 Report a Bug</h3>
-                <p>Found a bug? Please report it via email with:</p>
-                <ul style="margin-left: 20px; margin-top: 10px;">
-                    <li>Steps to reproduce</li>
-                    <li>Expected behavior</li>
-                    <li>Actual behavior</li>
-                    <li>Screenshots (if applicable)</li>
-                </ul>
+                <h3>💬 Live Chat</h3>
+                <p>Available for Pro and Enterprise users (business hours only).</p>
+                <p>Click the chat icon in the bottom-right corner of the app.</p>
             </div>
         </div>
 
-        <div class="support-options">
-            <h2>📋 Feature Availability</h2>
-            <p>Some features mentioned in our documentation are marked as "Coming Soon". These features are currently in development and will be available in future updates.</p>
-            <p>Check the FAQ for the most up-to-date feature list.</p>
+        <div class="feature-status">
+            <h2>🚀 Feature Status</h2>
+            <p>Below is the current implementation status of features mentioned on our website:</p>
+            
+            <table class="feature-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Free</th>
+                        <th>Pro</th>
+                        <th>Enterprise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Project management</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                    </tr>
+                    <tr>
+                        <td>Time tracking</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                    </tr>
+                    <tr>
+                        <td>Invoice generation</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                    </tr>
+                    <tr>
+                        <td>Client management</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                    </tr>
+                    <tr>
+                        <td>Email support (48h)</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                    </tr>
+                    <tr>
+                        <td>Priority email support (24h)</td>
+                        <td class="status-not-planned">—</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                        <td class="status-implemented">✅ Implemented</td>
+                    </tr>
+                    <tr>
+                        <td>Phone support</td>
+                        <td class="status-not-planned">—</td>
+                        <td class="status-not-planned">—</td>
+                        <td class="status-coming-soon">🔜 Coming Soon</td>
+                    </tr>
+                    <tr>
+                        <td>API access</td>
+                        <td class="status-not-planned">—</td>
+                        <td class="status-not-planned">—</td>
+                        <td class="status-coming-soon">🔜 Coming Soon</td>
+                    </tr>
+                    <tr>
+                        <td>Custom branding</td>
+                        <td class="status-not-planned">—</td>
+                        <td class="status-not-planned">—</td>
+                        <td class="status-coming-soon">🔜 Coming Soon</td>
+                    </tr>
+                    <tr>
+                        <td>Team collaboration</td>
+                        <td class="status-not-planned">—</td>
+                        <td class="status-coming-soon">🔜 Coming Soon</td>
+                        <td class="status-coming-soon">🔜 Coming Soon</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Legend:</strong></p>
+            <ul>
+                <li><span class="status-implemented">✅ Implemented</span> - Feature is available now</li>
+                <li><span class="status-coming-soon">🔜 Coming Soon</span> - Feature is in development, ETA 1-2 months</li>
+                <li><span class="status-not-planned">—</span> - Not available in this plan</li>
+            </ul>
+
+            <p><strong>Note:</strong> Feature availability may vary. Please check the latest documentation or contact support for confirmation.</p>
+        </div>
+
+        <div class="back-link">
+            <a href="./index.html">← Back to Home</a> | <a href="./faq.html">View FAQ</a> | <a href="./pricing.html">View Pricing</a>
         </div>
     </div>
-
-    <footer>
-        <p>&copy; 2026 Freelancer Portal. All rights reserved.</p>
-        <p><a href="./index.html">← Back to Home</a></p>
-    </footer>
 </body>
 </html>
