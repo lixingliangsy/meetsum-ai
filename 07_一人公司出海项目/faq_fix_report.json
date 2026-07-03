@@ -1,0 +1,43 @@
+{
+  "fix_date": "2026-07-03T15:08:36.166480",
+  "total_misleading_claims": 7,
+  "fixes_applied": 4,
+  "fixes_failed": 3,
+  "details": [
+    {
+      "product": "scifigure-pro",
+      "feature": "SciFigure Pro integrates seamlessly with ImageJ/Fiji, GraphPad Prism, Photoshop, Illustrator",
+      "fixed": true
+    },
+    {
+      "product": "resumeforge",
+      "feature": "**Click \"Optimize\"** — AI naturally integrates missing keywords 4",
+      "fixed": true
+    },
+    {
+      "product": "meeting-mind-mvp",
+      "feature": "Mobile recording is supported via the iOS app (Android in beta)",
+      "fixed": true
+    },
+    {
+      "product": "meeting-mind-mvp",
+      "feature": "No technical setup or manual uploading required",
+      "fixed": false
+    },
+    {
+      "product": "meeting-mind-mvp",
+      "feature": "After the meeting, the AI generates a summary within 2 minutes",
+      "fixed": false
+    },
+    {
+      "product": "meeting-mind-mvp",
+      "feature": "Permanently deleted data can be exported beforehand in JSON or PDF format",
+      "fixed": false
+    },
+    {
+      "product": "fitness-challenge-tracker",
+      "feature": "Fitness Challenge Tracker has a community of 500,000+ users",
+      "fixed": true
+    }
+  ]
+}
