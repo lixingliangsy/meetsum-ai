@@ -23,12 +23,12 @@ export default async function handler(req, res) {
     const format = req.query.format || 'json';
     
     if (format === 'json') {
-      res.setHeader('Content-Type', 'application/json');
+      res.setHeader('Content-Type', 'application/json; charset=utf-8');
       res.setHeader('Content-Disposition', `attachment; filename="social-proof-widget-data-${Date.now()}.json"`);
       res.status(200).json(userData);
     } else if (format === 'csv') {
       const csv = convertToCSV(userData);
-      res.setHeader('Content-Type', 'text/csv');
+      res.setHeader('Content-Type', 'text/csv; charset=utf-8');
       res.setHeader('Content-Disposition', `attachment; filename="social-proof-widget-data-${Date.now()}.csv"`);
       res.status(200).send(csv);
     } else {

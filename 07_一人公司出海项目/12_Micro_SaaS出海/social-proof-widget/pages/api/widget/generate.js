@@ -4,6 +4,9 @@
 import { getWidgetConfig, generateWidgetSnippet } from '../../../lib/widget.js';
 
 export default async function handler(req, res) {
+  // Set UTF-8 charset for all responses
+  res.setHeader('Content-Type', 'application/json; charset=utf-8');
+  
   if (req.method !== 'POST' && req.method !== 'GET') {
     return res.status(405).json({
       success: false,

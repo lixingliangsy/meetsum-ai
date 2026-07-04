@@ -4,6 +4,9 @@
 import { getWidgetConfig, saveWidgetConfig, validateWidgetConfig, resetWidgetConfig, DEFAULT_CONFIG } from '../../../lib/widget.js';
 
 export default async function handler(req, res) {
+  // Set UTF-8 charset for all responses
+  res.setHeader('Content-Type', 'application/json; charset=utf-8');
+  
   // Handle GET request - get widget configuration
   if (req.method === 'GET') {
     try {
