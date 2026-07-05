@@ -1,32 +1,32 @@
 {
-  "fix_date": "2026-07-03T15:08:36.166480",
-  "total_misleading_claims": 7,
-  "fixes_applied": 4,
-  "fixes_failed": 3,
+  "fix_date": "2026-07-03T15:25:37.133456",
+  "total_misleading_claims": 56,
+  "fixes_applied": 30,
+  "fixes_failed": 26,
   "details": [
     {
-      "product": "scifigure-pro",
-      "feature": "SciFigure Pro integrates seamlessly with ImageJ/Fiji, GraphPad Prism, Photoshop, Illustrator",
+      "product": "resumeforge",
+      "feature": "html\">Contact our support team</a>",
       "fixed": true
     },
     {
       "product": "resumeforge",
-      "feature": "**Click \"Optimize\"** — AI naturally integrates missing keywords 4",
+      "feature": "/support",
       "fixed": true
     },
     {
-      "product": "meeting-mind-mvp",
-      "feature": "Mobile recording is supported via the iOS app (Android in beta)",
-      "fixed": true
-    },
-    {
-      "product": "meeting-mind-mvp",
-      "feature": "No technical setup or manual uploading required",
+      "product": "resumeforge",
+      "feature": "88/year, unlimited resumes, all 50+ templates, AI writer, ATS optimization), Professional ($19",
       "fixed": false
     },
     {
       "product": "meeting-mind-mvp",
-      "feature": "After the meeting, the AI generates a summary within 2 minutes",
+      "feature": "html\">Contact our support team</a>",
+      "fixed": true
+    },
+    {
+      "product": "meeting-mind-mvp",
+      "feature": "/support",
       "fixed": false
     },
     {
@@ -35,8 +35,253 @@
       "fixed": false
     },
     {
-      "product": "fitness-challenge-tracker",
-      "feature": "Fitness Challenge Tracker has a community of 500,000+ users",
+      "product": "fitalliance-pro",
+      "feature": "The Pro plan API enables custom integrations",
+      "fixed": true
+    },
+    {
+      "product": "fitalliance-pro",
+      "feature": "/support",
+      "fixed": true
+    },
+    {
+      "product": "articlesumm-pro",
+      "feature": "/support",
+      "fixed": true
+    },
+    {
+      "product": "articlesumm-pro",
+      "feature": "Pro users receive email support within 24 hours",
+      "fixed": true
+    },
+    {
+      "product": "articlesumm-pro",
+      "feature": "Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Slack channel access",
+      "fixed": false
+    },
+    {
+      "product": "articlesumm-pro",
+      "feature": "Uploaded documents are automatically deleted after 24 hours for Free users and 7 days for Pro/Enterprise users",
+      "fixed": false
+    },
+    {
+      "product": "articlesumm-pro",
+      "feature": "Webhook support enables custom workflows",
+      "fixed": false
+    },
+    {
+      "product": "articlesumm-pro",
+      "feature": "Is my uploaded content secure and private",
+      "fixed": false
+    },
+    {
+      "product": "fitness-gamification-platform",
+      "feature": "html\">Contact our support team</a>",
+      "fixed": true
+    },
+    {
+      "product": "fitness-gamification-platform",
+      "feature": "/support",
+      "fixed": true
+    },
+    {
+      "product": "fitness-gamification-platform",
+      "feature": "Pro users receive email support within 24 hours",
+      "fixed": true
+    },
+    {
+      "product": "fitness-gamification-platform",
+      "feature": "Is my uploaded content secure and private",
+      "fixed": false
+    },
+    {
+      "product": "running-training-plan",
+      "feature": "Sync latency: <30 seconds for Premium+",
+      "fixed": true
+    },
+    {
+      "product": "running-training-plan",
+      "feature": "html\">Contact our support team</a>",
+      "fixed": false
+    },
+    {
+      "product": "running-training-plan",
+      "feature": "/support",
+      "fixed": false
+    },
+    {
+      "product": "freelancer-portal",
+      "feature": "html\">Contact our support team</a>",
+      "fixed": true
+    },
+    {
+      "product": "freelancer-portal",
+      "feature": "/support",
+      "fixed": true
+    },
+    {
+      "product": "freelancer-portal",
+      "feature": "Pro users receive email support within 24 hours",
+      "fixed": false
+    },
+    {
+      "product": "freelancer-portal",
+      "feature": "Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Slack channel access",
+      "fixed": false
+    },
+    {
+      "product": "freelancer-portal",
+      "feature": "Uploaded documents are automatically deleted after 24 hours for Free users and 7 days for Pro/Enterprise users",
+      "fixed": false
+    },
+    {
+      "product": "freelancer-portal",
+      "feature": "Webhook support enables custom workflows",
+      "fixed": false
+    },
+    {
+      "product": "freelancer-portal",
+      "feature": "Is my uploaded content secure and private",
+      "fixed": false
+    },
+    {
+      "product": "chartmind-ai",
+      "feature": "/support",
+      "fixed": true
+    },
+    {
+      "product": "chartmind-ai",
+      "feature": "Pro users receive email support within 24 hours",
+      "fixed": true
+    },
+    {
+      "product": "chartmind-ai",
+      "feature": "Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Slack channel access",
+      "fixed": false
+    },
+    {
+      "product": "chartmind-ai",
+      "feature": "Uploaded documents are automatically deleted after 24 hours for Free users and 7 days for Pro/Enterprise users",
+      "fixed": false
+    },
+    {
+      "product": "chartmind-ai",
+      "feature": "Webhook support enables custom workflows",
+      "fixed": false
+    },
+    {
+      "product": "chartmind-ai",
+      "feature": "Is my uploaded content secure and private",
+      "fixed": false
+    },
+    {
+      "product": "screenshot-annotator",
+      "feature": "html\">Contact our support team</a>",
+      "fixed": true
+    },
+    {
+      "product": "screenshot-annotator",
+      "feature": "Enterprise plans get custom API access with webhooks and SCIM provisioning",
+      "fixed": false
+    },
+    {
+      "product": "screenshot-annotator",
+      "feature": "/support",
+      "fixed": false
+    },
+    {
+      "product": "async-standup-tool",
+      "feature": "/support",
+      "fixed": true
+    },
+    {
+      "product": "ai-changelog",
+      "feature": "html\">Contact our support team</a>",
+      "fixed": true
+    },
+    {
+      "product": "ai-changelog",
+      "feature": "The API supports programmatic generation",
+      "fixed": true
+    },
+    {
+      "product": "ai-changelog",
+      "feature": "/support",
+      "fixed": false
+    },
+    {
+      "product": "social-proof-widget",
+      "feature": "html\">Contact our support team</a>",
+      "fixed": true
+    },
+    {
+      "product": "social-proof-widget",
+      "feature": "/support",
+      "fixed": false
+    },
+    {
+      "product": "screenshot-to-demo",
+      "feature": "Creator and Pro users get email support (24h response)",
+      "fixed": true
+    },
+    {
+      "product": "screenshot-to-demo",
+      "feature": "html\">Contact our support team</a>",
+      "fixed": false
+    },
+    {
+      "product": "screenshot-to-demo",
+      "feature": "/support",
+      "fixed": false
+    },
+    {
+      "product": "meeting-cost-calc",
+      "feature": "/support",
+      "fixed": true
+    },
+    {
+      "product": "ai-fitness-planner",
+      "feature": "html\">Contact our support team</a>",
+      "fixed": true
+    },
+    {
+      "product": "ai-fitness-planner",
+      "feature": "/support",
+      "fixed": true
+    },
+    {
+      "product": "ai-fitness-planner",
+      "feature": "99/month | Workout plans, nutrition tracking, progress photos | | Premium | $19",
+      "fixed": false
+    },
+    {
+      "product": "ai-fitness-plan-generator",
+      "feature": "html\">Contact our support team</a>",
+      "fixed": true
+    },
+    {
+      "product": "ai-fitness-plan-generator",
+      "feature": "/support",
+      "fixed": true
+    },
+    {
+      "product": "promptgen-pro",
+      "feature": "html\">Contact our support team</a>",
+      "fixed": true
+    },
+    {
+      "product": "promptgen-pro",
+      "feature": "/support",
+      "fixed": true
+    },
+    {
+      "product": "fitness-community-platform",
+      "feature": "/support",
+      "fixed": true
+    },
+    {
+      "product": "fitness-community-platform",
+      "feature": "html\">Contact our support team</a>",
       "fixed": true
     }
   ]

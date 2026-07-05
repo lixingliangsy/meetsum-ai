@@ -159,11 +159,9 @@ def main():
         return
     
     # 确定要检查的产品
-    products_to_check = [product] if product else PRODUCTS[:5]  # 只检查前5个（避免太慢）
+    products_to_check = [product] if product else PRODUCTS  # 检查所有20个产品
     
     print(f"🚀 Starting feature verification for {len(products_to_check)} product(s)...")
-    print(f"⚠️  Note: Only checking first 5 products for speed")
-    print(f"⚠️  Note: This is a basic check (code keyword matching)\n")
     
     all_reports = []
     
