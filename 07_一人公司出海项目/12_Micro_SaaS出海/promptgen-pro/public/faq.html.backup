@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - Promptgen Pro</title>
+    <meta name="description" content="Get answers to frequently asked questions about Promptgen Pro. Learn about pricing, features, compatibility, and more.">
+    
+    <!-- JSON-LD Schema for FAQPage -->
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Q1: How much does PromptGen Pro cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PromptGen Pro offers a free plan with 50 prompt generations per month. The Pro plan is $12/month and includes 1,000 generations plus advanced features like prompt testing, version history, and team sharing. The Team plan at $49/month supports up to 10 users with collaborative prompt libraries and usage analytics. | Plan | Price | Generations/Month | Key Features | |------|-------|-------------------|--------------| | Free | $0 | 50 | Basic generator, 1 saved prompt | | Pro | $12/month | 1,000 | Testing, version history, export | | Team | $49/month | 5,000 + 10 users | Collaborative library, analytics | ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q2: What AI models does PromptGen Pro support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PromptGen Pro supports all major AI models: GPT-4o, Claude 3.5 Opus, Gemini 2.0, Llama 4, Mistral Large, and Perplexity. You can generate prompts optimized for specific models, as each model responds better to different prompt structures. The tool automatically adapts prompts when you switch target models. - Supported models: GPT-4o, Claude 3.5 Opus, Gemini 2.0, Llama 4, Mistral Large, Perplexity, DeepSeek - Model-specific optimization: Yes, prompts are tailored to each model's strengths - Custom model support: Enterprise plan supports custom model integration ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q3: How does the prompt generation process work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Enter your desired output (e.g., \"a blog post about fitness\"), and PromptGen Pro's AI generates 3-5 prompt variations optimized for your target AI model. Each variation uses different techniques (chain-of-thought, few-shot, role-based) so you can test which works best. You can then refine the prompts iteratively. - Output: 3-5 prompt variations per generation - Techniques used: Chain-of-thought, few-shot, role-based, step-by-step, zero-shot - Refinement: Iterative editing with AI suggestions ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q4: Can I test prompts before using them?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, PromptGen Pro includes a built-in prompt testing feature. You can run your prompt against your chosen AI model directly in the app and see the output. The tool also supports A/B testing, where you compare multiple prompt variations to see which produces better results. Test results are saved for comparison. - Testing: Run prompts in-app against GPT-4o, Claude, Gemini, etc. - A/B testing: Compare 2-5 prompt variations side-by-side - History: All test results saved with timestamp and output ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q5: Does PromptGen Pro support team collaboration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Team plan includes a collaborative prompt library where team members can share, rate, and fork prompts. You can organize prompts by project, tag them for easy search, and set permissions (view, edit, admin). The activity feed shows who modified prompts and when. Slack integration is available for notifications. - Collaboration: Shared library, forking, ratings, comments - Organization: Folders, tags, search, filters - Integrations: Slack, Notion, Google Workspace ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q6: Can I export prompts to use in other tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can export prompts as JSON, CSV, or plain text. You can also copy prompts in formats compatible with Python (as f-strings), JavaScript, and API calls. Enterprise users can use the API to sync prompts to external tools like Notion, Google Sheets, or custom applications. - Export formats: JSON, CSV, TXT, Python f-string, JavaScript template literal - API access: Enterprise plan includes REST API for prompt management - Integrations: Notion, Google Sheets, Zapier, Make.com ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q7: How does PromptGen Pro handle prompt versioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PromptGen Pro automatically saves every version of your prompts. You can view the version history, see what changed (with diff view), and revert to previous versions. You can also branch prompts to create variations without losing the original. Version history is available on the Pro plan and above. - Version history: Automatic, unlimited versions (Pro plan+) - Diff view: See exactly what changed between versions - Branching: Create prompt variants without modifying the original ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q8: Is there a prompt marketplace or community?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, PromptGen Pro includes a community prompt library where users share effective prompts. You can browse prompts by category (writing, coding, analysis, creative, etc.), fork them to your account, and rate them. Top prompts are featured in the weekly newsletter. Community access is free for all users. - Community library: 5,000+ shared prompts across 20 categories - Features: Fork, rate, comment, remix - Newsletter: Weekly top prompts delivered to your inbox ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q9: What kind of support and documentation do you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All users get access to our prompt engineering guides (50+ articles), video tutorials, and community forum. Pro users receive priority email support with a 24-hour response time. Team and Enterprise users get a dedicated account manager, onboarding session, and custom prompt engineering training for their team (1-hour webinar). - Documentation: 50+ guides, 20 video tutorials, community forum - Support tiers: Email (Free), Priority email (Pro), Dedicated manager (Team/Enterprise) - Training: Custom webinar for teams (Enterprise plan) ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q10: Can I cancel or change my plan at any time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can upgrade, downgrade, or cancel your subscription at any time. When you cancel, you'll retain access until the end of your billing period. You can export all your prompts before canceling. Downgrading to Free lets you keep 1 prompt saved; all others become read-only. - Plan changes: Anytime via account settings - Cancellation: No fees, access until period end - Data export: Full prompt export available before cancellation ---"
+      }
+    }
+  ]
+}
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #111827;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 10px;
+        }
+        .faq-item {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f3f4f6;
+            border-radius: 8px;
+        }
+        .faq-item h3 {
+            color: #1f2937;
+            margin-top: 0;
+        }
+        .answer-summary {
+            font-size: 1.1em;
+            color: #374151;
+            margin-bottom: 10px;
+        }
+        details {
+            margin-top: 10px;
+        }
+        summary {
+            cursor: pointer;
+            color: #3b82f6;
+            font-weight: 500;
+        }
+        .answer-details {
+            margin-top: 10px;
+            padding: 15px;
+            background: white;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p class="intro">Everything you need to know about Promptgen Pro. Can't find the answer? <a href="./support.html">Contact our support team</a>.</p>
+        
+        <div class="faq-list">
+            
+        <div class="faq-item">
+            <h3>Q1: How much does PromptGen Pro cost?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> PromptGen Pro offers a free plan with 50 prompt generations per month. The Pro plan is $12/month and includes 1,000 generations plus advanced features like prompt testing, version history, and team sh</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        PromptGen Pro offers a free plan with 50 prompt generations per month. The Pro plan is $12/month and includes 1,000 generations plus advanced features like prompt testing, version history, and team sharing. The Team plan at $49/month supports up to 10 users with collaborative prompt libraries and usage analytics. | Plan | Price | Generations/Month | Key Features | |------|-------|-------------------|--------------| | Free | $0 | 50 | Basic generator, 1 saved prompt | | Pro | $12/month | 1,000 | Testing, version history, export | | Team | $49/month | 5,000 + 10 users | Collaborative library, analytics | ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q2: What AI models does PromptGen Pro support?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> PromptGen Pro supports all major AI models: GPT-4o, Claude 3.5 Opus, Gemini 2.0, Llama 4, Mistral Large, and Perplexity. You can generate prompts optimized for specific models, as each model responds </p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        PromptGen Pro supports all major AI models: GPT-4o, Claude 3.5 Opus, Gemini 2.0, Llama 4, Mistral Large, and Perplexity. You can generate prompts optimized for specific models, as each model responds better to different prompt structures. The tool automatically adapts prompts when you switch target models. - Supported models: GPT-4o, Claude 3.5 Opus, Gemini 2.0, Llama 4, Mistral Large, Perplexity, DeepSeek - Model-specific optimization: Yes, prompts are tailored to each model's strengths - Custom model support: Enterprise plan supports custom model integration ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q3: How does the prompt generation process work?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Enter your desired output (e.g., "a blog post about fitness"), and PromptGen Pro's AI generates 3-5 prompt variations optimized for your target AI model. Each variation uses different techniques (chai</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Enter your desired output (e.g., "a blog post about fitness"), and PromptGen Pro's AI generates 3-5 prompt variations optimized for your target AI model. Each variation uses different techniques (chain-of-thought, few-shot, role-based) so you can test which works best. You can then refine the prompts iteratively. - Output: 3-5 prompt variations per generation - Techniques used: Chain-of-thought, few-shot, role-based, step-by-step, zero-shot - Refinement: Iterative editing with AI suggestions ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q4: Can I test prompts before using them?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, PromptGen Pro includes a built-in prompt testing feature. You can run your prompt against your chosen AI model directly in the app and see the output. The tool also supports A/B testing, where yo</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, PromptGen Pro includes a built-in prompt testing feature. You can run your prompt against your chosen AI model directly in the app and see the output. The tool also supports A/B testing, where you compare multiple prompt variations to see which produces better results. Test results are saved for comparison. - Testing: Run prompts in-app against GPT-4o, Claude, Gemini, etc. - A/B testing: Compare 2-5 prompt variations side-by-side - History: All test results saved with timestamp and output ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q5: Does PromptGen Pro support team collaboration?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, the Team plan includes a collaborative prompt library where team members can share, rate, and fork prompts. You can organize prompts by project, tag them for easy search, and set permissions (vie</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, the Team plan includes a collaborative prompt library where team members can share, rate, and fork prompts. You can organize prompts by project, tag them for easy search, and set permissions (view, edit, admin). The activity feed shows who modified prompts and when. Slack integration is available for notifications. - Collaboration: Shared library, forking, ratings, comments - Organization: Folders, tags, search, filters - Integrations: Slack, Notion, Google Workspace ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q6: Can I export prompts to use in other tools?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, you can export prompts as JSON, CSV, or plain text. You can also copy prompts in formats compatible with Python (as f-strings), JavaScript, and API calls. Enterprise users can use the API to sync</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, you can export prompts as JSON, CSV, or plain text. You can also copy prompts in formats compatible with Python (as f-strings), JavaScript, and API calls. Enterprise users can use the API to sync prompts to external tools like Notion, Google Sheets, or custom applications. - Export formats: JSON, CSV, TXT, Python f-string, JavaScript template literal - API access: Enterprise plan includes REST API for prompt management - Integrations: Notion, Google Sheets, Zapier, Make.com ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q7: How does PromptGen Pro handle prompt versioning?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> PromptGen Pro automatically saves every version of your prompts. You can view the version history, see what changed (with diff view), and revert to previous versions. You can also branch prompts to cr</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        PromptGen Pro automatically saves every version of your prompts. You can view the version history, see what changed (with diff view), and revert to previous versions. You can also branch prompts to create variations without losing the original. Version history is available on the Pro plan and above. - Version history: Automatic, unlimited versions (Pro plan+) - Diff view: See exactly what changed between versions - Branching: Create prompt variants without modifying the original ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q8: Is there a prompt marketplace or community?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, PromptGen Pro includes a community prompt library where users share effective prompts. You can browse prompts by category (writing, coding, analysis, creative, etc.), fork them to your account, a</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, PromptGen Pro includes a community prompt library where users share effective prompts. You can browse prompts by category (writing, coding, analysis, creative, etc.), fork them to your account, and rate them. Top prompts are featured in the weekly newsletter. Community access is free for all users. - Community library: 5,000+ shared prompts across 20 categories - Features: Fork, rate, comment, remix - Newsletter: Weekly top prompts delivered to your inbox ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q9: What kind of support and documentation do you offer?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> All users get access to our prompt engineering guides (50+ articles), video tutorials, and community forum. Pro users receive priority email support with a 24-hour response time. Team and Enterprise u</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        All users get access to our prompt engineering guides (50+ articles), video tutorials, and community forum. Pro users receive priority email support with a 24-hour response time. Team and Enterprise users get a dedicated account manager, onboarding session, and custom prompt engineering training for their team (1-hour webinar). - Documentation: 50+ guides, 20 video tutorials, community forum - Support tiers: Email (Free), Priority email (Pro), Dedicated manager (Team/Enterprise) - Training: Custom webinar for teams (Enterprise plan) ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q10: Can I cancel or change my plan at any time?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, you can upgrade, downgrade, or cancel your subscription at any time. When you cancel, you'll retain access until the end of your billing period. You can export all your prompts before canceling. </p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, you can upgrade, downgrade, or cancel your subscription at any time. When you cancel, you'll retain access until the end of your billing period. You can export all your prompts before canceling. Downgrading to Free lets you keep 1 prompt saved; all others become read-only. - Plan changes: Anytime via account settings - Cancellation: No fees, access until period end - Data export: Full prompt export available before cancellation ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>

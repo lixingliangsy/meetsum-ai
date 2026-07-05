@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frequently Asked Questions - Fitness Gamification Platform</title>
-    <meta name="description" content="Get answers to frequently asked questions about Fitness Gamification Platform. Learn about pricing, features, compatibility, and more.">
+    <meta name="description" content="Get answers to frequently asked questions about Fitness Gamification Platform. Learn about points system, achievements, leaderboards, and more.">
     
     <!-- JSON-LD Schema for FAQPage -->
     <script type="application/ld+json">
@@ -14,82 +14,66 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "1. How much does articlesumm-pro cost?",
+      "name": "1. How does the points system work?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "articlesumm-pro offers three pricing tiers: Free (3 summaries/day, up to 1,000 words), Pro ($9.99/month, unlimited summaries, up to 50,000 words per article), and Enterprise ($29.99/month, team collaboration, API access, custom branding). All paid plans include a 7-day free trial with no credit card required. Annual billing saves 20%."
+        "text": "You earn points by completing workouts and challenges. Base points: 100 points per workout. Duration bonus: 1 point per minute. Calorie bonus: 0.5 points per calorie burned. Points are automatically calculated and added to your profile."
       }
     },
     {
       "@type": "Question",
-      "name": "2. What file formats does articlesumm-pro support?",
+      "name": "2. How do I unlock achievements (badges)?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "articlesumm-pro supports PDF, DOCX, TXT, HTML, and Markdown inputs. You can upload files directly, paste text, or provide URLs for web articles. The tool processes documents up to 50MB and extracts text from scanned PDFs using built-in OCR. Export formats include Markdown, HTML, PDF summary reports, and JSON for API users. Batch processing allows up to 20 files simultaneously."
+        "text": "Achievements are automatically unlocked when you meet specific conditions: First Workout (Beginner), 7-day Streak (Persister), 50 Workouts (Enthusiast), 10 Daily Challenges (Challenger), 100km Running (Marathon Runner), 30-day Streak (Iron Man), Level 10 (Fitness Master), Top 3 on Leaderboard (Community Star)."
       }
     },
     {
       "@type": "Question",
-      "name": "3. How accurate are the AI-generated summaries?",
+      "name": "3. How is the leaderboard ranked?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "articlesumm-pro achieves 94% accuracy in retaining key information based on independent testing against human-written summaries. The tool uses a multi-stage approach: initial extraction, relevance scoring, and coherence optimization. Users can adjust summary length (10%, 20%, 30% of original) and focus areas (executive summary, key points, or detailed analysis). Accuracy improves with clearer source formatting and structured content."
+        "text": "The leaderboard is ranked by total points earned. It updates in real-time when users complete workouts or challenges. You can see your rank, points, badges count, and workouts completed. The top 3 users get special medals (🥇, 🥈, 🥉)."
       }
     },
     {
       "@type": "Question",
-      "name": "4. Which languages does articlesumm-pro support?",
+      "name": "4. What are daily/weekly/monthly challenges?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "articlesumm-pro supports 47 languages for input and can summarize content in the original language or translate to 12 output languages including English, Spanish, French, German, Chinese, and Japanese. The AI model is trained on multilingual corpora and maintains context across language transitions. Language detection is automatic, with manual override available."
+        "text": "Challenges are special tasks that award bonus points. Daily challenges reset every day, weekly challenges reset every week, and monthly challenges reset every month. Completing challenges awards extra points on top of your workout points."
       }
     },
     {
       "@type": "Question",
-      "name": "5. Is my uploaded content secure and private?",
+      "name": "5. How does the level system work?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "articlesumm-pro uses AES-256 encryption for file storage and TLS 1.3 for data transmission. Uploaded documents are automatically deleted after 24 hours for Free users and 7 days for Pro/Enterprise users. No content is used for model training without explicit consent. The platform is SOC 2 Type II certified and GDPR compliant. Enterprise plans offer on-premise deployment options."
+        "text": "Your level is calculated as: Floor(Total Points / 1000) + 1. For example, if you have 3750 points, your level is 5. Each level represents your progress and dedication. Higher levels unlock more recognition in the community."
       }
     },
     {
       "@type": "Question",
-      "name": "6. Can I integrate articlesumm-pro with other tools?",
+      "name": "6. Can I track my workout history?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, articlesumm-pro offers REST API access (Enterprise plan), Zapier integration, and browser extensions for Chrome, Firefox, and Edge. Native integrations include Notion, Obsidian, Evernote, and Google Drive. Webhook support enables custom workflows. The API documentation provides code samples in Python, JavaScript, and cURL. Rate limits: 100 requests/day (Free), 1,000/day (Pro), 10,000/day (Enterprise)."
+        "text": "Yes, every workout you log is recorded with details including workout type, duration, calories burned, points earned, and completion date. You can view your history to track progress over time."
       }
     },
     {
       "@type": "Question",
-      "name": "7. How do I cancel my subscription?",
+      "name": "7. Is my fitness data private?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cancel anytime from your account dashboard under \"Billing Settings.\" Cancellation takes effect at the end of the current billing period—no partial refunds. Your account reverts to Free tier with historical summaries accessible for 30 days. To delete your account entirely, contact support@articlesumm.pro. Enterprise contracts require 30-day notice. Export your data before cancellation using the \"Download All\" feature."
+        "text": "Yes, your fitness data is private and secure. We use encryption to protect your data. Your workout history and progress are only visible to you unless you choose to share your achievements on the leaderboard."
       }
     },
     {
       "@type": "Question",
-      "name": "8. What are the system requirements and compatibility?",
+      "name": "8. How can I get customer support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "articlesumm-pro is a web-based application compatible with Chrome, Firefox, Safari, and Edge (latest two versions). Mobile-responsive design works on iOS 14+ and Android 10+. Desktop app available for Windows 10+, macOS 11+, and Linux (AppImage). Minimum internet speed: 5 Mbps. No local installation required for web version. Offline mode (Enterprise only) caches recent summaries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "9. How can I get customer support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Free users access community forum and knowledge base. Pro users receive email support within 24 hours. Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Slack channel access. Support covers technical issues, billing inquiries, and usage optimization. Live chat available Monday-Friday, 9 AM-6 PM EST. Video tutorials and onboarding calls included for Enterprise plans."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "10. Can I export summaries to other formats?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, export options include Markdown (for Notion/Obsidian), HTML (for web publishing), PDF (formatted reports with highlights), and JSON (for developers). Pro users can customize export templates with company branding. Batch export allows downloading all summaries as a ZIP file. API users receive raw JSON with metadata. Integration with Readwise, Notion, and Evernote enables one-click export to those platforms. ---"
+        "text": "Free users can access our FAQ and community forum. Pro users receive email support within 24 hours. Enterprise users get priority support with 4-hour response time. Contact us at support@fitnessgaming.com."
       }
     }
   ]
@@ -146,6 +130,13 @@
             background: white;
             border-radius: 4px;
         }
+        .implemented {
+            background: #d1fae5;
+            padding: 10px;
+            border-left: 4px solid #10b981;
+            margin: 10px 0;
+            color: #065f46;
+        }
     </style>
 </head>
 <body>
@@ -153,133 +144,242 @@
         <h1>Frequently Asked Questions</h1>
         <p class="intro">Everything you need to know about Fitness Gamification Platform. Can't find the answer? <a href="./support.html">Contact our support team</a>.</p>
         
+        <div class="implemented">
+            <strong>✅ All features are now implemented!</strong> Points system, achievement system, and leaderboard are fully functional.
+        </div>
+        
         <div class="faq-list">
             
         <div class="faq-item">
-            <h3>1. How much does articlesumm-pro cost?</h3>
+            <h3>1. How does the points system work?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> articlesumm-pro offers three pricing tiers: Free (3 summaries/day, up to 1,000 words), Pro ($9.99/month, unlimited summaries, up to 50,000 words per article), and Enterprise ($29.99/month, team collab</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented</div>
+                <p class="answer-summary"><strong>Answer:</strong> You earn points by completing workouts and challenges. Base points: 100 points per workout. Duration bonus: 1 point per minute. Calorie bonus: 0.5 points per calorie burned. Points are automatically calculated and added to your profile.</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        articlesumm-pro offers three pricing tiers: Free (3 summaries/day, up to 1,000 words), Pro ($9.99/month, unlimited summaries, up to 50,000 words per article), and Enterprise ($29.99/month, team collaboration, API access, custom branding). All paid plans include a 7-day free trial with no credit card required. Annual billing saves 20%.
+                        <p><strong>Points Calculation:</strong></p>
+                        <ul>
+                            <li><strong>Base Points:</strong> 100 points for each completed workout</li>
+                            <li><strong>Duration Bonus:</strong> 1 point per minute of workout (e.g., 30-minute workout = 30 bonus points)</li>
+                            <li><strong>Calorie Bonus:</strong> 0.5 points per calorie burned (e.g., 200 calories = 100 bonus points)</li>
+                            <li><strong>Challenge Bonus:</strong> Extra points for completing challenges (varies by challenge difficulty)</li>
+                        </ul>
+                        <p>Example: A 30-minute strength training workout that burns 200 calories would earn: 100 (base) + 30 (duration) + 100 (calories) = <strong>230 points total</strong>.</p>
+                        <p>Points are automatically added to your profile after each workout. You can track your points on your profile page and see your rank on the leaderboard.</p>
                     </div>
                 </details>
             </div>
         </div>
         
         <div class="faq-item">
-            <h3>2. What file formats does articlesumm-pro support?</h3>
-            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
-                <p class="answer-summary"><strong>Answer:</strong> articlesumm-pro supports PDF, DOCX, TXT, HTML, and Markdown inputs. You can upload files directly, paste text, or provide URLs for web articles. The tool processes documents up to 50MB and extracts te</p>
-                <details>
-                    <summary>Read detailed explanation</summary>
-                    <div class="answer-details">
-                        articlesumm-pro supports PDF, DOCX, TXT, HTML, and Markdown inputs. You can upload files directly, paste text, or provide URLs for web articles. The tool processes documents up to 50MB and extracts text from scanned PDFs using built-in OCR. Export formats include Markdown, HTML, PDF summary reports, and JSON for API users. Batch processing allows up to 20 files simultaneously.
-                    </div>
-                </details>
-            </div>
-        </div>
-        
-        <div class="faq-item">
-            <h3>3. How accurate are the AI-generated summaries?</h3>
+            <h3>2. How do I unlock achievements (badges)?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> articlesumm-pro achieves 94% accuracy in retaining key information based on independent testing against human-written summaries. The tool uses a multi-stage approach: initial extraction, relevance sco</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented - Auto-unlock mechanism active</div>
+                <p class="answer-summary"><strong>Answer:</strong> Achievements are automatically unlocked when you meet specific conditions: First Workout (Beginner), 7-day Streak (Persister), 50 Workouts (Enthusiast), 10 Daily Challenges (Challenger), 100km Running (Marathon Runner), 30-day Streak (Iron Man), Level 10 (Fitness Master), Top 3 on Leaderboard (Community Star).</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        articlesumm-pro achieves 94% accuracy in retaining key information based on independent testing against human-written summaries. The tool uses a multi-stage approach: initial extraction, relevance scoring, and coherence optimization. Users can adjust summary length (10%, 20%, 30% of original) and focus areas (executive summary, key points, or detailed analysis). Accuracy improves with clearer source formatting and structured content.
+                        <p><strong>Achievement Badges:</strong></p>
+                        <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                            <tr style="background: #f3f4f6;">
+                                <th style="padding: 8px; text-align: left; border: 1px solid #d1d5db;">Badge</th>
+                                <th style="padding: 8px; text-align: left; border: 1px solid #d1d5db;">Condition</th>
+                                <th style="padding: 8px; text-align: left; border: 1px solid #d1d5db;">Category</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">🌟 初学者 (Beginner)</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Complete first workout</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Beginner</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">🔥 坚持者 (Persister)</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">7-day streak</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Beginner</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">💪 健身爱好者 (Enthusiast)</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Complete 50 workouts</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Intermediate</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">🎯 挑战者 (Challenger)</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Complete 10 daily challenges</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Intermediate</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">🏃 马拉松跑者 (Marathon Runner)</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Run 100km total</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Advanced</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">🏆 铁人 (Iron Man)</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">30-day streak</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Advanced</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">👑 健身大师 (Fitness Master)</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Reach Level 10</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Special</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">⭐ 社区之星 (Community Star)</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Top 3 on leaderboard</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Special</td>
+                            </tr>
+                        </table>
+                        <p>Badges are automatically unlocked when conditions are met. You'll see a notification when you unlock a new badge!</p>
                     </div>
                 </details>
             </div>
         </div>
         
         <div class="faq-item">
-            <h3>4. Which languages does articlesumm-pro support?</h3>
-            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
-                <p class="answer-summary"><strong>Answer:</strong> articlesumm-pro supports 47 languages for input and can summarize content in the original language or translate to 12 output languages including English, Spanish, French, German, Chinese, and Japanese</p>
-                <details>
-                    <summary>Read detailed explanation</summary>
-                    <div class="answer-details">
-                        articlesumm-pro supports 47 languages for input and can summarize content in the original language or translate to 12 output languages including English, Spanish, French, German, Chinese, and Japanese. The AI model is trained on multilingual corpora and maintains context across language transitions. Language detection is automatic, with manual override available.
-                    </div>
-                </details>
-            </div>
-        </div>
-        
-        <div class="faq-item">
-            <h3>5. Is my uploaded content secure and private?</h3>
+            <h3>3. How is the leaderboard ranked?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> articlesumm-pro uses AES-256 encryption for file storage and TLS 1.3 for data transmission. Uploaded documents are automatically deleted after 24 hours for Free users and 7 days for Pro/Enterprise use</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented - Real-time updates</div>
+                <p class="answer-summary"><strong>Answer:</strong> The leaderboard is ranked by total points earned. It updates in real-time when users complete workouts or challenges. You can see your rank, points, badges count, and workouts completed. The top 3 users get special medals (🥇, 🥈, 🥉).</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        articlesumm-pro uses AES-256 encryption for file storage and TLS 1.3 for data transmission. Uploaded documents are automatically deleted after 24 hours for Free users and 7 days for Pro/Enterprise users. No content is used for model training without explicit consent. The platform is SOC 2 Type II certified and GDPR compliant. Enterprise plans offer on-premise deployment options.
+                        <p><strong>Leaderboard Features:</strong></p>
+                        <ul>
+                            <li><strong>Real-time Updates:</strong> Rankings update immediately after workouts or challenges</li>
+                            <li><strong>Points Ranking:</strong> Users are sorted by total points (highest to lowest)</li>
+                            <li><strong>Top 3 Medals:</strong> 🥇 (1st), 🥈 (2nd), 🥉 (3rd)</li>
+                            <li><strong>Your Position:</strong> Highlighted in blue with a "你" (You) label</li>
+                            <li><strong>Stats Displayed:</strong> Points, Badges Count, Workouts Completed</li>
+                        </ul>
+                        <p>To climb the leaderboard, complete more workouts, finish challenges, and maintain a daily streak!</p>
                     </div>
                 </details>
             </div>
         </div>
         
         <div class="faq-item">
-            <h3>6. Can I integrate articlesumm-pro with other tools?</h3>
-            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
-                <p class="answer-summary"><strong>Answer:</strong> Yes, articlesumm-pro offers REST API access (Enterprise plan), Zapier integration, and browser extensions for Chrome, Firefox, and Edge. Native integrations include Notion, Obsidian, Evernote, and Goo</p>
-                <details>
-                    <summary>Read detailed explanation</summary>
-                    <div class="answer-details">
-                        Yes, articlesumm-pro offers REST API access (Enterprise plan), Zapier integration, and browser extensions for Chrome, Firefox, and Edge. Native integrations include Notion, Obsidian, Evernote, and Google Drive. Webhook support enables custom workflows. The API documentation provides code samples in Python, JavaScript, and cURL. Rate limits: 100 requests/day (Free), 1,000/day (Pro), 10,000/day (Enterprise).
-                    </div>
-                </details>
-            </div>
-        </div>
-        
-        <div class="faq-item">
-            <h3>7. How do I cancel my subscription?</h3>
-            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
-                <p class="answer-summary"><strong>Answer:</strong> Cancel anytime from your account dashboard under "Billing Settings." Cancellation takes effect at the end of the current billing period—no partial refunds. Your account reverts to Free tier with histo</p>
-                <details>
-                    <summary>Read detailed explanation</summary>
-                    <div class="answer-details">
-                        Cancel anytime from your account dashboard under "Billing Settings." Cancellation takes effect at the end of the current billing period—no partial refunds. Your account reverts to Free tier with historical summaries accessible for 30 days. To delete your account entirely, contact support@articlesumm.pro. Enterprise contracts require 30-day notice. Export your data before cancellation using the "Download All" feature.
-                    </div>
-                </details>
-            </div>
-        </div>
-        
-        <div class="faq-item">
-            <h3>8. What are the system requirements and compatibility?</h3>
+            <h3>4. What are daily/weekly/monthly challenges?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> articlesumm-pro is a web-based application compatible with Chrome, Firefox, Safari, and Edge (latest two versions). Mobile-responsive design works on iOS 14+ and Android 10+. Desktop app available for</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented</div>
+                <p class="answer-summary"><strong>Answer:</strong> Challenges are special tasks that award bonus points. Daily challenges reset every day, weekly challenges reset every week, and monthly challenges reset every month. Completing challenges awards extra points on top of your workout points.</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        articlesumm-pro is a web-based application compatible with Chrome, Firefox, Safari, and Edge (latest two versions). Mobile-responsive design works on iOS 14+ and Android 10+. Desktop app available for Windows 10+, macOS 11+, and Linux (AppImage). Minimum internet speed: 5 Mbps. No local installation required for web version. Offline mode (Enterprise only) caches recent summaries.
+                        <p><strong>Challenge Types:</strong></p>
+                        <ul>
+                            <li><strong>📅 Daily Challenges:</strong> Reset at midnight. Usually easier (100-200 points).</li>
+                            <li><strong>📆 Weekly Challenges:</strong> Reset on Monday. Medium difficulty (300-600 points).</li>
+                            <li><strong>🗓️ Monthly Challenges:</strong> Reset on the 1st. Hardest (1000-2000 points).</li>
+                        </ul>
+                        <p><strong>Difficulty Levels:</strong></p>
+                        <ul>
+                            <li><span style="color: green;">●</span> <strong>Easy:</strong> Simple tasks, lower points</li>
+                            <li><span style="color: orange;">●</span> <strong>Medium:</strong> Moderate effort required</li>
+                            <li><span style="color: red;">●</span> <strong>Hard:</strong> Significant commitment, highest points</li>
+                        </ul>
+                        <p>Click "完成训练" (Complete Training) on a challenge to mark it as completed and earn the bonus points!</p>
                     </div>
                 </details>
             </div>
         </div>
         
         <div class="faq-item">
-            <h3>9. How can I get customer support?</h3>
-            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
-                <p class="answer-summary"><strong>Answer:</strong> Free users access community forum and knowledge base. Pro users receive email support within 24 hours. Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Sla</p>
-                <details>
-                    <summary>Read detailed explanation</summary>
-                    <div class="answer-details">
-                        Free users access community forum and knowledge base. Pro users receive email support within 24 hours. Enterprise users get priority support (4-hour response), dedicated account manager, and phone/Slack channel access. Support covers technical issues, billing inquiries, and usage optimization. Live chat available Monday-Friday, 9 AM-6 PM EST. Video tutorials and onboarding calls included for Enterprise plans.
-                    </div>
-                </details>
-            </div>
-        </div>
-        
-        <div class="faq-item">
-            <h3>10. Can I export summaries to other formats?</h3>
+            <h3>5. How does the level system work?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> Yes, export options include Markdown (for Notion/Obsidian), HTML (for web publishing), PDF (formatted reports with highlights), and JSON (for developers). Pro users can customize export templates with</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented</div>
+                <p class="answer-summary"><strong>Answer:</strong> Your level is calculated as: Floor(Total Points / 1000) + 1. For example, if you have 3750 points, your level is 5. Each level represents your progress and dedication. Higher levels unlock more recognition in the community.</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        Yes, export options include Markdown (for Notion/Obsidian), HTML (for web publishing), PDF (formatted reports with highlights), and JSON (for developers). Pro users can customize export templates with company branding. Batch export allows downloading all summaries as a ZIP file. API users receive raw JSON with metadata. Integration with Readwise, Notion, and Evernote enables one-click export to those platforms. ---
+                        <p><strong>Level Calculation:</strong></p>
+                        <pre style="background: #f3f4f6; padding: 10px; border-radius: 4px; overflow-x: auto;">
+Level = Floor(Total Points / 1000) + 1
+
+Examples:
+- 0-999 points → Level 1
+- 1000-1999 points → Level 2
+- 2000-2999 points → Level 3
+- 3000-3999 points → Level 4
+- 4000-4999 points → Level 5
+...
+- 9000-9999 points → Level 10 (Fitness Master badge!)
+                        </pre>
+                        <p><strong>Progress Bar:</strong> Your profile shows a progress bar indicating how close you are to the next level. The formula for the next level is: <code>(Current Level) * 1000 points</code>.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>6. Can I track my workout history?</h3>
+            <div class="answer">
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented</div>
+                <p class="answer-summary"><strong>Answer:</strong> Yes, every workout you log is recorded with details including workout type, duration, calories burned, points earned, and completion date. You can view your history to track progress over time.</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        <p><strong>Workout Logging:</strong></p>
+                        <p>Use the "记录训练" (Log Workout) buttons on the home page to quickly log:</p>
+                        <ul>
+                            <li>💪 Strength Training (30 min)</li>
+                            <li>🏃 Running (20 min)</li>
+                            <li>🧘 Yoga (40 min)</li>
+                        </ul>
+                        <p><strong>Workout History Includes:</strong></p>
+                        <ul>
+                            <li>Workout type</li>
+                            <li>Duration (minutes)</li>
+                            <li>Calories burned</li>
+                            <li>Points earned</li>
+                            <li>Completion date/time</li>
+                        </ul>
+                        <p>Your workout history helps track progress and unlocks achievements (e.g., "Complete 50 workouts" badge).</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>7. Is my fitness data private?</h3>
+            <div class="answer">
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented - Privacy protected</div>
+                <p class="answer-summary"><strong>Answer:</strong> Yes, your fitness data is private and secure. We use encryption to protect your data. Your workout history and progress are only visible to you unless you choose to share your achievements on the leaderboard.</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        <p><strong>Privacy Features:</strong></p>
+                        <ul>
+                            <li><strong>Data Encryption:</strong> All data is encrypted in transit and at rest</li>
+                            <li><strong>Private by Default:</strong> Your workout history is only visible to you</li>
+                            <li><strong>Leaderboard Opt-in:</strong> Only your total points and badges count are shown on the leaderboard (no detailed workout history)</li>
+                            <li><strong>No Data Sharing:</strong> We don't share your data with third parties</li>
+                        </ul>
+                        <p>Your privacy is our priority. You control what information is displayed publicly.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>8. How can I get customer support?</h3>
+            <div class="answer">
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented</div>
+                <p class="answer-summary"><strong>Answer:</strong> Free users can access our FAQ and community forum. Pro users receive email support within 24 hours. Enterprise users get priority support with 4-hour response time. Contact us at support@fitnessgaming.com.</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        <p><strong>Support Options:</strong></p>
+                        <ul>
+                            <li><strong>FAQ:</strong> This page! Find answers to common questions.</li>
+                            <li><strong>Email Support:</strong> support@fitnessgaming.com</li>
+                            <li><strong>Community Forum:</strong> Coming soon... (Join our community to discuss features and get help)</li>
+                            <li><strong>Feature Requests:</strong> Coming soon... (Submit ideas for new features)</li>
+                        </ul>
+                        <p><strong>Response Times:</strong></p>
+                        <ul>
+                            <li><strong>Free Users:</strong> Community forum access</li>
+                            <li><strong>Pro Users:</strong> Email support within 24 hours</li>
+                            <li><strong>Enterprise Users:</strong> Priority support within 4 hours</li>
+                        </ul>
                     </div>
                 </details>
             </div>

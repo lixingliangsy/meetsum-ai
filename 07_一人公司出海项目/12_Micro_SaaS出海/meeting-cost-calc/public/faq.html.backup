@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - Meeting Cost Calc</title>
+    <meta name="description" content="Get answers to frequently asked questions about Meeting Cost Calc. Learn about pricing, features, compatibility, and more.">
+    
+    <!-- JSON-LD Schema for FAQPage -->
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Q1: How much does Meeting Cost Calculator cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Meeting Cost Calculator offers a free tier for up to 5 meetings per month. The Pro plan costs $9/month and includes unlimited meetings, team analytics, and CSV export. The Enterprise plan at $29/month adds SSO, advanced reporting, and priority support. All plans include a 14-day free trial with no credit card required. | Plan | Price | Meetings/Month | Key Features | |------|-------|----------------|--------------| | Free | $0 | 5 | Basic calculator, 1 user | | Pro | $9/month | Unlimited | Team analytics, CSV export | | Enterprise | $29/month | Unlimited | SSO, API access, priority support | ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q2: How does the meeting cost calculation work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The calculator multiplies the total meeting duration by the combined hourly rates of all attendees. For example, a 1-hour meeting with 5 attendees earning $50/hour each costs $250. You can customize salary levels, currency, and overhead multipliers (typically 1.3x for benefits and overhead). - Formula: `(Total Attendee Hourly Rate) × (Meeting Hours) × (Overhead Multiplier)` - Default overhead multiplier: 1.3x (industry standard for benefits, taxes, equipment) - Supported currencies: USD, EUR, GBP, CAD, AUD, JPY ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q3: Can I integrate Meeting Cost Calculator with Google Calendar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Meeting Cost Calculator integrates seamlessly with Google Calendar, Outlook, and Calendly. Once connected, the tool automatically calculates the cost of every scheduled meeting and displays it on your calendar. The integration takes less than 2 minutes to set up with OAuth authentication. - Supported platforms: Google Calendar, Outlook 365, Calendly, Zoom, Microsoft Teams - Setup time: <2 minutes - Authentication: OAuth 2.0 (read-only access, no data modification) ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q4: Is my meeting data secure and private?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We use AES-256 encryption for data at rest and TLS 1.3 for data in transit. We are SOC 2 Type II certified and GDPR compliant. Your meeting data is never sold or shared with third parties. You can delete your data at any time with one click. - Encryption: AES-256 (at rest), TLS 1.3 (in transit) - Certifications: SOC 2 Type II, GDPR compliant, CCPA compliant - Data retention: Your data, deleted within 24 hours of account deletion ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q5: Can I export meeting cost data to Excel or CSV?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all paid plans include CSV and Excel export. You can export individual meeting costs, monthly summaries, or team-level analytics. The export includes cost breakdowns by department, attendee, and meeting type. Scheduled exports are available on the Enterprise plan. - Export formats: CSV, Excel (.xlsx), PDF, Google Sheets - Scheduled exports: Daily, weekly, or monthly (Enterprise plan) - Data included: Date, duration, attendees, cost, department, meeting type ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q6: Does Meeting Cost Calculator work with remote and hybrid teams?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Meeting Cost Calculator is designed for remote and hybrid teams. It automatically detects attendee time zones and calculates costs based on local salary data. You can set different hourly rates for team members in different countries, making it ideal for global teams with varying compensation levels. - Supported: 50+ countries with localized salary benchmarks - Time zone detection: Automatic - Multi-currency support: Automatic conversion to your base currency ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q7: How accurate are the salary-based calculations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The accuracy depends on the data you input. If you enter actual hourly rates or annual salaries, the calculations are 100% accurate. We also provide industry benchmark data from the Bureau of Labor Statistics to help you estimate rates if you don't know exact salaries. Most users achieve 90%+ accuracy. - Data source: Bureau of Labor Statistics, Glassdoor, PayScale - Accuracy: 100% with exact salary data, ~90% with benchmark estimates - Customization: Override any benchmark with actual rates ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q8: Can I track meeting costs by department or project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can tag meetings with departments, projects, or custom labels. The analytics dashboard then breaks down costs by these tags, showing you which departments or projects are spending the most on meetings. This feature is available on the Pro plan and above. - Tag types: Department, project, client, meeting type - Analytics: Cost by tag, trend over time, comparison reports - Limits: Unlimited tags on Pro and Enterprise plans ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q9: What kind of customer support do you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Free users get email support with a 48-hour response time. Pro users receive priority email support with a 24-hour response time. Enterprise users get dedicated account management, phone support, and a 4-hour response SLA. All users have access to our knowledge base with 100+ articles. - Free: Email support, 48-hour SLA, knowledge base - Pro: Priority email, 24-hour SLA, video tutorials - Enterprise: Phone support, 4-hour SLA, dedicated account manager ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q10: Can I cancel my subscription at any time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can cancel your subscription at any time with no penalties or fees. When you cancel, you'll retain access until the end of your billing period. You can also downgrade to the Free plan instead of canceling completely, preserving your historical data and settings. - Cancellation: Anytime, no fees - Data retention: 30 days after cancellation (can be extended) - Downgrade option: Yes, to Free plan with full data access ---"
+      }
+    }
+  ]
+}
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #111827;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 10px;
+        }
+        .faq-item {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f3f4f6;
+            border-radius: 8px;
+        }
+        .faq-item h3 {
+            color: #1f2937;
+            margin-top: 0;
+        }
+        .answer-summary {
+            font-size: 1.1em;
+            color: #374151;
+            margin-bottom: 10px;
+        }
+        details {
+            margin-top: 10px;
+        }
+        summary {
+            cursor: pointer;
+            color: #3b82f6;
+            font-weight: 500;
+        }
+        .answer-details {
+            margin-top: 10px;
+            padding: 15px;
+            background: white;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p class="intro">Everything you need to know about Meeting Cost Calc. Can't find the answer? <a href="./support.html">Contact our support team</a>.</p>
+        
+        <div class="faq-list">
+            
+        <div class="faq-item">
+            <h3>Q1: How much does Meeting Cost Calculator cost?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> Meeting Cost Calculator offers a free tier for up to 5 meetings per month. The Pro plan costs $9/month and includes unlimited meetings, team analytics, and CSV export. The Enterprise plan at $29/month</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Meeting Cost Calculator offers a free tier for up to 5 meetings per month. The Pro plan costs $9/month and includes unlimited meetings, team analytics, and CSV export. The Enterprise plan at $29/month adds SSO, advanced reporting, and priority support. All plans include a 14-day free trial with no credit card required. | Plan | Price | Meetings/Month | Key Features | |------|-------|----------------|--------------| | Free | $0 | 5 | Basic calculator, 1 user | | Pro | $9/month | Unlimited | Team analytics, CSV export | | Enterprise | $29/month | Unlimited | SSO, API access, priority support | ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q2: How does the meeting cost calculation work?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> The calculator multiplies the total meeting duration by the combined hourly rates of all attendees. For example, a 1-hour meeting with 5 attendees earning $50/hour each costs $250. You can customize s</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        The calculator multiplies the total meeting duration by the combined hourly rates of all attendees. For example, a 1-hour meeting with 5 attendees earning $50/hour each costs $250. You can customize salary levels, currency, and overhead multipliers (typically 1.3x for benefits and overhead). - Formula: `(Total Attendee Hourly Rate) × (Meeting Hours) × (Overhead Multiplier)` - Default overhead multiplier: 1.3x (industry standard for benefits, taxes, equipment) - Supported currencies: USD, EUR, GBP, CAD, AUD, JPY ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q3: Can I integrate Meeting Cost Calculator with Google Calendar?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, Meeting Cost Calculator integrates seamlessly with Google Calendar, Outlook, and Calendly. Once connected, the tool automatically calculates the cost of every scheduled meeting and displays it on</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, Meeting Cost Calculator integrates seamlessly with Google Calendar, Outlook, and Calendly. Once connected, the tool automatically calculates the cost of every scheduled meeting and displays it on your calendar. The integration takes less than 2 minutes to set up with OAuth authentication. - Supported platforms: Google Calendar, Outlook 365, Calendly, Zoom, Microsoft Teams - Setup time: <2 minutes - Authentication: OAuth 2.0 (read-only access, no data modification) ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q4: Is my meeting data secure and private?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Absolutely. We use AES-256 encryption for data at rest and TLS 1.3 for data in transit. We are SOC 2 Type II certified and GDPR compliant. Your meeting data is never sold or shared with third parties.</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Absolutely. We use AES-256 encryption for data at rest and TLS 1.3 for data in transit. We are SOC 2 Type II certified and GDPR compliant. Your meeting data is never sold or shared with third parties. You can delete your data at any time with one click. - Encryption: AES-256 (at rest), TLS 1.3 (in transit) - Certifications: SOC 2 Type II, GDPR compliant, CCPA compliant - Data retention: Your data, deleted within 24 hours of account deletion ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q5: Can I export meeting cost data to Excel or CSV?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, all paid plans include CSV and Excel export. You can export individual meeting costs, monthly summaries, or team-level analytics. The export includes cost breakdowns by department, attendee, and </p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, all paid plans include CSV and Excel export. You can export individual meeting costs, monthly summaries, or team-level analytics. The export includes cost breakdowns by department, attendee, and meeting type. Scheduled exports are available on the Enterprise plan. - Export formats: CSV, Excel (.xlsx), PDF, Google Sheets - Scheduled exports: Daily, weekly, or monthly (Enterprise plan) - Data included: Date, duration, attendees, cost, department, meeting type ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q6: Does Meeting Cost Calculator work with remote and hybrid teams?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, Meeting Cost Calculator is designed for remote and hybrid teams. It automatically detects attendee time zones and calculates costs based on local salary data. You can set different hourly rates f</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, Meeting Cost Calculator is designed for remote and hybrid teams. It automatically detects attendee time zones and calculates costs based on local salary data. You can set different hourly rates for team members in different countries, making it ideal for global teams with varying compensation levels. - Supported: 50+ countries with localized salary benchmarks - Time zone detection: Automatic - Multi-currency support: Automatic conversion to your base currency ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q7: How accurate are the salary-based calculations?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> The accuracy depends on the data you input. If you enter actual hourly rates or annual salaries, the calculations are 100% accurate. We also provide industry benchmark data from the Bureau of Labor St</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        The accuracy depends on the data you input. If you enter actual hourly rates or annual salaries, the calculations are 100% accurate. We also provide industry benchmark data from the Bureau of Labor Statistics to help you estimate rates if you don't know exact salaries. Most users achieve 90%+ accuracy. - Data source: Bureau of Labor Statistics, Glassdoor, PayScale - Accuracy: 100% with exact salary data, ~90% with benchmark estimates - Customization: Override any benchmark with actual rates ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q8: Can I track meeting costs by department or project?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, you can tag meetings with departments, projects, or custom labels. The analytics dashboard then breaks down costs by these tags, showing you which departments or projects are spending the most on</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, you can tag meetings with departments, projects, or custom labels. The analytics dashboard then breaks down costs by these tags, showing you which departments or projects are spending the most on meetings. This feature is available on the Pro plan and above. - Tag types: Department, project, client, meeting type - Analytics: Cost by tag, trend over time, comparison reports - Limits: Unlimited tags on Pro and Enterprise plans ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q9: What kind of customer support do you offer?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Free users get email support with a 48-hour response time. Pro users receive priority email support with a 24-hour response time. Enterprise users get dedicated account management, phone support, and </p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Free users get email support with a 48-hour response time. Pro users receive priority email support with a 24-hour response time. Enterprise users get dedicated account management, phone support, and a 4-hour response SLA. All users have access to our knowledge base with 100+ articles. - Free: Email support, 48-hour SLA, knowledge base - Pro: Priority email, 24-hour SLA, video tutorials - Enterprise: Phone support, 4-hour SLA, dedicated account manager ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q10: Can I cancel my subscription at any time?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, you can cancel your subscription at any time with no penalties or fees. When you cancel, you'll retain access until the end of your billing period. You can also downgrade to the Free plan instead</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, you can cancel your subscription at any time with no penalties or fees. When you cancel, you'll retain access until the end of your billing period. You can also downgrade to the Free plan instead of canceling completely, preserving your historical data and settings. - Cancellation: Anytime, no fees - Data retention: 30 days after cancellation (can be extended) - Downgrade option: Yes, to Free plan with full data access ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>

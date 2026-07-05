@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - Fitness Community Platform</title>
+    <meta name="description" content="Get answers to frequently asked questions about Fitness Community Platform. Learn about pricing, features, compatibility, and more.">
+    
+    <!-- JSON-LD Schema for FAQPage -->
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Q1: How much does the Fitness Community Platform cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Fitness Community Platform is free to join. Basic membership includes access to community forums, workout sharing, and progress tracking. Premium membership at $7.99/month adds exclusive challenges, direct messaging, live workout sessions, and expert Q&A. Annual Premium is $79.99/year (save 17%). Financial assistance is available for those who qualify. | Plan | Price | Features | |------|-------|----------| | Basic | $0 | Forums, workout sharing, progress tracking | | Premium (Monthly) | $7.99/month | Challenges, DMs, live workouts, expert Q&A | | Premium (Annual) | $79.99/year | Same as monthly, save 17% | ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q2: How does the community help with fitness motivation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Research shows that people who exercise with others are 95% more likely to reach their goals (American Society of Training and Development). Our platform provides accountability partners, group challenges, progress sharing, and peer support. You can join groups based on your goals, location, or fitness level to find like-minded members. - Statistic source: American Society of Training and Development (95% higher success rate with accountability) - Features: Accountability partners, group challenges, progress sharing, peer support - Groups: By goal (weight loss, muscle gain), location, fitness level, age group ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q3: Can I find a workout partner on the platform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our \"Find a Workout Buddy\" feature matches you with members based on location, fitness goals, schedule, and workout preferences. You can filter by distance (for in-person workouts) or connect virtually. Each profile includes fitness level, goals, and availability, making it easy to find compatible partners. - Matching criteria: Location, goals, schedule, fitness level, workout type - Options: In-person (by distance) or virtual workouts - Safety: Profile verification, in-app messaging (contact info hidden until both users agree) ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q4: Are there professional trainers on the platform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, certified personal trainers, nutritionists, and fitness coaches are active in the community. Premium members can join live Q&A sessions with experts, submit form checks for feedback, and access expert-designed workout plans. All experts are verified through our credential review process before they can offer advice. - Expert types: Certified personal trainers, nutritionists, fitness coaches, physical therapists - Verification: Credential review required for all experts - Premium features: Live Q&A, form checks, expert workout plans ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q5: How does progress tracking work in the community?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can log workouts, weight, measurements, and progress photos in your profile. You choose what to share publicly and what to keep private. The community feed shows your workout completions (if you choose to share), and members can like and comment for motivation. You can also join challenges with specific tracking metrics. - Tracking metrics: Workouts, weight, measurements, progress photos, nutrition - Privacy: Choose per-metric what's public vs. private - Social features: Likes, comments, challenge leaderboards ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q6: Can I create or join fitness challenges?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the platform hosts monthly community challenges (e.g., \"30-Day Plank Challenge,\" \"1000 Push-Up Challenge\"). You can also create your own challenge and invite others to join. Challenges include a leaderboard, progress tracking, and community discussion. Premium members get access to challenges with prizes (fitness gear, supplement samples, coaching sessions). - Challenge types: Strength, cardio, consistency, nutrition, hybrid - Creation: Any member can create a challenge - Prizes: Premium challenges include fitness gear, coaching sessions, supplements ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q7: Is the platform suitable for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Beginners are welcome and supported. We have a \"Fitness Newbie\" group with 50,000+ members where you can ask questions without judgment. The platform includes beginner-friendly workout plans, form demonstration videos, and a \"Start Here\" guide. Many longtime members enjoy mentoring newcomers, creating a supportive environment. - \"Fitness Newbie\" group: 50,000+ members - Beginner resources: Workout plans, form videos, start-here guide - Culture: Mentorship encouraged, judgment-free zone policy ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q8: How do you ensure a safe and supportive community?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We have a zero-tolerance policy for harassment, body shaming, or discrimination. Our moderation team reviews reported content within 24 hours. We also use AI to detect toxic language before it's posted. All new members must agree to our community guidelines during signup. Serious violations result in permanent bans. - Moderation: 24-hour response to reports, AI pre-filtering - Policies: Zero tolerance for harassment, body shaming, discrimination - Enforcement: Warnings, temporary bans, permanent bans for serious violations ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q9: Can I use the platform on mobile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Fitness Community Platform has a mobile app for iOS and Android. The app includes all community features: forums, messaging, progress tracking, challenge participation, and workout logging. You can also enable push notifications to get alerted when someone comments on your post or when a challenge starts. - Mobile apps: iOS (App Store), Android (Google Play) - Features: Full feature parity with web version - Notifications: Push notifications for comments, challenges, messages ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q10: How do I cancel my Premium membership?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can cancel Premium anytime through your account settings. Go to Settings > Billing > Cancel Subscription. You'll retain Premium access until the end of your billing period. After that, your account reverts to Basic (free) with access to forums and basic tracking. No cancellation fees. - Cancellation: Anytime via Settings > Billing - Access after cancel: Basic (free) features continue - Data: All your posts, progress photos, and workout history remain saved ---"
+      }
+    }
+  ]
+}
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #111827;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 10px;
+        }
+        .faq-item {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f3f4f6;
+            border-radius: 8px;
+        }
+        .faq-item h3 {
+            color: #1f2937;
+            margin-top: 0;
+        }
+        .answer-summary {
+            font-size: 1.1em;
+            color: #374151;
+            margin-bottom: 10px;
+        }
+        details {
+            margin-top: 10px;
+        }
+        summary {
+            cursor: pointer;
+            color: #3b82f6;
+            font-weight: 500;
+        }
+        .answer-details {
+            margin-top: 10px;
+            padding: 15px;
+            background: white;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p class="intro">Everything you need to know about Fitness Community Platform. Can't find the answer? <a href="./support.html">Contact our support team</a>.</p>
+        
+        <div class="faq-list">
+            
+        <div class="faq-item">
+            <h3>Q1: How much does the Fitness Community Platform cost?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> The Fitness Community Platform is free to join. Basic membership includes access to community forums, workout sharing, and progress tracking. Premium membership at $7.99/month adds exclusive challenge</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        The Fitness Community Platform is free to join. Basic membership includes access to community forums, workout sharing, and progress tracking. Premium membership at $7.99/month adds exclusive challenges, direct messaging, live workout sessions, and expert Q&A. Annual Premium is $79.99/year (save 17%). Financial assistance is available for those who qualify. | Plan | Price | Features | |------|-------|----------| | Basic | $0 | Forums, workout sharing, progress tracking | | Premium (Monthly) | $7.99/month | Challenges, DMs, live workouts, expert Q&A | | Premium (Annual) | $79.99/year | Same as monthly, save 17% | ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q2: How does the community help with fitness motivation?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> Research shows that people who exercise with others are 95% more likely to reach their goals (American Society of Training and Development). Our platform provides accountability partners, group challe</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Research shows that people who exercise with others are 95% more likely to reach their goals (American Society of Training and Development). Our platform provides accountability partners, group challenges, progress sharing, and peer support. You can join groups based on your goals, location, or fitness level to find like-minded members. - Statistic source: American Society of Training and Development (95% higher success rate with accountability) - Features: Accountability partners, group challenges, progress sharing, peer support - Groups: By goal (weight loss, muscle gain), location, fitness level, age group ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q3: Can I find a workout partner on the platform?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> Yes, our "Find a Workout Buddy" feature matches you with members based on location, fitness goals, schedule, and workout preferences. You can filter by distance (for in-person workouts) or connect vir</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, our "Find a Workout Buddy" feature matches you with members based on location, fitness goals, schedule, and workout preferences. You can filter by distance (for in-person workouts) or connect virtually. Each profile includes fitness level, goals, and availability, making it easy to find compatible partners. - Matching criteria: Location, goals, schedule, fitness level, workout type - Options: In-person (by distance) or virtual workouts - Safety: Profile verification, in-app messaging (contact info hidden until both users agree) ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q4: Are there professional trainers on the platform?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, certified personal trainers, nutritionists, and fitness coaches are active in the community. Premium members can join live Q&A sessions with experts, submit form checks for feedback, and access e</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, certified personal trainers, nutritionists, and fitness coaches are active in the community. Premium members can join live Q&A sessions with experts, submit form checks for feedback, and access expert-designed workout plans. All experts are verified through our credential review process before they can offer advice. - Expert types: Certified personal trainers, nutritionists, fitness coaches, physical therapists - Verification: Credential review required for all experts - Premium features: Live Q&A, form checks, expert workout plans ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q5: How does progress tracking work in the community?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> You can log workouts, weight, measurements, and progress photos in your profile. You choose what to share publicly and what to keep private. The community feed shows your workout completions (if you c</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        You can log workouts, weight, measurements, and progress photos in your profile. You choose what to share publicly and what to keep private. The community feed shows your workout completions (if you choose to share), and members can like and comment for motivation. You can also join challenges with specific tracking metrics. - Tracking metrics: Workouts, weight, measurements, progress photos, nutrition - Privacy: Choose per-metric what's public vs. private - Social features: Likes, comments, challenge leaderboards ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q6: Can I create or join fitness challenges?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, the platform hosts monthly community challenges (e.g., "30-Day Plank Challenge," "1000 Push-Up Challenge"). You can also create your own challenge and invite others to join. Challenges include a </p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, the platform hosts monthly community challenges (e.g., "30-Day Plank Challenge," "1000 Push-Up Challenge"). You can also create your own challenge and invite others to join. Challenges include a leaderboard, progress tracking, and community discussion. Premium members get access to challenges with prizes (fitness gear, supplement samples, coaching sessions). - Challenge types: Strength, cardio, consistency, nutrition, hybrid - Creation: Any member can create a challenge - Prizes: Premium challenges include fitness gear, coaching sessions, supplements ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q7: Is the platform suitable for beginners?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> Absolutely. Beginners are welcome and supported. We have a "Fitness Newbie" group with 50,000+ members where you can ask questions without judgment. The platform includes beginner-friendly workout pla</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Absolutely. Beginners are welcome and supported. We have a "Fitness Newbie" group with 50,000+ members where you can ask questions without judgment. The platform includes beginner-friendly workout plans, form demonstration videos, and a "Start Here" guide. Many longtime members enjoy mentoring newcomers, creating a supportive environment. - "Fitness Newbie" group: 50,000+ members - Beginner resources: Workout plans, form videos, start-here guide - Culture: Mentorship encouraged, judgment-free zone policy ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q8: How do you ensure a safe and supportive community?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> We have a zero-tolerance policy for harassment, body shaming, or discrimination. Our moderation team reviews reported content within 24 hours. We also use AI to detect toxic language before it's poste</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        We have a zero-tolerance policy for harassment, body shaming, or discrimination. Our moderation team reviews reported content within 24 hours. We also use AI to detect toxic language before it's posted. All new members must agree to our community guidelines during signup. Serious violations result in permanent bans. - Moderation: 24-hour response to reports, AI pre-filtering - Policies: Zero tolerance for harassment, body shaming, discrimination - Enforcement: Warnings, temporary bans, permanent bans for serious violations ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q9: Can I use the platform on mobile?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, the Fitness Community Platform has a mobile app for iOS and Android. The app includes all community features: forums, messaging, progress tracking, challenge participation, and workout logging. Y</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, the Fitness Community Platform has a mobile app for iOS and Android. The app includes all community features: forums, messaging, progress tracking, challenge participation, and workout logging. You can also enable push notifications to get alerted when someone comments on your post or when a challenge starts. - Mobile apps: iOS (App Store), Android (Google Play) - Features: Full feature parity with web version - Notifications: Push notifications for comments, challenges, messages ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q10: How do I cancel my Premium membership?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> You can cancel Premium anytime through your account settings. Go to Settings > Billing > Cancel Subscription. You'll retain Premium access until the end of your billing period. After that, your accoun</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        You can cancel Premium anytime through your account settings. Go to Settings > Billing > Cancel Subscription. You'll retain Premium access until the end of your billing period. After that, your account reverts to Basic (free) with access to forums and basic tracking. No cancellation fees. - Cancellation: Anytime via Settings > Billing - Access after cancel: Basic (free) features continue - Data: All your posts, progress photos, and workout history remain saved ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>

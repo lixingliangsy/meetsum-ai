@@ -196,7 +196,7 @@
         
         <div class="faq-item">
             <h3>Q4: Which devices and platforms does Fitness Challenge Tracker work on?</h3>
-            <div class="answer">
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
                 <p class="answer-summary"><strong>Answer:</strong> Fitness Challenge Tracker works on iOS, Android, and web. It integrates with Apple Health, Google Fit, Fitbit, Garmin, and Apple Watch. The web version syncs with the mobile app in real time. An Apple</p>
                 <details>
                     <summary>Read detailed explanation</summary>

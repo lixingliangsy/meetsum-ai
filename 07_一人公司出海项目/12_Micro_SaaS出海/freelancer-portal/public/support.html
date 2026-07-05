@@ -5,222 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Support - Freelancer Portal</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #f5f5f5;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        .support-options {
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
-        }
-        .support-option {
-            margin-bottom: 30px;
-            padding: 20px;
-            border-left: 4px solid #667eea;
-            background: #f8f9fa;
-        }
-        .support-option h3 {
-            color: #667eea;
-            margin-bottom: 10px;
-        }
-        .feature-status {
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
-        }
-        .feature-status h2 {
-            color: #667eea;
-            margin-bottom: 20px;
-        }
-        .feature-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        .feature-table th,
-        .feature-table td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        .feature-table th {
-            background: #667eea;
-            color: white;
-        }
-        .status-implemented {
-            color: #28a745;
-            font-weight: bold;
-        }
-        .status-coming-soon {
-            color: #ffc107;
-            font-weight: bold;
-        }
-        .status-not-planned {
-            color: #dc3545;
-            font-weight: bold;
-        }
-        .back-link {
-            text-align: center;
-            margin-top: 30px;
-        }
-        .back-link a {
-            color: #667eea;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .back-link a:hover {
-            text-decoration: underline;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 60px 20px; text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .support-options { background: white; padding: 40px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        .support-option { margin-bottom: 30px; padding: 20px; border-left: 4px solid #667eea; background: #f8f9fa; }
+        .support-option h3 { color: #667eea; margin-bottom: 10px; }
+        .faq-link { display: inline-block; margin-top: 20px; padding: 12px 24px; background: #667eea; color: white; text-decoration: none; border-radius: 5px; }
+        .feature-status { background: white; padding: 40px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #667eea; color: white; }
+        .status-implemented { color: #28a745; font-weight: bold; }
+        .status-coming-soon { color: #ffc107; font-weight: bold; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Support Center</h1>
-        <p>Get help with Freelancer Portal</p>
+        <h1>📧 Support Center</h1>
+        <p>We're here to help you succeed</p>
     </header>
 
     <div class="container">
         <div class="support-options">
-            <h2>📞 Contact Support</h2>
-            
+            <div class="support-option">
+                <h3>📚 FAQ</h3>
+                <p>Find answers to common questions about features, pricing, and technical requirements.</p>
+                <a href="./faq.html" class="faq-link">View FAQ</a>
+            </div>
+
             <div class="support-option">
                 <h3>📧 Email Support</h3>
-                <p><strong>Free users:</strong> Email support with 48-hour response time</p>
-                <p><strong>Pro users:</strong> Priority email support with 24-hour response time</p>
-                <p><strong>Enterprise users:</strong> Priority support with 4-hour response time</p>
-                <p>Contact: support@freelancer-portal.com</p>
-            </div>
-
-            <div class="support-option">
-                <h3>📚 Knowledge Base</h3>
-                <p>Visit our <a href="./faq.html">FAQ page</a> for common questions and answers.</p>
-            </div>
-
-            <div class="support-option">
-                <h3>💬 Live Chat</h3>
-                <p>Available for Pro and Enterprise users (business hours only).</p>
-                <p>Click the chat icon in the bottom-right corner of the app.</p>
+                <p><strong>Free users:</strong> General questions and bug reports</p>
+                <p><strong>Pro users:</strong> Priority support within 48 hours</p>
+                <p>Contact: support@freelancerportal.com</p>
             </div>
         </div>
 
         <div class="feature-status">
-            <h2>🚀 Feature Status</h2>
-            <p>Below is the current implementation status of features mentioned on our website:</p>
+            <h2>📋 Feature Status</h2>
+            <p>This page provides transparency about which features are currently available and which are coming soon.</p>
             
-            <table class="feature-table">
+            <h3 style="margin-top: 30px; color: #667eea;">Core Features</h3>
+            <table>
                 <thead>
                     <tr>
                         <th>Feature</th>
-                        <th>Free</th>
-                        <th>Pro</th>
-                        <th>Enterprise</th>
+                        <th>Status</th>
+                        <th>Description</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Project management</td>
-                        <td class="status-implemented">✅ Implemented</td>
-                        <td class="status-implemented">✅ Implemented</td>
-                        <td class="status-implemented">✅ Implemented</td>
+                        <td>Client Management (CRUD)</td>
+                        <td><span class="status-implemented">Implemented</span></td>
+                        <td>Create, read, update, delete client information</td>
                     </tr>
                     <tr>
-                        <td>Time tracking</td>
-                        <td class="status-implemented">✅ Implemented</td>
-                        <td class="status-implemented">✅ Implemented</td>
-                        <td class="status-implemented">✅ Implemented</td>
+                        <td>Invoice Generation</td>
+                        <td><span class="status-implemented">Implemented</span></td>
+                        <td>Generate invoices with itemized billing</td>
                     </tr>
                     <tr>
-                        <td>Invoice generation</td>
-                        <td class="status-implemented">✅ Implemented</td>
-                        <td class="status-implemented">✅ Implemented</td>
-                        <td class="status-implemented">✅ Implemented</td>
+                        <td>Invoice PDF Export</td>
+                        <td><span class="status-coming-soon">Coming Soon</span></td>
+                        <td>Export invoices as PDF files</td>
                     </tr>
                     <tr>
-                        <td>Client management</td>
-                        <td class="status-implemented">✅ Implemented</td>
-                        <td class="status-implemented">✅ Implemented</td>
-                        <td class="status-implemented">✅ Implemented</td>
+                        <td>Portfolio Templates</td>
+                        <td><span class="status-implemented">Implemented</span></td>
+                        <td>Customizable project showcase pages</td>
                     </tr>
                     <tr>
-                        <td>Email support (48h)</td>
-                        <td class="status-implemented">✅ Implemented</td>
-                        <td class="status-implemented">✅ Implemented</td>
-                        <td class="status-implemented">✅ Implemented</td>
+                        <td>Time Tracking</td>
+                        <td><span class="status-implemented">Implemented</span></td>
+                        <td>Track time spent on projects</td>
                     </tr>
                     <tr>
-                        <td>Priority email support (24h)</td>
-                        <td class="status-not-planned">—</td>
-                        <td class="status-implemented">✅ Implemented</td>
-                        <td class="status-implemented">✅ Implemented</td>
-                    </tr>
-                    <tr>
-                        <td>Phone support</td>
-                        <td class="status-not-planned">—</td>
-                        <td class="status-not-planned">—</td>
-                        <td class="status-coming-soon">🔜 Coming Soon</td>
-                    </tr>
-                    <tr>
-                        <td>API access</td>
-                        <td class="status-not-planned">—</td>
-                        <td class="status-not-planned">—</td>
-                        <td class="status-coming-soon">🔜 Coming Soon</td>
-                    </tr>
-                    <tr>
-                        <td>Custom branding</td>
-                        <td class="status-not-planned">—</td>
-                        <td class="status-not-planned">—</td>
-                        <td class="status-coming-soon">🔜 Coming Soon</td>
-                    </tr>
-                    <tr>
-                        <td>Team collaboration</td>
-                        <td class="status-not-planned">—</td>
-                        <td class="status-coming-soon">🔜 Coming Soon</td>
-                        <td class="status-coming-soon">🔜 Coming Soon</td>
+                        <td>Project Management</td>
+                        <td><span class="status-implemented">Implemented</span></td>
+                        <td>Manage projects and deadlines</td>
                     </tr>
                 </tbody>
             </table>
 
-            <p><strong>Legend:</strong></p>
-            <ul>
-                <li><span class="status-implemented">✅ Implemented</span> - Feature is available now</li>
-                <li><span class="status-coming-soon">🔜 Coming Soon</span> - Feature is in development, ETA 1-2 months</li>
-                <li><span class="status-not-planned">—</span> - Not available in this plan</li>
-            </ul>
-
-            <p><strong>Note:</strong> Feature availability may vary. Please check the latest documentation or contact support for confirmation.</p>
-        </div>
-
-        <div class="back-link">
-            <a href="./index.html">← Back to Home</a> | <a href="./faq.html">View FAQ</a> | <a href="./pricing.html">View Pricing</a>
+            <p style="margin-top: 20px; padding: 15px; background: #d4edda; border-left: 4px solid #28a745; border-radius: 5px;">
+                <strong>✅ Updated:</strong> We have implemented client management CRUD, invoice generation, and portfolio templates. These features are now available for use.
+            </p>
         </div>
     </div>
+
+    <footer>
+        <p>&copy; 2026 Freelancer Portal. All rights reserved.</p>
+        <p><a href="./index.html">← Back to Home</a></p>
+    </footer>
 </body>
 </html>

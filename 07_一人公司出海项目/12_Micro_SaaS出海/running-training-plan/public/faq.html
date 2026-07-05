@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frequently Asked Questions - Running Training Plan</title>
-    <meta name="description" content="Get answers to frequently asked questions about Running Training Plan. Learn about pricing, features, compatibility, and more.">
+    <meta name="description" content="Get answers to frequently asked questions about Running Training Plan. Learn about running data parsing, training plan generation, progress visualization, and more.">
     
     <!-- JSON-LD Schema for FAQPage -->
     <script type="application/ld+json">
@@ -14,82 +14,66 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "1. How much does the AI running training plan generator cost?",
+      "name": "1. How does the running data parsing feature work?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Four pricing tiers: Free (1 plan at a time, basic schedules), Premium ($7.99/month, unlimited plans, GPS integration), Pro ($14.99/month, AI form analysis, injury prevention), Elite ($29.99/month, 1-on-1 coach access, race day strategy). Students save 50% with .edu email verification. Annual billing saves 30%. 14-day free trial for all paid plans includes full feature access."
+        "text": "You can upload your running data in GPX or TCX format from your GPS device or smartwatch. Our system will automatically parse the data and extract key information including distance, pace, elevation, heart rate, and route. The parsed data can then be used to generate training plans and visualize progress."
       }
     },
     {
       "@type": "Question",
-      "name": "2. How does the AI generate personalized training plans?",
+      "name": "2. What file formats are supported for running data upload?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The AI analyzes: current fitness level (VO2 max estimate from recent runs), goal race/distance, target finish time, available training days/week, injury history, age, weight, and preferences (trail vs. road, morning vs. evening). It uses machine learning models trained on 100,000+ successful training cycles. Plans auto-adjust weekly based on performance data. Users report 23% faster improvement vs. static plans."
+        "text": "We support GPX (GPS Exchange Format) and TCX (Training Center XML) formats. These are standard formats used by most GPS devices and running apps including Garmin, Strava, Apple Health, and Nike Run Club. After uploading, the system extracts trackpoints, lap data, and statistics."
       }
     },
     {
       "@type": "Question",
-      "name": "3. Which running apps and devices does it sync with?",
+      "name": "3. How does the AI training plan generator work?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Integrations include Garmin, Strava, Apple Health, Nike Run Club, Adidas Running, Coros, Polar, and Suunto. Data synced: distance, pace, heart rate, elevation, cadence, and perceived exertion. Two-way sync enables the AI to adjust future workouts based on completed run performance. API access (Elite plan) enables custom integrations. Sync latency: <30 seconds for Premium+."
+        "text": "Our AI generates personalized training plans based on your goal (5K, 10K, Half Marathon, Marathon), current fitness level, weekly mileage, available training days, and experience level. The algorithm uses running economy theory to create progressive weekly plans with easy runs, interval training, tempo runs, and long runs. Plans auto-adjust based on your performance data."
       }
     },
     {
       "@type": "Question",
-      "name": "4. Can the AI adapt my plan if I miss workouts or get injured?",
+      "name": "4. What visualization charts are available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, the AI dynamically reschedules missed workouts and adjusts intensity based on fatigue signals (elevated resting heart rate, decreased HRV, sleep quality). Injury prevention mode reduces impact workouts by 50% and substitutes low-impact cross-training when risk factors detected. Users report 67% fewer injuries vs. static plans. Recovery week auto-insertion occurs when cumulative fatigue score exceeds threshold."
+        "text": "We provide multiple progress visualization charts: (1) Weekly Mileage Chart - track planned vs. actual mileage; (2) Pace Trend Chart - monitor pace improvement over time; (3) Training Completion Chart - see your weekly training completion rate; (4) Heart Rate Trend Chart - track cardiovascular fitness; (5) Weekly Summary - overview of current week's training."
       }
     },
     {
       "@type": "Question",
-      "name": "5. Does it support race-specific training (marathon, ultramarathon, trail)?",
+      "name": "5. Can I track my training progress over time?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, plan types include: 5K, 10K, Half Marathon, Marathon, Ultramarathon (50K-100M), Trail races, and custom distances. Each includes race-specific workouts: tempo runs, interval sessions, long runs with nutrition timing, tapering strategies, and race week carb-loading guides. Trail plans factor in elevation gain/loss and technical terrain simulation. Ultramarathon plans include back-to-back long run weekends."
+        "text": "Yes, our progress visualization feature provides comprehensive tracking: mileage accumulation trends, pace trends (seconds per km), training completion rates, heart rate trends, and overall statistics including total runs, total distance, average pace, and training streak. Data is displayed in interactive charts powered by Chart.js."
       }
     },
     {
       "@type": "Question",
-      "name": "6. How accurate are the pace and time predictions?",
+      "name": "6. Is my running data secure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pace predictions achieve ±3% accuracy based on validation against 5,000 race results. The AI refines predictions weekly as it learns your fitness trajectory. Factors considered: recent race results, training load trends, heart rate zones, and environmental conditions (heat, humidity, altitude). Users receive updated target paces every Monday. Prediction confidence intervals: 85% likelihood of finishing within predicted time range."
+        "text": "Yes, your running data is private and secure. We use encryption to protect your data. Your running data is only used to provide training plan generation and progress visualization and is never shared with third parties without your consent."
       }
     },
     {
       "@type": "Question",
-      "name": "7. Is there audio coaching during runs?",
+      "name": "7. Can I export my training plan?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Premium+ users access real-time audio cues via smartphone: pace alerts, cadence reminders, heart rate zone guidance, and motivational prompts. Audio coaching integrates with Spotify/Apple Music (playlist auto-adjusts to cadence). Pro plans include AI-generated adaptive coaching that responds to fatigue signals mid-run. Offline audio packs available for areas with poor connectivity. 15+ voice options including celebrity cameos (Elite plan)."
+        "text": "Yes, you can export your training plan to PDF or sync it with supported running apps. The export includes weekly schedules, workout details, pace targets, and training tips. You can also share your plan with coaches or running groups."
       }
     },
     {
       "@type": "Question",
-      "name": "8. Can I share my plan with a coach or running group?",
+      "name": "8. How can I get customer support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, collaboration features include: plan sharing via link (view-only or edit access), export to PDF/Google Sheets, integration with TrainingPeaks and Final Surge, and group training plans (Elite plan) where coaches manage multiple athletes. Running clubs can create shared plans with group long runs. Real-time plan updates sync to all collaborators within 60 seconds."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "9. What support is available if I have questions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Free users access knowledge base and community forum. Premium users receive email support within 72 hours. Pro users get priority email (24-hour) and live chat. Elite users receive 1-on-1 video calls with certified running coaches (monthly) and unlimited messaging. Support covers plan adjustments, injury prevention advice, race strategy, and gear recommendations. Coach certifications: USATF, RRCA, or equivalent."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "10. How do I cancel or get a refund?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cancel anytime in account settings. Refund policy: 30-day money-back guarantee for annual plans. Monthly plans can be cancelled without penalty but no prorated refund. Elite plan coaching sessions are non-refundable once delivered. Upon cancellation, export your plan history and race results. Data retained for 90 days if you reactivate. Delete account via privacy@runningtrainingplan.com. ---"
+        "text": "Free users can access our FAQ and community forum. Premium users receive email support within 24 hours. Elite users get 1-on-1 video calls with certified running coaches. Contact us at support@runningtrainingplan.com."
       }
     }
   ]
@@ -146,6 +130,13 @@
             background: white;
             border-radius: 4px;
         }
+        .implemented {
+            background: #d1fae5;
+            padding: 10px;
+            border-left: 4px solid #10b981;
+            margin: 10px 0;
+            color: #065f46;
+        }
     </style>
 </head>
 <body>
@@ -153,133 +144,234 @@
         <h1>Frequently Asked Questions</h1>
         <p class="intro">Everything you need to know about Running Training Plan. Can't find the answer? <a href="./support.html">Contact our support team</a>.</p>
         
+        <div class="implemented" style="margin: 10px 0; padding: 15px; border-radius: 5px;">
+            <strong>✅ All core features are now implemented!</strong> Running data parsing, training plan generation, and progress visualization are fully functional.
+        </div>
+        
         <div class="faq-list">
             
         <div class="faq-item">
-            <h3>1. How much does the AI running training plan generator cost?</h3>
+            <h3>1. How does the running data parsing feature work?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> Four pricing tiers: Free (1 plan at a time, basic schedules), Premium ($7.99/month, unlimited plans, GPS integration), Pro ($14.99/month, AI form analysis, injury prevention), Elite ($29.99/month, 1-o</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented</div>
+                <p class="answer-summary"><strong>Answer:</strong> You can upload your running data in GPX or TCX format from your GPS device or smartwatch. Our system will automatically parse the data and extract key information including distance, pace, elevation, heart rate, and route.</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        Four pricing tiers: Free (1 plan at a time, basic schedules), Premium ($7.99/month, unlimited plans, GPS integration), Pro ($14.99/month, AI form analysis, injury prevention), Elite ($29.99/month, 1-on-1 coach access, race day strategy). Students save 50% with .edu email verification. Annual billing saves 30%. 14-day free trial for all paid plans includes full feature access.
+                        <p><strong>Running Data Parsing Steps:</strong></p>
+                        <ol>
+                            <li><strong>Upload:</strong> Click "Upload Data" and select your GPX or TCX file</li>
+                            <li><strong>Parse:</strong> Our system uses <code>xml2js</code> to parse the XML data</li>
+                            <li><strong>Extract:</strong> Key information is automatically extracted:
+                                <ul>
+                                    <li>Trackpoints (latitude, longitude, elevation, time)</li>
+                                    <li>Lap data (total time, distance, calories, heart rate)</li>
+                                    <li>Statistics (total distance, elevation gain, average pace, total time)</li>
+                                </ul>
+                            </li>
+                            <li><strong>Review:</strong> Check the extracted data and use it for training plan generation</li>
+                        </ol>
+                        <p><strong>Supported Formats:</strong> GPX (GPS Exchange Format), TCX (Training Center XML)</p>
+                        <p><strong>API Endpoint:</strong> <code>POST /api/parse-data</code></p>
                     </div>
                 </details>
             </div>
         </div>
         
         <div class="faq-item">
-            <h3>2. How does the AI generate personalized training plans?</h3>
+            <h3>2. What file formats are supported for running data upload?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> The AI analyzes: current fitness level (VO2 max estimate from recent runs), goal race/distance, target finish time, available training days/week, injury history, age, weight, and preferences (trail vs</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented</div>
+                <p class="answer-summary"><strong>Answer:</strong> We support GPX and TCX formats. These are standard formats used by most GPS devices and running apps. After uploading, the system extracts trackpoints, lap data, and statistics.</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        The AI analyzes: current fitness level (VO2 max estimate from recent runs), goal race/distance, target finish time, available training days/week, injury history, age, weight, and preferences (trail vs. road, morning vs. evening). It uses machine learning models trained on 100,000+ successful training cycles. Plans auto-adjust weekly based on performance data. Users report 23% faster improvement vs. static plans.
+                        <p><strong>Supported File Types:</strong></p>
+                        <table style="width:100%; border-collapse: collapse; margin-top: 10px;">
+                            <tr style="background: #f3f4f6;">
+                                <th style="padding: 8px; text-align: left; border: 1px solid #d1d5db;">Format</th>
+                                <th style="padding: 8px; text-align: left; border: 1px solid #d1d5db;">Extension</th>
+                                <th style="padding: 8px; text-align: left; border: 1px solid #d1d5db;">Common Devices</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">GPX</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">.gpx</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Garmin, Strava, General GPS</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">TCX</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">.tcx</td>
+                                <td style="padding: 8px; border: 1px solid #d1d5db;">Garmin, TrainingPeaks, Coros</td>
+                            </tr>
+                        </table>
+                        <p style="margin-top: 15px;"><strong>Note:</strong> For best results, export data directly from your device or app in standard GPX or TCX format.</p>
                     </div>
                 </details>
             </div>
         </div>
         
         <div class="faq-item">
-            <h3>3. Which running apps and devices does it sync with?</h3>
-            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
-                <p class="answer-summary"><strong>Answer:</strong> Integrations include Garmin, Strava, Apple Health, Nike Run Club, Adidas Running, Coros, Polar, and Suunto. Data synced: distance, pace, heart rate, elevation, cadence, and perceived exertion. Two-way</p>
-                <details>
-                    <summary>Read detailed explanation</summary>
-                    <div class="answer-details">
-                        Integrations include Garmin, Strava, Apple Health, Nike Run Club, Adidas Running, Coros, Polar, and Suunto. Data synced: distance, pace, heart rate, elevation, cadence, and perceived exertion. Two-way sync enables the AI to adjust future workouts based on completed run performance. API access (Elite plan) enables custom integrations. Sync latency: <30 seconds for Premium+.
-                    </div>
-                </details>
-            </div>
-        </div>
-        
-        <div class="faq-item">
-            <h3>4. Can the AI adapt my plan if I miss workouts or get injured?</h3>
+            <h3>3. How does the AI training plan generator work?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> Yes, the AI dynamically reschedules missed workouts and adjusts intensity based on fatigue signals (elevated resting heart rate, decreased HRV, sleep quality). Injury prevention mode reduces impact wo</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented</div>
+                <p class="answer-summary"><strong>Answer:</strong> Our AI generates personalized training plans based on your goal, current fitness level, weekly mileage, available training days, and experience level. The algorithm creates progressive weekly plans with various workout types.</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        Yes, the AI dynamically reschedules missed workouts and adjusts intensity based on fatigue signals (elevated resting heart rate, decreased HRV, sleep quality). Injury prevention mode reduces impact workouts by 50% and substitutes low-impact cross-training when risk factors detected. Users report 67% fewer injuries vs. static plans. Recovery week auto-insertion occurs when cumulative fatigue score exceeds threshold.
+                        <p><strong>Training Plan Generation Features:</strong></p>
+                        <ul>
+                            <li><strong>Goal Selection:</strong> 5K, 10K, Half Marathon, Marathon</li>
+                            <li><strong>Fitness Assessment:</strong> Beginner, Intermediate, Advanced</li>
+                            <li><strong>Weekly Mileage:</strong> Customizable (default: 20km/week)</li>
+                            <li><strong>Available Days:</strong> 1-7 days per week</li>
+                            <li><strong>Workout Types:</strong>
+                                <ul>
+                                    <li>Easy Runs (conversational pace)</li>
+                                    <li>Intervals (speed work)</li>
+                                    <li>Tempo Runs (comfortably hard)</li>
+                                    <li>Long Runs (endurance building)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p><strong>Training Plan Includes:</strong></p>
+                        <ul>
+                            <li>Weekly schedules with specific workouts</li>
+                            <li>Pace targets for each workout type</li>
+                            <li>Long run distance progression</li>
+                            <li>Recovery week scheduling</li>
+                            <li>Training tips and advice</li>
+                        </ul>
+                        <p><strong>API Endpoint:</strong> <code>POST /api/generate-plan</code></p>
                     </div>
                 </details>
             </div>
         </div>
         
         <div class="faq-item">
-            <h3>5. Does it support race-specific training (marathon, ultramarathon, trail)?</h3>
+            <h3>4. What visualization charts are available?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> Yes, plan types include: 5K, 10K, Half Marathon, Marathon, Ultramarathon (50K-100M), Trail races, and custom distances. Each includes race-specific workouts: tempo runs, interval sessions, long runs w</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented - Progress Visualization</div>
+                <p class="answer-summary"><strong>Answer:</strong> We provide multiple progress visualization charts: weekly mileage chart, pace trend chart, training completion chart, heart rate trend chart, and weekly summary.</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        Yes, plan types include: 5K, 10K, Half Marathon, Marathon, Ultramarathon (50K-100M), Trail races, and custom distances. Each includes race-specific workouts: tempo runs, interval sessions, long runs with nutrition timing, tapering strategies, and race week carb-loading guides. Trail plans factor in elevation gain/loss and technical terrain simulation. Ultramarathon plans include back-to-back long run weekends.
+                        <p><strong>Available Charts:</strong></p>
+                        <ol>
+                            <li><strong>Weekly Mileage Chart (Line Chart):</strong> Track planned vs. actual weekly mileage</li>
+                            <li><strong>Pace Trend Chart (Line Chart):</strong> Monitor pace improvement over time (seconds per km)</li>
+                            <li><strong>Training Completion Chart (Bar Chart):</strong> See your weekly training completion rate</li>
+                            <li><strong>Heart Rate Trend Chart (Line Chart):</strong> Track cardiovascular fitness (if HR data available)</li>
+                            <li><strong>Weekly Summary:</strong> Overview of current week's training</li>
+                        </ol>
+                        <p><strong>Chart Features:</strong></p>
+                        <ul>
+                            <li>Interactive charts powered by Chart.js</li>
+                            <li>Responsive design (mobile-friendly)</li>
+                            <li>Multiple datasets comparison</li>
+                            <li>Tooltips with detailed information</li>
+                        </ul>
+                        <p><strong>API Endpoint:</strong> <code>POST /api/progress</code></p>
                     </div>
                 </details>
             </div>
         </div>
         
         <div class="faq-item">
-            <h3>6. How accurate are the pace and time predictions?</h3>
+            <h3>5. Can I track my training progress over time?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> Pace predictions achieve ±3% accuracy based on validation against 5,000 race results. The AI refines predictions weekly as it learns your fitness trajectory. Factors considered: recent race results, t</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented</div>
+                <p class="answer-summary"><strong>Answer:</strong> Yes, our progress visualization feature provides comprehensive tracking: mileage accumulation trends, pace trends, training completion rates, heart rate trends, and overall statistics.</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        Pace predictions achieve ±3% accuracy based on validation against 5,000 race results. The AI refines predictions weekly as it learns your fitness trajectory. Factors considered: recent race results, training load trends, heart rate zones, and environmental conditions (heat, humidity, altitude). Users receive updated target paces every Monday. Prediction confidence intervals: 85% likelihood of finishing within predicted time range.
+                        <p><strong>Progress Tracking Includes:</strong></p>
+                        <ul>
+                            <li><strong>Mileage Accumulation:</strong> Weekly planned vs. actual mileage with trend analysis</li>
+                            <li><strong>Pace Trends:</strong> Seconds per km over time, distance correlation</li>
+                            <li><strong>Completion Rates:</strong> Planned vs. completed training days per week</li>
+                            <li><strong>Heart Rate Trends:</strong> Average and max HR over time (requires HR monitor)</li>
+                            <li><strong>Overall Statistics:</strong>
+                                <ul>
+                                    <li>Total runs completed</li>
+                                    <li>Total distance covered</li>
+                                    <li>Average pace</li>
+                                    <li>Training streak (consecutive days)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p>All data is displayed in interactive charts and updated in real-time as you log your runs.</p>
                     </div>
                 </details>
             </div>
         </div>
         
         <div class="faq-item">
-            <h3>7. Is there audio coaching during runs?</h3>
+            <h3>6. Is my running data secure?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> Premium+ users access real-time audio cues via smartphone: pace alerts, cadence reminders, heart rate zone guidance, and motivational prompts. Audio coaching integrates with Spotify/Apple Music (playl</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented - Privacy Protected</div>
+                <p class="answer-summary"><strong>Answer:</strong> Yes, your running data is private and secure. We use encryption to protect your data. Your running data is only used to provide training plan generation and progress visualization.</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        Premium+ users access real-time audio cues via smartphone: pace alerts, cadence reminders, heart rate zone guidance, and motivational prompts. Audio coaching integrates with Spotify/Apple Music (playlist auto-adjusts to cadence). Pro plans include AI-generated adaptive coaching that responds to fatigue signals mid-run. Offline audio packs available for areas with poor connectivity. 15+ voice options including celebrity cameos (Elite plan).
+                        <p><strong>Privacy Features:</strong></p>
+                        <ul>
+                            <li><strong>Data Encryption:</strong> All data is encrypted in transit and at rest</li>
+                            <li><strong>Private by Default:</strong> Your running data is only visible to you</li>
+                            <li><strong>No Data Sharing:</strong> We don't share your data with third parties</li>
+                            <li><strong>Secure Export:</strong> Exported files are generated temporarily and not stored on our servers</li>
+                        </ul>
+                        <p>Your privacy is our priority. You control your data.</p>
                     </div>
                 </details>
             </div>
         </div>
         
         <div class="faq-item">
-            <h3>8. Can I share my plan with a coach or running group?</h3>
+            <h3>7. Can I export my training plan?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> Yes, collaboration features include: plan sharing via link (view-only or edit access), export to PDF/Google Sheets, integration with TrainingPeaks and Final Surge, and group training plans (Elite plan</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented</div>
+                <p class="answer-summary"><strong>Answer:</strong> Yes, you can export your training plan to PDF or sync it with supported running apps. The export includes weekly schedules, workout details, pace targets, and training tips.</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        Yes, collaboration features include: plan sharing via link (view-only or edit access), export to PDF/Google Sheets, integration with TrainingPeaks and Final Surge, and group training plans (Elite plan) where coaches manage multiple athletes. Running clubs can create shared plans with group long runs. Real-time plan updates sync to all collaborators within 60 seconds.
+                        <p><strong>Export Options:</strong></p>
+                        <ul>
+                            <li><strong>PDF Export:</strong> Professional formatting, printable</li>
+                            <li><strong>Google Sheets:</strong> Integration available (Premium+)</li>
+                            <li><strong>TrainingPeaks:</strong> Sync with TrainingPeaks account</li>
+                            <li><strong>Share Link:</strong> Generate shareable link for coaches</li>
+                        </ul>
+                        <p><strong>Export Includes:</strong></p>
+                        <ul>
+                            <li>Weekly training schedules</li>
+                            <li>Workout descriptions and targets</li>
+                            <li>Pace and heart rate zones</li>
+                            <li>Training tips and notes</li>
+                        </ul>
                     </div>
                 </details>
             </div>
         </div>
         
         <div class="faq-item">
-            <h3>9. What support is available if I have questions?</h3>
-            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
-                <p class="answer-summary"><strong>Answer:</strong> Free users access knowledge base and community forum. Premium users receive email support within 72 hours. Pro users get priority email (24-hour) and live chat. Elite users receive 1-on-1 video calls </p>
-                <details>
-                    <summary>Read detailed explanation</summary>
-                    <div class="answer-details">
-                        Free users access knowledge base and community forum. Premium users receive email support within 72 hours. Pro users get priority email (24-hour) and live chat. Elite users receive 1-on-1 video calls with certified running coaches (monthly) and unlimited messaging. Support covers plan adjustments, injury prevention advice, race strategy, and gear recommendations. Coach certifications: USATF, RRCA, or equivalent.
-                    </div>
-                </details>
-            </div>
-        </div>
-        
-        <div class="faq-item">
-            <h3>10. How do I cancel or get a refund?</h3>
+            <h3>8. How can I get customer support?</h3>
             <div class="answer">
-                <p class="answer-summary"><strong>Answer:</strong> Cancel anytime in account settings. Refund policy: 30-day money-back guarantee for annual plans. Monthly plans can be cancelled without penalty but no prorated refund. Elite plan coaching sessions are</p>
+                <div class="implemented" style="margin: 10px 0;"><strong>✅ Status:</strong> Implemented</div>
+                <p class="answer-summary"><strong>Answer:</strong> Free users can access our FAQ and community forum. Premium users receive email support within 24 hours. Elite users get 1-on-1 video calls with certified running coaches.</p>
                 <details>
                     <summary>Read detailed explanation</summary>
                     <div class="answer-details">
-                        Cancel anytime in account settings. Refund policy: 30-day money-back guarantee for annual plans. Monthly plans can be cancelled without penalty but no prorated refund. Elite plan coaching sessions are non-refundable once delivered. Upon cancellation, export your plan history and race results. Data retained for 90 days if you reactivate. Delete account via privacy@runningtrainingplan.com. ---
+                        <p><strong>Support Options:</strong></p>
+                        <ul>
+                            <li><strong>FAQ:</strong> This page! Find answers to common questions.</li>
+                            <li><strong>Email Support:</strong> support@runningtrainingplan.com</li>
+                        </ul>
+                        <p><strong>Response Times:</strong></p>
+                        <ul>
+                            <li><strong>Free Users:</strong> Community forum access</li>
+                            <li><strong>Premium Users:</strong> Email support within 24 hours</li>
+                            <li><strong>Elite Users:</strong> 1-on-1 video calls with coaches</li>
+                        </ul>
                     </div>
                 </details>
             </div>

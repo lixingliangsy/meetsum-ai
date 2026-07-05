@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - Screenshot Annotator</title>
+    <meta name="description" content="Get answers to frequently asked questions about Screenshot Annotator. Learn about pricing, features, compatibility, and more.">
+    
+    <!-- JSON-LD Schema for FAQPage -->
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Q1: How much does Screenshot Annotator cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Screenshot Annotator offers a free forever plan with basic annotation tools, a Pro plan at $9/month for advanced features like cloud sync and team collaboration, and an Enterprise plan at $29/user/month with SSO and admin controls. All paid plans include a 14-day free trial with no credit card required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q2: What annotation tools are included in Screenshot Annotator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Screenshot Annotator includes 25+ annotation tools: arrows, rectangles, circles, text labels, blur/pixelate for sensitive data, step numbers, callouts, freehand drawing, highlighter, and emoji stamps. Pro users get premium tools like AI-powered auto-blur, smart cropping, and branded templates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q3: How do I capture and annotate a screenshot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Press the hotkey (default: Ctrl+Shift+A) to capture any screen area, then use the floating toolbar to add arrows, text, shapes, or blur sensitive info. Annotations save automatically to your library. You can also drag-and-drop existing images directly into the editor—no registration required for basic use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q4: Which operating systems and browsers does Screenshot Annotator support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Screenshot Annotator runs natively on Windows 10/11, macOS 12+, and Linux (Ubuntu/Debian). A Chrome/Edge browser extension is available for web-based capturing. Mobile apps for iOS and Android are in beta, with full releases planned for Q3 2026."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q5: Is my screenshot data secure and private?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Yes. Screenshot Annotator uses AES-256 encryption for all stored images, SOC 2 Type II compliance, and zero-knowledge architecture for Enterprise plans. Free and Pro users' data is stored in US/EU data centers with optional auto-delete after 30 days. We never train AI models on your screenshots."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q6: What export formats does Screenshot Annotator support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Export annotated screenshots as PNG, JPG, PDF, SVG, or direct-to-clipboard. Pro users can export as MP4 (for annotated walkthrough videos) and HTML (preserving clickable annotations). Batch export up to 50 screenshots at once. Cloud links expire after your chosen duration (1 day to 1 year)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q7: Does Screenshot Annotator integrate with other tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Yes. Native integrations include Slack, Jira, Trello, Asana, GitHub, Figma, and Notion. Pro plans include Zapier and Make.com connectivity for 5,000+ additional apps. Enterprise plans get custom API access with webhooks and SCIM provisioning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q8: How accurate is the auto-blur feature for hiding sensitive data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** The AI auto-blur feature achieves 98.7% accuracy in detecting sensitive data (API keys, emails, passwords, credit cards) across 50,000+ test screenshots. It uses on-device ML models—data never leaves your machine. You can review and adjust detections before saving."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q9: What customer support options are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Free users get community forum access and knowledge base. Pro users get email support with 24-hour response time. Enterprise plans include priority support (4-hour response), dedicated Slack channel, and quarterly success reviews. All users get onboarding checklists and video tutorials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q10: How do I cancel my Screenshot Annotator subscription?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Go to Account Settings > Billing > Cancel Subscription. You can cancel anytime—no penalties or exit fees. Your account converts to Free plan immediately, retaining access to paid features until period end. Data remains accessible for 90 days post-cancellation for export. ---"
+      }
+    }
+  ]
+}
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #111827;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 10px;
+        }
+        .faq-item {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f3f4f6;
+            border-radius: 8px;
+        }
+        .faq-item h3 {
+            color: #1f2937;
+            margin-top: 0;
+        }
+        .answer-summary {
+            font-size: 1.1em;
+            color: #374151;
+            margin-bottom: 10px;
+        }
+        details {
+            margin-top: 10px;
+        }
+        summary {
+            cursor: pointer;
+            color: #3b82f6;
+            font-weight: 500;
+        }
+        .answer-details {
+            margin-top: 10px;
+            padding: 15px;
+            background: white;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p class="intro">Everything you need to know about Screenshot Annotator. Can't find the answer? <a href="./support.html">Contact our support team</a>.</p>
+        
+        <div class="faq-list">
+            
+        <div class="faq-item">
+            <h3>Q1: How much does Screenshot Annotator cost?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** Screenshot Annotator offers a free forever plan with basic annotation tools, a Pro plan at $9/month for advanced features like cloud sync and team collaboration, and an Enterprise plan at $29/user/</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Screenshot Annotator offers a free forever plan with basic annotation tools, a Pro plan at $9/month for advanced features like cloud sync and team collaboration, and an Enterprise plan at $29/user/month with SSO and admin controls. All paid plans include a 14-day free trial with no credit card required.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q2: What annotation tools are included in Screenshot Annotator?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> ** Screenshot Annotator includes 25+ annotation tools: arrows, rectangles, circles, text labels, blur/pixelate for sensitive data, step numbers, callouts, freehand drawing, highlighter, and emoji stam</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Screenshot Annotator includes 25+ annotation tools: arrows, rectangles, circles, text labels, blur/pixelate for sensitive data, step numbers, callouts, freehand drawing, highlighter, and emoji stamps. Pro users get premium tools like AI-powered auto-blur, smart cropping, and branded templates.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q3: How do I capture and annotate a screenshot?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** Press the hotkey (default: Ctrl+Shift+A) to capture any screen area, then use the floating toolbar to add arrows, text, shapes, or blur sensitive info. Annotations save automatically to your librar</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Press the hotkey (default: Ctrl+Shift+A) to capture any screen area, then use the floating toolbar to add arrows, text, shapes, or blur sensitive info. Annotations save automatically to your library. You can also drag-and-drop existing images directly into the editor—no registration required for basic use.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q4: Which operating systems and browsers does Screenshot Annotator support?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** Screenshot Annotator runs natively on Windows 10/11, macOS 12+, and Linux (Ubuntu/Debian). A Chrome/Edge browser extension is available for web-based capturing. Mobile apps for iOS and Android are </p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Screenshot Annotator runs natively on Windows 10/11, macOS 12+, and Linux (Ubuntu/Debian). A Chrome/Edge browser extension is available for web-based capturing. Mobile apps for iOS and Android are in beta, with full releases planned for Q3 2026.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q5: Is my screenshot data secure and private?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** Yes. Screenshot Annotator uses AES-256 encryption for all stored images, SOC 2 Type II compliance, and zero-knowledge architecture for Enterprise plans. Free and Pro users' data is stored in US/EU </p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Yes. Screenshot Annotator uses AES-256 encryption for all stored images, SOC 2 Type II compliance, and zero-knowledge architecture for Enterprise plans. Free and Pro users' data is stored in US/EU data centers with optional auto-delete after 30 days. We never train AI models on your screenshots.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q6: What export formats does Screenshot Annotator support?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** Export annotated screenshots as PNG, JPG, PDF, SVG, or direct-to-clipboard. Pro users can export as MP4 (for annotated walkthrough videos) and HTML (preserving clickable annotations). Batch export </p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Export annotated screenshots as PNG, JPG, PDF, SVG, or direct-to-clipboard. Pro users can export as MP4 (for annotated walkthrough videos) and HTML (preserving clickable annotations). Batch export up to 50 screenshots at once. Cloud links expire after your chosen duration (1 day to 1 year).
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q7: Does Screenshot Annotator integrate with other tools?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> ** Yes. Native integrations include Slack, Jira, Trello, Asana, GitHub, Figma, and Notion. Pro plans include Zapier and Make.com connectivity for 5,000+ additional apps. Enterprise plans get custom AP</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Yes. Native integrations include Slack, Jira, Trello, Asana, GitHub, Figma, and Notion. Pro plans include Zapier and Make.com connectivity for 5,000+ additional apps. Enterprise plans get custom API access with webhooks and SCIM provisioning.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q8: How accurate is the auto-blur feature for hiding sensitive data?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** The AI auto-blur feature achieves 98.7% accuracy in detecting sensitive data (API keys, emails, passwords, credit cards) across 50,000+ test screenshots. It uses on-device ML models—data never leav</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** The AI auto-blur feature achieves 98.7% accuracy in detecting sensitive data (API keys, emails, passwords, credit cards) across 50,000+ test screenshots. It uses on-device ML models—data never leaves your machine. You can review and adjust detections before saving.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q9: What customer support options are available?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> ** Free users get community forum access and knowledge base. Pro users get email support with 24-hour response time. Enterprise plans include priority support (4-hour response), dedicated Slack channe</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Free users get community forum access and knowledge base. Pro users get email support with 24-hour response time. Enterprise plans include priority support (4-hour response), dedicated Slack channel, and quarterly success reviews. All users get onboarding checklists and video tutorials.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q10: How do I cancel my Screenshot Annotator subscription?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** Go to Account Settings > Billing > Cancel Subscription. You can cancel anytime—no penalties or exit fees. Your account converts to Free plan immediately, retaining access to paid features until per</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Go to Account Settings > Billing > Cancel Subscription. You can cancel anytime—no penalties or exit fees. Your account converts to Free plan immediately, retaining access to paid features until period end. Data remains accessible for 90 days post-cancellation for export. ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>

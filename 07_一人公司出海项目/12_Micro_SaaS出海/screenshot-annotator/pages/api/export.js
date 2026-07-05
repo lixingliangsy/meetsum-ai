@@ -1,52 +1,39 @@
-
-// pages/api/export.js
-// 数据导出API - screenshot-annotator
-
 export default async function handler(req, res) {
-  if (req.method !== 'GET') {
-    return res.status(405).json({ error: 'Method not allowed' });
-  }
-
-  try {
-    // TODO: 添加认证
-    // const session = await getSession({ req });
-    // if (!session) {
-    //   return res.status(401).json({ error: 'Unauthorized' });
-    // }
-
-    // 模拟：获取用户数据
-    const userData = await fetchUserData();
+  res.setHeader('Content-Type', 'application/json; charset=utf-8');
+  if (req.method === 'GET') {
+    const { imageId, format = 'png' } = req.query;
     
-    const format = req.query.format || 'json';
-    
-    if (format === 'json') {
-      res.setHeader('Content-Type', 'application/json');
-      res.setHeader('Content-Disposition', `attachment; filename="screenshot-annotator-data-${Date.now()}.json"`);
-      res.status(200).json(userData);
-    } else if (format === 'csv') {
-      const csv = convertToCSV(userData);
-      res.setHeader('Content-Type', 'text/csv');
-      res.setHeader('Content-Disposition', `attachment; filename="screenshot-annotator-data-${Date.now()}.csv"`);
-      res.status(200).send(csv);
-    } else {
-      res.status(400).json({ error: 'Invalid format. Use json or csv.' });
+    if (!imageId) {
+      return res.status(400).json({ 
+        success: false, 
+        error: 'Image ID is required' 
+      });
     }
-  } catch (error) {
-    console.error('Export error:', error);
-    res.status(500).json({ error: 'Internal server error' });
+    
+    // Validate format
+    const validFormats = ['png', 'jpg', 'jpeg', 'svg'];
+    if (!validFormats.includes(format.toLowerCase())) {
+      return res.status(400).json({ 
+        success: false, 
+        error: 'Invalid format. Use png, jpg, jpeg, or svg.' 
+      });
+    }
+    
+    // In a real app, would:
+    // 1. Fetch the screenshot and its annotations
+    // 2. Render annotations on the screenshot
+    // 3. Export as the requested format
+    
+    const exportUrl = `/exports/${imageId}.${format}`;
+    
+    res.status(200).json({ 
+      success: true, 
+      exportUrl,
+      format,
+      message: 'Export endpoint ready. In production, would generate and return the exported image.' 
+    });
+  } else {
+    res.setHeader('Allow', ['GET']);
+    res.status(405).end(`Method ${req.method} Not Allowed`);
   }
-}
-
-async function fetchUserData() {
-  // TODO: 从数据库获取实际数据
-  return {
-    product: 'screenshot-annotator',
-    exportDate: new Date().toISOString(),
-    data: []
-  };
-}
-
-function convertToCSV(data) {
-  // TODO: 根据实际数据格式生成CSV
-  return 'ID,Name,Created At\n';
 }

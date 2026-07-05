@@ -20,7 +20,7 @@ export default async function handler(req, res) {
     const format = req.query.format || 'json';
     
     if (format === 'json') {
-      res.setHeader('Content-Type', 'application/json');
+      res.setHeader('Content-Type', 'application/json; charset=utf-8');
       res.setHeader('Content-Disposition', `attachment; filename="fitalliance-pro-data-${Date.now()}.json"`);
       res.status(200).json(userData);
     } else if (format === 'csv') {

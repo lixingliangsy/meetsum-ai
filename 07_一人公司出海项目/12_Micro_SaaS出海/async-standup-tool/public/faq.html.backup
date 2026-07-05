@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - Async Standup Tool</title>
+    <meta name="description" content="Get answers to frequently asked questions about Async Standup Tool. Learn about pricing, features, compatibility, and more.">
+    
+    <!-- JSON-LD Schema for FAQPage -->
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Q1: How much does the Async Standup Tool cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** The Async Standup Tool offers a Free plan for up to 10 team members, a Team plan at $5/user/month (billed annually) with unlimited members and integrations, and an Enterprise plan at $15/user/month with advanced analytics and custom workflows. Nonprofits get 50% off all plans."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q2: What features does the Async Standup Tool include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Core features: automated daily standup reminders, template-based status updates (yesterday/today/blockers), AI-generated team summaries, timezone-aware scheduling, and integration with Slack, Teams, and Discord. Premium features include sentiment analysis, sprint velocity tracking, and manager dashboards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q3: How do I set up async standups for my team?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Install the Slack/Teams app, invite your team, and configure standup time (the tool auto-adjusts for each member's timezone). Choose a template or create custom questions. The tool sends reminders, collects responses, and posts a formatted summary to your channel. Setup takes under 10 minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q4: Which platforms and integrations does the Async Standup Tool support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Native integrations: Slack, Microsoft Teams, Discord, Jira, Linear, Asana, and GitHub. The tool runs in web browsers (Chrome, Firefox, Safari, Edge) and mobile (iOS/Android). API access is available on Enterprise plans for custom integrations with internal tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q5: Is our team's standup data secure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Yes. All data is encrypted in transit (TLS 1.3) and at rest (AES-256). We are SOC 2 Type II certified, GDPR compliant, and offer data residency options (US, EU, APAC). Enterprise plans include custom data retention policies and the option to self-host."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q6: Can I export standup data for reporting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Yes. Export standup summaries as PDF, CSV, or JSON. Pro plans include automated weekly/monthly reports emailed to stakeholders. Enterprise plans get API access for custom analytics dashboards. Data export retention: free plans keep 30 days, paid plans keep 1 year of history."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q7: Does the tool work across different timezones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Yes. The smart scheduler detects each team member's timezone and sends reminders at their local morning time. You can set \"core hours\" where all responses are visible, or allow fully async 24-hour windows. The summary aggregates responses regardless of when they were submitted."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q8: How accurate is the AI-generated team summary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** The AI summary achieves 94% accuracy in capturing key blockers and themes, based on 10,000+ standup evaluations. It uses fine-tuned LLMs trained on software team communication. Users can edit summaries before posting. Accuracy improves over time as the model learns your team's terminology."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q9: What support is available if our team needs help?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Free plans include email support (48-hour response) and a searchable knowledge base. Team plans get priority email (12-hour response) and live chat. Enterprise plans include a dedicated customer success manager, phone support, and custom onboarding sessions for teams over 50 people."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q10: How do I cancel or change my subscription plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "** Change or cancel via the Billing page in Settings. Downgrades take effect at period end; upgrades are immediate. Cancellations convert to Free plan with full data access for 60 days. Enterprise contracts have custom terms—contact your success manager. No cancellation fees on any plan. ---"
+      }
+    }
+  ]
+}
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #111827;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 10px;
+        }
+        .faq-item {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f3f4f6;
+            border-radius: 8px;
+        }
+        .faq-item h3 {
+            color: #1f2937;
+            margin-top: 0;
+        }
+        .answer-summary {
+            font-size: 1.1em;
+            color: #374151;
+            margin-bottom: 10px;
+        }
+        details {
+            margin-top: 10px;
+        }
+        summary {
+            cursor: pointer;
+            color: #3b82f6;
+            font-weight: 500;
+        }
+        .answer-details {
+            margin-top: 10px;
+            padding: 15px;
+            background: white;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p class="intro">Everything you need to know about Async Standup Tool. Can't find the answer? <a href="./support.html">Contact our support team</a>.</p>
+        
+        <div class="faq-list">
+            
+        <div class="faq-item">
+            <h3>Q1: How much does the Async Standup Tool cost?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** The Async Standup Tool offers a Free plan for up to 10 team members, a Team plan at $5/user/month (billed annually) with unlimited members and integrations, and an Enterprise plan at $15/user/month</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** The Async Standup Tool offers a Free plan for up to 10 team members, a Team plan at $5/user/month (billed annually) with unlimited members and integrations, and an Enterprise plan at $15/user/month with advanced analytics and custom workflows. Nonprofits get 50% off all plans.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q2: What features does the Async Standup Tool include?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> ** Core features: automated daily standup reminders, template-based status updates (yesterday/today/blockers), AI-generated team summaries, timezone-aware scheduling, and integration with Slack, Teams</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Core features: automated daily standup reminders, template-based status updates (yesterday/today/blockers), AI-generated team summaries, timezone-aware scheduling, and integration with Slack, Teams, and Discord. Premium features include sentiment analysis, sprint velocity tracking, and manager dashboards.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q3: How do I set up async standups for my team?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** Install the Slack/Teams app, invite your team, and configure standup time (the tool auto-adjusts for each member's timezone). Choose a template or create custom questions. The tool sends reminders,</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Install the Slack/Teams app, invite your team, and configure standup time (the tool auto-adjusts for each member's timezone). Choose a template or create custom questions. The tool sends reminders, collects responses, and posts a formatted summary to your channel. Setup takes under 10 minutes.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q4: Which platforms and integrations does the Async Standup Tool support?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> ** Native integrations: Slack, Microsoft Teams, Discord, Jira, Linear, Asana, and GitHub. The tool runs in web browsers (Chrome, Firefox, Safari, Edge) and mobile (iOS/Android). API access is availabl</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Native integrations: Slack, Microsoft Teams, Discord, Jira, Linear, Asana, and GitHub. The tool runs in web browsers (Chrome, Firefox, Safari, Edge) and mobile (iOS/Android). API access is available on Enterprise plans for custom integrations with internal tools.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q5: Is our team's standup data secure?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** Yes. All data is encrypted in transit (TLS 1.3) and at rest (AES-256). We are SOC 2 Type II certified, GDPR compliant, and offer data residency options (US, EU, APAC). Enterprise plans include cust</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Yes. All data is encrypted in transit (TLS 1.3) and at rest (AES-256). We are SOC 2 Type II certified, GDPR compliant, and offer data residency options (US, EU, APAC). Enterprise plans include custom data retention policies and the option to self-host.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q6: Can I export standup data for reporting?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> ** Yes. Export standup summaries as PDF, CSV, or JSON. Pro plans include automated weekly/monthly reports emailed to stakeholders. Enterprise plans get API access for custom analytics dashboards. Data</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Yes. Export standup summaries as PDF, CSV, or JSON. Pro plans include automated weekly/monthly reports emailed to stakeholders. Enterprise plans get API access for custom analytics dashboards. Data export retention: free plans keep 30 days, paid plans keep 1 year of history.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q7: Does the tool work across different timezones?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** Yes. The smart scheduler detects each team member's timezone and sends reminders at their local morning time. You can set "core hours" where all responses are visible, or allow fully async 24-hour </p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Yes. The smart scheduler detects each team member's timezone and sends reminders at their local morning time. You can set "core hours" where all responses are visible, or allow fully async 24-hour windows. The summary aggregates responses regardless of when they were submitted.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q8: How accurate is the AI-generated team summary?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** The AI summary achieves 94% accuracy in capturing key blockers and themes, based on 10,000+ standup evaluations. It uses fine-tuned LLMs trained on software team communication. Users can edit summa</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** The AI summary achieves 94% accuracy in capturing key blockers and themes, based on 10,000+ standup evaluations. It uses fine-tuned LLMs trained on software team communication. Users can edit summaries before posting. Accuracy improves over time as the model learns your team's terminology.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q9: What support is available if our team needs help?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> ** Free plans include email support (48-hour response) and a searchable knowledge base. Team plans get priority email (12-hour response) and live chat. Enterprise plans include a dedicated customer su</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Free plans include email support (48-hour response) and a searchable knowledge base. Team plans get priority email (12-hour response) and live chat. Enterprise plans include a dedicated customer success manager, phone support, and custom onboarding sessions for teams over 50 people.
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q10: How do I cancel or change my subscription plan?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> ** Change or cancel via the Billing page in Settings. Downgrades take effect at period end; upgrades are immediate. Cancellations convert to Free plan with full data access for 60 days. Enterprise con</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        ** Change or cancel via the Billing page in Settings. Downgrades take effect at period end; upgrades are immediate. Cancellations convert to Free plan with full data access for 60 days. Enterprise contracts have custom terms—contact your success manager. No cancellation fees on any plan. ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>

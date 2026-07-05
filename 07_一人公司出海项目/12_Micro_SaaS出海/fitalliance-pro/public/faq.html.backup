@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - Fitalliance Pro</title>
+    <meta name="description" content="Get answers to frequently asked questions about Fitalliance Pro. Learn about pricing, features, compatibility, and more.">
+    
+    <!-- JSON-LD Schema for FAQPage -->
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Q1: How much does FitAlliance Pro cost and what do you get?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FitAlliance Pro offers four plans: Free (individual, basic profile, join 3 groups), Creator ($19/month or $190/year, run 1 community, basic analytics, monetization at 8% fee), Pro ($49/month, unlimited communities, advanced analytics, monetization at 5% fee, API access), and Enterprise (custom pricing, white-label, SSO, dedicated infrastructure). A 14-day free trial of Pro is available. | Feature | Free | Creator | Pro | Enterprise | |---------|------|---------|-----|------------| | Communities | Join 3 | Run 1 | Unlimited | Unlimited | | Members/community | 50 | 500 | 10,000 | Unlimited | | Monetization fee | — | 8% | 5% | 0% | | Analytics | Basic | Basic | Advanced | Custom | | API access | — | — | ✓ | ✓ | | White-label | — | — | — | ✓ | | Price | $0 | $19/mo | $49/mo | Custom | ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q2: What features does FitAlliance Pro offer for building a fitness community?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FitAlliance Pro provides community hosting (discussion boards, live streams, events), challenge management (create and run fitness challenges), monetization tools (memberships, digital products, challenge fees), analytics dashboard (engagement, growth, revenue), content scheduling, gamification (badges, leaderboards), and integrations with Stripe, Zoom, and fitness trackers. All features are mobile-optimized and require no coding. - **Community:** Discussion boards, DMs, live chat, events calendar - **Challenges:** 50+ templates, custom creator, progress tracking, leaderboards - **Monetization:** Memberships (recurring), digital products, 1:1 coaching bookings - **Analytics:** Member growth, engagement rate, challenge completion, revenue - **Content:** Schedule posts, create courses, host live streams - **Gamification:** Badges, points, leaderboards, streak tracking - **Integrations:** Stripe, Zoom, Google Calendar, Apple Health, Strava ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q3: How do I set up my first fitness community on FitAlliance Pro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sign up for free, click \"Create Community,\" choose a name and category (running, yoga, weight loss, etc.), customize your branding (logo, colors, welcome message), set community rules, and invite your first members. The setup wizard guides you through the process in 10 minutes. No technical skills or coding required. 1. **Sign up** at fitalliance.pro (free, 30 seconds) 2. **Create community:** Name, category, description, privacy (public/private/hidden) 3. **Customize:** Upload logo, set brand colors, write welcome message 4. **Configure:** Set rules, enable/disable features (challenges, monetization, events) 5. **Invite members:** Via email, social share link, or import from CSV 6. **Launch:** Post your first welcome message and challenge ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q4: Which platforms and devices does FitAlliance Pro support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FitAlliance Pro works on iOS, Android, and web. The mobile apps are fully featured (not limited companions). It integrates with Apple Health, Google Fit, Strava, Garmin, and Fitbit for automatic challenge progress syncing. The web version includes all community management features. An API is available on Pro and Enterprise plans for custom integrations. | Platform | Supported | Notes | |----------|-----------|-------| | iOS | ✓ | Full feature parity | | Android | ✓ | Full feature parity | | Web | ✓ | Full feature parity | | API | Pro+ | REST, GraphQL | | Wearables | ✓ | Apple Watch, Fitbit, Garmin | ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q5: Is member data and payment information secure on FitAlliance Pro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. FitAlliance Pro is SOC 2 Type II certified, PCI DSS Level 1 compliant (payment data), GDPR and CCPA compliant. Member data is encrypted at rest (AES-256) and in transit (TLS 1.3). Payment processing is handled by Stripe (we never store credit card data). Enterprise plans offer data residency options (EU, US, APAC) and on-premise deployment for maximum control. - SOC 2 Type II (annual audit) - PCI DSS Level 1 (payment data, highest level) - GDPR and CCPA compliant - Payment processing: Stripe (we never see or store card data) - Data encryption: AES-256 at rest, TLS 1.3 in transit - Enterprise: data residency options, on-premise deployment available ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q6: Can I monetize my fitness community and how does the payment system work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. FitAlliance Pro supports multiple monetization models: monthly memberships, one-time challenge fees, digital product sales (workout plans, meal guides), and 1:1 coaching bookings. Payments are processed via Stripe (you connect your own Stripe account—we never take a cut of payment processing). Platform fees: 8% (Creator), 5% (Pro), 0% (Enterprise). - **Memberships:** Recurring monthly/annual subscriptions (Stripe handles billing) - **Challenge fees:** One-time or recurring fee to join a challenge - **Digital products:** Sell workout plans, meal guides, video courses - **Coaching:** 1:1 booking with integrated payment and calendar - **Tips:** Members can tip creators (optional, platform fee applies) - Creator plan: 8% platform fee on all transactions - Pro plan: 5% platform fee - Enterprise: 0% platform fee (you keep 100%) ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q7: Does FitAlliance Pro integrate with other fitness and business tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. FitAlliance Pro integrates with 25+ tools: Stripe (payments), Zoom (live classes), Google Calendar (events), Mailchimp (email marketing), Zapier (5,000+ app connections), Apple Health, Google Fit, Strava, Garmin, and Fitbit (challenge tracking). The Pro plan API enables custom integrations. Enterprise plans include dedicated integration support for custom workflows. - **Payments:** Stripe (connected account, direct payout) - **Video:** Zoom, Google Meet (live class integration) - **Fitness:** Apple Health, Google Fit, Strava, Garmin, Fitbit - **Marketing:** Mailchimp, ConvertKit, ActiveCampaign - **Automation:** Zapier, Make (custom workflows) - **Calendar:** Google Calendar, Outlook, Calendly ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q8: How does FitAlliance Pro help me grow my fitness community?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FitAlliance Pro includes growth tools: SEO-optimized community profiles (discoverable on Google), referral programs (members invite friends, get rewards), challenge embedding (embed your challenge on any website), waitlist landing pages, email capture forms, analytics that identify your most engaged members (potential ambassadors), and a community directory where users can discover your group. Pro users get priority placement in the directory. - **SEO profiles:** Your community appears in Google search results - **Referral programs:** Members get rewards for inviting friends - **Embeddable challenges:** Embed on your website or LinkedIn - **Landing pages:** Waitlist, email capture, challenge signup - **Analytics:** Identify and nurture potential community ambassadors - **Directory:** Discoverable by 50,000+ fitness enthusiasts ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q9: What customer support and onboarding does FitAlliance Pro provide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Free and Creator users get email support (48-hour response) and knowledge base access. Pro users receive priority email (12-hour response), live chat, and monthly group onboarding calls. Enterprise users get a dedicated customer success manager, custom onboarding, and 99.9% uptime SLA with phone support. All users can access 50+ video tutorials and the FitAlliance Academy certification. | Support Type | Free/Creator | Pro | Enterprise | |--------------|--------------|-----|------------| | Email support | ✓ (48hr) | ✓ (12hr) | ✓ (4hr) | | Live chat | — | ✓ | ✓ | | Phone support | — | — | ✓ | | Group onboarding | — | Monthly | Custom | | Success manager | — | — | ✓ | | Uptime SLA | — | — | 99.9% | ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q10: How do I cancel my FitAlliance Pro subscription and what happens to my community?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cancel anytime from Account Settings—no phone call required. Your access continues until period end. Annual plans have a 30-day money-back guarantee. After cancellation, your community is archived (members can still access content but no new signups). Data is retained for 12 months (reactive with one click). You can export all member data and content before canceling. Enterprise plans require 30-day notice for cancellation. - **Monthly plans:** Cancel anytime; access until month-end; no refund - **Annual plans:** Full refund within 30 days; after 30 days, access continues until year-end - **Community archival:** After cancellation, community becomes read-only for 12 months - **Data export:** Member list (CSV), posts (JSON), analytics (PDF), challenges (CSV) - **Permanent deletion:** 12 months after cancellation (or on request) ---"
+      }
+    }
+  ]
+}
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #111827;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 10px;
+        }
+        .faq-item {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f3f4f6;
+            border-radius: 8px;
+        }
+        .faq-item h3 {
+            color: #1f2937;
+            margin-top: 0;
+        }
+        .answer-summary {
+            font-size: 1.1em;
+            color: #374151;
+            margin-bottom: 10px;
+        }
+        details {
+            margin-top: 10px;
+        }
+        summary {
+            cursor: pointer;
+            color: #3b82f6;
+            font-weight: 500;
+        }
+        .answer-details {
+            margin-top: 10px;
+            padding: 15px;
+            background: white;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p class="intro">Everything you need to know about Fitalliance Pro. Can't find the answer? <a href="./support.html">Contact our support team</a>.</p>
+        
+        <div class="faq-list">
+            
+        <div class="faq-item">
+            <h3>Q1: How much does FitAlliance Pro cost and what do you get?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> FitAlliance Pro offers four plans: Free (individual, basic profile, join 3 groups), Creator ($19/month or $190/year, run 1 community, basic analytics, monetization at 8% fee), Pro ($49/month, unlimite</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        FitAlliance Pro offers four plans: Free (individual, basic profile, join 3 groups), Creator ($19/month or $190/year, run 1 community, basic analytics, monetization at 8% fee), Pro ($49/month, unlimited communities, advanced analytics, monetization at 5% fee, API access), and Enterprise (custom pricing, white-label, SSO, dedicated infrastructure). A 14-day free trial of Pro is available. | Feature | Free | Creator | Pro | Enterprise | |---------|------|---------|-----|------------| | Communities | Join 3 | Run 1 | Unlimited | Unlimited | | Members/community | 50 | 500 | 10,000 | Unlimited | | Monetization fee | — | 8% | 5% | 0% | | Analytics | Basic | Basic | Advanced | Custom | | API access | — | — | ✓ | ✓ | | White-label | — | — | — | ✓ | | Price | $0 | $19/mo | $49/mo | Custom | ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q2: What features does FitAlliance Pro offer for building a fitness community?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> FitAlliance Pro provides community hosting (discussion boards, live streams, events), challenge management (create and run fitness challenges), monetization tools (memberships, digital products, chall</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        FitAlliance Pro provides community hosting (discussion boards, live streams, events), challenge management (create and run fitness challenges), monetization tools (memberships, digital products, challenge fees), analytics dashboard (engagement, growth, revenue), content scheduling, gamification (badges, leaderboards), and integrations with Stripe, Zoom, and fitness trackers. All features are mobile-optimized and require no coding. - **Community:** Discussion boards, DMs, live chat, events calendar - **Challenges:** 50+ templates, custom creator, progress tracking, leaderboards - **Monetization:** Memberships (recurring), digital products, 1:1 coaching bookings - **Analytics:** Member growth, engagement rate, challenge completion, revenue - **Content:** Schedule posts, create courses, host live streams - **Gamification:** Badges, points, leaderboards, streak tracking - **Integrations:** Stripe, Zoom, Google Calendar, Apple Health, Strava ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q3: How do I set up my first fitness community on FitAlliance Pro?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Sign up for free, click "Create Community," choose a name and category (running, yoga, weight loss, etc.), customize your branding (logo, colors, welcome message), set community rules, and invite your</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Sign up for free, click "Create Community," choose a name and category (running, yoga, weight loss, etc.), customize your branding (logo, colors, welcome message), set community rules, and invite your first members. The setup wizard guides you through the process in 10 minutes. No technical skills or coding required. 1. **Sign up** at fitalliance.pro (free, 30 seconds) 2. **Create community:** Name, category, description, privacy (public/private/hidden) 3. **Customize:** Upload logo, set brand colors, write welcome message 4. **Configure:** Set rules, enable/disable features (challenges, monetization, events) 5. **Invite members:** Via email, social share link, or import from CSV 6. **Launch:** Post your first welcome message and challenge ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q4: Which platforms and devices does FitAlliance Pro support?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> FitAlliance Pro works on iOS, Android, and web. The mobile apps are fully featured (not limited companions). It integrates with Apple Health, Google Fit, Strava, Garmin, and Fitbit for automatic chall</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        FitAlliance Pro works on iOS, Android, and web. The mobile apps are fully featured (not limited companions). It integrates with Apple Health, Google Fit, Strava, Garmin, and Fitbit for automatic challenge progress syncing. The web version includes all community management features. An API is available on Pro and Enterprise plans for custom integrations. | Platform | Supported | Notes | |----------|-----------|-------| | iOS | ✓ | Full feature parity | | Android | ✓ | Full feature parity | | Web | ✓ | Full feature parity | | API | Pro+ | REST, GraphQL | | Wearables | ✓ | Apple Watch, Fitbit, Garmin | ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q5: Is member data and payment information secure on FitAlliance Pro?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes. FitAlliance Pro is SOC 2 Type II certified, PCI DSS Level 1 compliant (payment data), GDPR and CCPA compliant. Member data is encrypted at rest (AES-256) and in transit (TLS 1.3). Payment process</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes. FitAlliance Pro is SOC 2 Type II certified, PCI DSS Level 1 compliant (payment data), GDPR and CCPA compliant. Member data is encrypted at rest (AES-256) and in transit (TLS 1.3). Payment processing is handled by Stripe (we never store credit card data). Enterprise plans offer data residency options (EU, US, APAC) and on-premise deployment for maximum control. - SOC 2 Type II (annual audit) - PCI DSS Level 1 (payment data, highest level) - GDPR and CCPA compliant - Payment processing: Stripe (we never see or store card data) - Data encryption: AES-256 at rest, TLS 1.3 in transit - Enterprise: data residency options, on-premise deployment available ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q6: Can I monetize my fitness community and how does the payment system work?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> Yes. FitAlliance Pro supports multiple monetization models: monthly memberships, one-time challenge fees, digital product sales (workout plans, meal guides), and 1:1 coaching bookings. Payments are pr</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes. FitAlliance Pro supports multiple monetization models: monthly memberships, one-time challenge fees, digital product sales (workout plans, meal guides), and 1:1 coaching bookings. Payments are processed via Stripe (you connect your own Stripe account—we never take a cut of payment processing). Platform fees: 8% (Creator), 5% (Pro), 0% (Enterprise). - **Memberships:** Recurring monthly/annual subscriptions (Stripe handles billing) - **Challenge fees:** One-time or recurring fee to join a challenge - **Digital products:** Sell workout plans, meal guides, video courses - **Coaching:** 1:1 booking with integrated payment and calendar - **Tips:** Members can tip creators (optional, platform fee applies) - Creator plan: 8% platform fee on all transactions - Pro plan: 5% platform fee - Enterprise: 0% platform fee (you keep 100%) ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q7: Does FitAlliance Pro integrate with other fitness and business tools?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> Yes. FitAlliance Pro integrates with 25+ tools: Stripe (payments), Zoom (live classes), Google Calendar (events), Mailchimp (email marketing), Zapier (5,000+ app connections), Apple Health, Google Fit</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes. FitAlliance Pro integrates with 25+ tools: Stripe (payments), Zoom (live classes), Google Calendar (events), Mailchimp (email marketing), Zapier (5,000+ app connections), Apple Health, Google Fit, Strava, Garmin, and Fitbit (challenge tracking). The Pro plan API enables custom integrations. Enterprise plans include dedicated integration support for custom workflows. - **Payments:** Stripe (connected account, direct payout) - **Video:** Zoom, Google Meet (live class integration) - **Fitness:** Apple Health, Google Fit, Strava, Garmin, Fitbit - **Marketing:** Mailchimp, ConvertKit, ActiveCampaign - **Automation:** Zapier, Make (custom workflows) - **Calendar:** Google Calendar, Outlook, Calendly ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q8: How does FitAlliance Pro help me grow my fitness community?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> FitAlliance Pro includes growth tools: SEO-optimized community profiles (discoverable on Google), referral programs (members invite friends, get rewards), challenge embedding (embed your challenge on </p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        FitAlliance Pro includes growth tools: SEO-optimized community profiles (discoverable on Google), referral programs (members invite friends, get rewards), challenge embedding (embed your challenge on any website), waitlist landing pages, email capture forms, analytics that identify your most engaged members (potential ambassadors), and a community directory where users can discover your group. Pro users get priority placement in the directory. - **SEO profiles:** Your community appears in Google search results - **Referral programs:** Members get rewards for inviting friends - **Embeddable challenges:** Embed on your website or LinkedIn - **Landing pages:** Waitlist, email capture, challenge signup - **Analytics:** Identify and nurture potential community ambassadors - **Directory:** Discoverable by 50,000+ fitness enthusiasts ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q9: What customer support and onboarding does FitAlliance Pro provide?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Free and Creator users get email support (48-hour response) and knowledge base access. Pro users receive priority email (12-hour response), live chat, and monthly group onboarding calls. Enterprise us</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Free and Creator users get email support (48-hour response) and knowledge base access. Pro users receive priority email (12-hour response), live chat, and monthly group onboarding calls. Enterprise users get a dedicated customer success manager, custom onboarding, and 99.9% uptime SLA with phone support. All users can access 50+ video tutorials and the FitAlliance Academy certification. | Support Type | Free/Creator | Pro | Enterprise | |--------------|--------------|-----|------------| | Email support | ✓ (48hr) | ✓ (12hr) | ✓ (4hr) | | Live chat | — | ✓ | ✓ | | Phone support | — | — | ✓ | | Group onboarding | — | Monthly | Custom | | Success manager | — | — | ✓ | | Uptime SLA | — | — | 99.9% | ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q10: How do I cancel my FitAlliance Pro subscription and what happens to my community?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Cancel anytime from Account Settings—no phone call required. Your access continues until period end. Annual plans have a 30-day money-back guarantee. After cancellation, your community is archived (me</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Cancel anytime from Account Settings—no phone call required. Your access continues until period end. Annual plans have a 30-day money-back guarantee. After cancellation, your community is archived (members can still access content but no new signups). Data is retained for 12 months (reactive with one click). You can export all member data and content before canceling. Enterprise plans require 30-day notice for cancellation. - **Monthly plans:** Cancel anytime; access until month-end; no refund - **Annual plans:** Full refund within 30 days; after 30 days, access continues until year-end - **Community archival:** After cancellation, community becomes read-only for 12 months - **Data export:** Member list (CSV), posts (JSON), analytics (PDF), challenges (CSV) - **Permanent deletion:** 12 months after cancellation (or on request) ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>

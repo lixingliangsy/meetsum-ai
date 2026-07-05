@@ -2,6 +2,7 @@
 // 训练计划生成 API - 根据目标生成个性化训练计划
 
 export default async function handler(req, res) {
+  res.setHeader('Content-Type', 'application/json; charset=utf-8');
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' })
   }
@@ -55,8 +56,8 @@ function generateTrainingPlan(config) {
 
   const targetDistance = goalDistances[goal] || 5
 
-  // 计算基础配速（基于当前体能）
-  const basePace = calculateBasePace(currentFitness, targetDistance)
+  // 计算基础配速（基于当前体能和目标）
+  const basePace = calculateBasePace(currentFitness, goal)
 
   // 生成每周训练计划
   const weeks = []
@@ -90,7 +91,7 @@ function generateTrainingPlan(config) {
 }
 
 // 计算基础配速
-function calculateBasePace(currentFitness, targetDistance) {
+function calculateBasePace(currentFitness, goal) {
   const basePaces = {
     'beginner': {
       '5K': { minutes: 7, seconds: 30 },
