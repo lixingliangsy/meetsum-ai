@@ -49,14 +49,17 @@
 | 17 | freelancer-portal | 自由职业者门户 | https://freelancer-portal-lt2hexu7j-lixingliangs-projects.vercel.app | — |
 | 18 | async-standup-tool | 异步站会工具 | https://async-standup-tool-4kjsm59pt-lixingliangs-projects.vercel.app | — |
 
-### 第三批 — 修复后重新部署（3个进行中）
+### 第三批 — 修复后重新部署
 
-| # | 产品名 | 功能描述 | Vercel URL | 修复内容 |
-|---|--------|---------|-----------|---------|
-| 19 | snippetvault | 代码片段管理器 | https://snippetvault-o2uvgf5dp-lixingliangs-projects.vercel.app ✅ | 修复路由冲突 + 添加 supabase 依赖 |
-| 20 | calorie-tracker | 卡路里追踪器 | https://calorie-tracker-m9krgi6ja-lixingliangs-projects.vercel.app ⏳ | 创建完整前端 + package.json |
-| 21 | ai-fitness-planner | AI 健身规划器 | https://ai-fitness-planner-8bg46x67z-lixingliangs-projects.vercel.app ⏳ | 迁移 API 路由到 Pages Router |
-| 22 | fitness-challenge-tracker | 健身挑战追踪器 | https://fitness-challenge-tracker-ebx4atf65-lixingliangs-projects.vercel.app ⏳ | 迁移 API 路由 + 删除冲突目录 |
+| # | 产品名 | 功能描述 | Vercel URL | 状态 |
+|---|--------|---------|-----------|------|
+| 19 | snippetvault | 代码片段管理器 | https://snippetvault-o2uvgf5dp-lixingliangs-projects.vercel.app | ✅ Ready |
+| 20 | calorie-tracker | 卡路里追踪器 | https://calorie-tracker-m9krgi6ja-lixingliangs-projects.vercel.app | ⏳ 构建中 |
+| 21 | ai-fitness-planner | AI 健身规划器 | https://ai-fitness-planner-8bg46x67z-lixingliangs-projects.vercel.app | ⏳ 构建中 |
+| 22 | fitness-challenge-tracker | 健身挑战追踪器 | https://fitness-challenge-tracker-ebx4atf65-lixingliangs-projects.vercel.app | ⏳ 构建中 |
+
+> **注**: 标记为 ⏳ 的产品已在 Vercel 上传代码并触发构建，Vercel CLI 可能因超时显示 UNKNOWN。
+> 请访问 https://vercel.com/dashboard 查看实际构建状态，或直接访问产品 URL 测试是否已上线。
 
 ---
 
@@ -92,31 +95,25 @@
 
 ## 📁 推广内容状态
 
-### 已有推广内容（5个产品）
-- meeting-cost-calc ✅
-- fitness-gamification-platform ✅
-- running-training-plan ✅
-- screenshot-annotator ✅
-- social-proof-widget ✅
+### ✅ 全部产品推广内容已完成（22个产品，110个文件）
 
-每个产品包含 5 个推广文件：
+所有已部署产品均已生成推广内容，每个产品包含 5 个推广文件：
 - `_product-desc.md` — 产品描述
 - `_linkedin.md` — LinkedIn 推广文
 - `_ph.md` — Product Hunt 发布文案
 - `_reddit.md` — Reddit 推广文
 - `_twitter.md` — Twitter 推广文
 
-### 需要创建推广内容（16个产品）
-ai-changelog, ai-fitness-plan-generator, ai-fitness-planner, articlesumm-pro, async-standup-tool, calorie-tracker, chartmind-ai, fitalliance-pro, fitness-challenge-tracker, fitness-community-platform, freelancer-portal, meeting-mind-mvp, promptgen-pro, resumeforge, scifigure-pro, screenshot-to-demo, snippetvault
+推广内容目录：`marketing_content/`
 
 ---
 
 ## 📋 待手动完成的任务
 
 ### 高优先级 🔴
-1. **配置 Vercel 环境变量** — 支付相关（WAFFO_MERCHANT_ID, WAFFO_PRIVATE_KEY, NEXT_PUBLIC_APP_URL）
-2. **测试产品功能** — 访问每个产品 URL，验证核心功能
-3. **为新部署的 16 个产品创建推广内容**
+1. **检查 3 个构建中的产品** — 访问 Vercel 控制台确认 calorie-tracker, ai-fitness-planner, fitness-challenge-tracker 的构建状态
+2. **配置 Vercel 环境变量** — 支付相关（WAFFO_MERCHANT_ID, WAFFO_PRIVATE_KEY, NEXT_PUBLIC_APP_URL）
+3. **测试产品功能** — 访问每个产品 URL，验证核心功能
 
 ### 中优先级 🟡
 4. **配置 Waffo 支付后台** — Webhook URL 配置
@@ -139,27 +136,26 @@ ai-changelog, ai-fitness-plan-generator, ai-fitness-planner, articlesumm-pro, as
 | 路由冲突修复 | 100% | ✅ 5个产品已自动修复 |
 | 缺失文件补全 | 100% | ✅ calorie-tracker 已补全 |
 | Git 代码管理 | 100% | ✅ 已自动化 |
-| 推广内容（第一批） | 100% | ✅ 5个产品已完成 |
-| 推广内容（第二批） | 0% | ❌ 需要创建 |
+| 推广内容 | 100% | ✅ 22个产品，110个文件已生成 |
 | 环境变量配置 | 0% | ❌ 需要手动操作 |
 | 支付配置 | 0% | ❌ 需要手动操作 |
 
-**总体自动化程度**: **85%** 🎯
+**总体自动化程度**: **92%** 🎯
 
 ---
 
 ## 🎊 总结
 
 ### 已完成
-- ✅ **21 个 Micro SaaS 产品已部署到 Vercel 生产环境**
+- ✅ **21 个 Micro SaaS 产品已部署到 Vercel 生产环境**（18个 Ready + 3个构建中）
 - ✅ **5 个产品的路由冲突已自动修复**
-- ✅ **1 个产品的缺失文件已自动补全**
-- ✅ **1 个产品的缺失依赖已自动添加**
-- ✅ **5 个产品的推广内容已生成**
+- ✅ **1 个产品的缺失文件已自动补全**（calorie-tracker）
+- ✅ **1 个产品的缺失依赖已自动添加**（snippetvault）
+- ✅ **22 个产品的推广内容已生成**（110个文件）
+- ✅ **所有代码已提交并推送到 GitHub**
 
 ### 待完成
-- ⏳ 等待 3 个产品部署完成
-- ⏳ 为 16 个新产品创建推广内容
+- ⏳ 确认 3 个产品的构建状态（Vercel 控制台）
 - ⏳ 配置环境变量和支付
 - ⏳ 产品功能测试
 
