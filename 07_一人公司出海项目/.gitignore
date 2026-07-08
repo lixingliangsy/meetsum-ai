@@ -1,2 +1,28 @@
-.env
+# ===== 依赖与构建产物（跨机复制时排除）=====
+node_modules/
+.next/
+.vercel/
+out/
+dist/
+build/
+
+# ===== 日志 =====
 *.log
+build_*.log
+
+# ===== 密钥与环境变量（勿入库/勿明文跨机传）=====
+.env
+.env.local
+.env.production
+.env.example
+
+# ===== 系统/编辑器 =====
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
