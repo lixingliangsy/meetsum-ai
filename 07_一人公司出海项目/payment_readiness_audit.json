@@ -1,0 +1,194 @@
+[
+  {
+    "product": "ai-changelog",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 12,
+    "env_vars": []
+  },
+  {
+    "product": "ai-fitness-plan-generator",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 11,
+    "env_vars": []
+  },
+  {
+    "product": "ai-fitness-planner",
+    "has_checkout": true,
+    "has_webhook": true,
+    "has_pay_ui": true,
+    "src_files": 17,
+    "env_vars": [
+      "NEXT_PUBLIC_APP_URL",
+      "WAFFO_MERCHANT_ID",
+      "WAFFO_PRIVATE_KEY"
+    ]
+  },
+  {
+    "product": "articlesumm-pro",
+    "has_checkout": true,
+    "has_webhook": true,
+    "has_pay_ui": true,
+    "src_files": 15,
+    "env_vars": [
+      "NEXT_PUBLIC_APP_URL",
+      "WAFFO_MERCHANT_ID",
+      "WAFFO_PRIVATE_KEY"
+    ]
+  },
+  {
+    "product": "async-standup-tool",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 11,
+    "env_vars": []
+  },
+  {
+    "product": "calorie-tracker",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": false,
+    "src_files": 4,
+    "env_vars": []
+  },
+  {
+    "product": "chartmind-ai",
+    "has_checkout": true,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 12,
+    "env_vars": []
+  },
+  {
+    "product": "fitalliance-pro",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 12,
+    "env_vars": []
+  },
+  {
+    "product": "fitness-challenge-tracker",
+    "has_checkout": true,
+    "has_webhook": true,
+    "has_pay_ui": true,
+    "src_files": 22,
+    "env_vars": [
+      "NEXT_PUBLIC_APP_URL",
+      "WAFFO_MERCHANT_ID",
+      "WAFFO_PRIVATE_KEY"
+    ]
+  },
+  {
+    "product": "fitness-community-platform",
+    "has_checkout": true,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 15,
+    "env_vars": []
+  },
+  {
+    "product": "fitness-gamification-platform",
+    "has_checkout": true,
+    "has_webhook": true,
+    "has_pay_ui": true,
+    "src_files": 24,
+    "env_vars": [
+      "NEXT_PUBLIC_APP_URL",
+      "WAFFO_MERCHANT_ID",
+      "WAFFO_PRIVATE_KEY"
+    ]
+  },
+  {
+    "product": "freelancer-portal",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 12,
+    "env_vars": []
+  },
+  {
+    "product": "meeting-cost-calc",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 20,
+    "env_vars": []
+  },
+  {
+    "product": "meeting-mind-mvp",
+    "has_checkout": true,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 13,
+    "env_vars": []
+  },
+  {
+    "product": "promptgen-pro",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 10,
+    "env_vars": []
+  },
+  {
+    "product": "resumeforge",
+    "has_checkout": true,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 14,
+    "env_vars": []
+  },
+  {
+    "product": "running-training-plan",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 13,
+    "env_vars": []
+  },
+  {
+    "product": "scifigure-pro",
+    "has_checkout": true,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 16,
+    "env_vars": []
+  },
+  {
+    "product": "screenshot-annotator",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 34,
+    "env_vars": []
+  },
+  {
+    "product": "screenshot-to-demo",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": false,
+    "src_files": 4,
+    "env_vars": []
+  },
+  {
+    "product": "snippetvault",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": false,
+    "src_files": 4,
+    "env_vars": []
+  },
+  {
+    "product": "social-proof-widget",
+    "has_checkout": false,
+    "has_webhook": false,
+    "has_pay_ui": true,
+    "src_files": 14,
+    "env_vars": []
+  }
+]
