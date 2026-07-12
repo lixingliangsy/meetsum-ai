@@ -1,1 +1,6 @@
 .vercel
+.next
+.next-build-tmp
+.next-diag
+node_modules
+.env*.local
