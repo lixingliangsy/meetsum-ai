@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>一字成文 · 从毕业论文到周报，AI 一次搞定</title>
+<style>
+  :root{
+    --bg:#f7f8fa; --card:#ffffff; --ink:#1f2329; --sub:#5b6168;
+    --brand:#2f6bff; --brand-d:#1f4fd6; --accent:#ff7a45; --line:#e8eaed;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:24px 18px 64px;}
+  .hero{background:linear-gradient(135deg,#2f6bff,#5b8bff);color:#fff;
+    border-radius:18px;padding:40px 28px;text-align:center;margin-bottom:22px;}
+  .hero h1{font-size:27px;font-weight:800;letter-spacing:1px;margin-bottom:12px;line-height:1.4;}
+  .hero p{font-size:16px;opacity:.95;}
+  .hero .pill{display:inline-block;margin-top:16px;background:rgba(255,255,255,.18);
+    border:1px solid rgba(255,255,255,.4);padding:6px 14px;border-radius:999px;font-size:13px;}
+  .aud{display:flex;gap:12px;margin-bottom:18px;}
+  .aud div{flex:1;background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:16px;text-align:center;}
+  .aud b{color:var(--brand-d);font-size:15px;}
+  .aud p{font-size:13px;color:var(--sub);margin-top:6px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:24px;margin-bottom:18px;}
+  .card h2{font-size:20px;margin-bottom:14px;display:flex;align-items:center;gap:8px;}
+  .card h2 .dot{width:8px;height:8px;border-radius:50%;background:var(--brand);}
+  .pain{display:flex;gap:12px;align-items:flex-start;margin:10px 0;}
+  .pain .ico{flex:0 0 auto;width:30px;height:30px;border-radius:8px;background:#fff1ed;
+    color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:16px;}
+  .pain p{font-size:15px;color:var(--sub);}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+  .grid div{background:#f3f6ff;border-radius:10px;padding:12px 10px;font-size:14px;text-align:center;
+    border:1px solid #e3ebff;}
+  .grid .hd{grid-column:1/-1;background:#e8eeff;font-weight:700;color:var(--brand-d);}
+  .callout{background:#fff6f0;border:1px solid #ffd9c2;border-radius:14px;padding:18px;margin:14px 0;}
+  .callout b{color:var(--accent);}
+  .steps{counter-reset:s;list-style:none;}
+  .steps li{counter-increment:s;position:relative;padding:10px 0 10px 44px;font-size:15px;}
+  .steps li::before{content:counter(s);position:absolute;left:0;top:8px;width:28px;height:28px;
+    border-radius:50%;background:var(--brand);color:#fff;display:flex;align-items:center;
+    justify-content:center;font-weight:700;font-size:14px;}
+  .ben{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .ben div{background:#f3f6ff;border-radius:12px;padding:14px;font-size:14px;}
+  .ben b{color:var(--brand-d);}
+  .faq h3{font-size:15px;margin:12px 0 4px;color:var(--ink);}
+  .faq p{font-size:14px;color:var(--sub);}
+  .cta{background:linear-gradient(135deg,#ff7a45,#ff5a2c);color:#fff;border-radius:18px;
+    padding:34px 28px;text-align:center;margin-top:8px;}
+  .cta h2{color:#fff;font-size:24px;margin-bottom:10px;}
+  .btn{display:inline-block;margin-top:16px;background:#fff;color:var(--accent);
+    font-weight:800;font-size:17px;padding:14px 34px;border-radius:999px;text-decoration:none;
+    box-shadow:0 6px 18px rgba(0,0,0,.15);}
+  .code{margin-top:16px;font-size:14px;opacity:.95;}
+  .code b{background:rgba(255,255,255,.2);padding:3px 10px;border-radius:6px;
+    font-family:ui-monospace,Menlo,monospace;}
+  .foot{text-align:center;color:var(--sub);font-size:12px;margin-top:26px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <section class="hero">
+    <h1>从毕业论文到周报<br>写作这件事，AI 一次搞定</h1>
+    <p>一字成文 · 覆盖你学生时代 + 职场起步的所有写作场景</p>
+    <span class="pill">新用户注册输入福利码 <b>LYG646</b> 有专属优惠</span>
+  </section>
+
+  <section class="aud">
+    <div><b>🎓 学生党</b><p>毕业论文 / 开题 / 文献 / 降重 / 答辩</p></div>
+    <div><b>💼 职场人</b><p>超级简历 / 周报月报 / 工作报告</p></div>
+  </section>
+
+  <section class="card">
+    <h2><span class="dot"></span>这些瞬间，你一定经历过</h2>
+    <div class="pain"><div class="ico">📚</div><p>毕业论文卡在开题，文献综述写了删、删了写，一周没动笔。</p></div>
+    <div class="pain"><div class="ico">🔍</div><p>参考文献一堆，看不懂也吃不透，根本写不进论文。</p></div>
+    <div class="pain"><div class="ico">⚠️</div><p>好不容易写完，查重过了，却被「AI 检测」标红——改到崩溃。</p></div>
+    <div class="pain"><div class="ico">📝</div><p>周五周报又空白，干了 5 件事写出来像 1 件；简历投出去没回音。</p></div>
+  </section>
+
+  <section class="card">
+    <h2><span class="dot"></span>一字成文能写的（模板层）</h2>
+    <div class="grid">
+      <div class="hd">🎓 学术写作</div>
+      <div>毕业论文</div><div>任务书</div><div>开题报告</div>
+      <div>文献综述</div><div>文献综述Pro</div><div>论文选题</div>
+      <div class="hd">🏫 校园实践</div>
+      <div>课程总结</div><div>实习日记</div><div>实践报告</div>
+      <div>读/观后感</div><div>心得体会</div><div>工作报告</div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2><span class="dot"></span>一字成文的 AI 能力（智能层）</h2>
+    <div class="grid">
+      <div class="hd">🧠 学术全流程</div>
+      <div>AI 毕业论文</div><div>AI 解读文献</div><div>AI 论文改稿</div>
+      <div>AI 答辩PPT</div><div>AI 学术对话</div><div>降重 &amp; 降AI</div>
+      <div class="hd">💼 职场进阶</div>
+      <div>AI 超级简历</div><div>AI 职场写作</div><div></div>
+    </div>
+    <div class="callout">
+      <b>🔥 最戳痛点的一项：降重 &amp; 降AI</b><br>
+      查重过了，却被 AI 检测标红？一字成文内置「降重 &amp; 降AI」，帮你把文本改到既过查重、又过 AI 检测——这是多少毕业生深夜改稿的救命功能。
+    </div>
+  </section>
+
+  <section class="card">
+    <h2><span class="dot"></span>学术写作，一条龙跑通</h2>
+    <ol class="steps">
+      <li><b>选题 →</b> 论文选题 / 开题报告，先把方向定下来。</li>
+      <li><b>读文献 →</b> AI 解读文献，快速吃透参考文献。</li>
+      <li><b>写初稿 →</b> AI 毕业论文 / AI 论文改稿，结构与语言一次成型。</li>
+      <li><b>过检测 →</b> 降重 &amp; 降AI，查重 + AI 检测双过关。</li>
+      <li><b>答辩 →</b> AI 答辩PPT，演示文稿一键生成。</li>
+      <li><b>随时问 →</b> AI 学术对话，写作中任何卡点随时聊。</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2><span class="dot"></span>为什么越来越多人在用</h2>
+    <div class="ben">
+      <div><b>省时间</b><br>从几小时压缩到几分钟</div>
+      <div><b>显专业</b><br>结构清晰、措辞到位</div>
+      <div><b>覆盖广</b><br>12+ 文档类型 + 8 项 AI 能力</div>
+      <div><b>过检测</b><br>降重 &amp; 降AI 双保险</div>
+    </div>
+  </section>
+
+  <section class="card faq">
+    <h2><span class="dot"></span>常见问题</h2>
+    <h3>Q：不会写 prompt 也能用吗？</h3>
+    <p>A：能。直接选文档类型 / AI 功能、填要点即可，不用懂 AI 术语。</p>
+    <h3>Q：降重 &amp; 降AI 真的有用吗？</h3>
+    <p>A：它针对查重库与 AI 检测特征双优化，是毕业生改稿环节的高频使用功能。</p>
+    <h3>Q：和普通聊天机器人有什么区别？</h3>
+    <p>A：内置各类文书结构与学术流程，产出更贴合场景，不用反复调教。</p>
+  </section>
+
+  <section class="cta">
+    <h2>现在就去试试 →</h2>
+    <p>新用户注册输入福利码 <b>LYG646</b>，立享专属优惠</p>
+    <a class="btn" href="https://www.yizipaper.com/?tuid=189990" target="_blank" rel="noopener">免费体验一字成文</a>
+    <div class="code">或复制链接到浏览器打开：<b>https://www.yizipaper.com/?tuid=189990</b></div>
+  </section>
+
+  <p class="foot">本页为个人体验分享，非官方页面 · 通过上方链接注册可支持创作者</p>
+</div>
+</body>
+</html>

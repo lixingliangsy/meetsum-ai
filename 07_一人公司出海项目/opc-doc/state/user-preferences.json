@@ -1,0 +1,6 @@
+{
+  "mode": "guidance",
+  "term_explanation": "on_demand",
+  "familiarity": "expert_user_detailed_spec",
+  "note": "用户为资深 AI Agent 框架/AgentCPM 开发者，熟悉 OPC 方法论上下文；采用引导模式、术语按需解释。本会话目标：小红书虚拟商品一人公司（工程代码诊断 + OPC 战略/验证/运营阶段）。"
+}

@@ -1,0 +1,175 @@
+{
+  "engagement": "opc-xhs-virtual-goods",
+  "updated": "2026-07-17",
+  "decisions": [
+    {
+      "id": "D-01",
+      "topic": "店铺主体",
+      "decision": "个人店；开店仅 96 天（2026-07-15 确认）",
+      "source": "AskUserQuestion q-0 + 用户口头确认 96 天",
+      "implication": "教育类目出局、须满足 180天+30笔记+1000粉+无违规+证明；当前 96天<180天，入驻/经营门槛【未满足】。早期路径=内容养号(种草笔记涨粉至1000)+私域沉淀先行，店铺成交后置；资质达标后再放量成交。三类高风险商品不可作为店铺商品上架。"
+    },
+    {
+      "id": "D-02",
+      "topic": "合规可上架类目",
+      "decision": "PPT模板 / 简历模板 / 其他模板（Excel看板归入其他模板）",
+      "implication": "职场汇报PPT、通用PPT、个人简历、Excel看板 构成合规产品底座，待资质达标后上架"
+    },
+    {
+      "id": "D-03",
+      "topic": "高风险商品处置",
+      "decision": "毕业答辩PPT（教育类出局）下架/转私域；AI提示词包/Notion模板库/小红书笔记模板包 不在三大类，转私域引流钩子，不作店铺商品",
+      "implication": "高风险类目 → 私域沉淀，店铺主营收敛到合规三类"
+    },
+    {
+      "id": "D-04",
+      "topic": "运营打法",
+      "decision": "低价钩子引流→私域→高客单升单；早期内容养号（种草笔记涨粉至1000）+私域沉淀，资质达标后店铺成交放量",
+      "implication": "店铺成交后置；内容生产与私域先行"
+    },
+    {
+      "id": "D-05",
+      "topic": "自动化整改优先级",
+      "decision": "P0止血（cookie统一/依赖补全/假成功修复/MCP login/ARK包对齐+合规决策）→P1补闭环→P2健壮",
+      "implication": "先止血再上架；合规整改是自动发货前提"
+    },
+    {
+      "id": "D-06",
+      "topic": "交付闭环断点",
+      "decision": "网盘链接全占位、无自动发货实现→须先打通网盘回填+即时发货，否则不标秒到",
+      "implication": "T-P2-01 自动发货依赖 3.4网盘回填+3.2创作证明+3.1类目归桶"
+    },
+    {
+      "id": "D-08",
+      "topic": "自动化风险姿态（Q2 拍板）",
+      "decision": "选(A)：先纯人工养号+上架，自动化仅做半自动辅助（降低封号风险）；暂不全自动化跑 Selenium 批量发布",
+      "source": "用户对 Q2 拍板（2026-07-16）",
+      "implication": "工程落地以改进方案 P0 止血为先、上架/发布保留人工目检；自动化模块（compliance_guard/delivery_bot 等）作为半自动辅助开发，不启用无人值守批量发布。automation-design.md 阶段三 ArgusBot 全自动化编排暂不直接落地。"
+    },
+    {
+      "id": "D-10",
+      "topic": "工程任务排期（用户指令 2026-07-16 深夜）",
+      "decision": "步骤4（端到端工作流，融合前10 GitHub 仓库核心能力，设计+实现）与步骤5（ArgusBot 执行包，待步骤4完成后启动）排在 OPC 阶段 03–07 走完之后排期启动。",
+      "source": "用户增强提示词指令",
+      "implication": "当前会话聚焦：① 站外落地页/公众号文章(?tuid链接) ② 小红书AI写周报种草框架(不挂链) ③ 养号/C类清单等已交付；03–07 仍待用户确认后调度成员。注：用户要求'ArgusBot 自动执行到明早7:30、无需人工确认'在本环境 literal 不可行（无持续运行时；OPC 阶段结论需用户确认），已如实告知，改为逐会话推进。"
+    }
+  ],
+  "confirmed_decisions": [
+    {
+      "id": "D-07",
+      "topic": "主利基（已确认）",
+      "decision": "阶段02 主利基 = 为 0-3年职场新人/应届生/跳槽者，在「求职投简历+入职后周报/月报/述职」场景，提供「简历模板+职场汇报PPT+通用PPT」虚拟商品组合。两名利基定位师独立用不同六维镜头评分，结论稳定收敛于同一主利基（镜头A 27/30、镜头B 仍居首）；Excel看板一致定为私域高客单升单承接而非主利基。",
+      "source": "opc-niche-strategist + opc-niche-strategist-2 阶段02 合并产出（opc-doc/outputs/02-niche/niche-statement.md 已合并为单一事实来源）",
+      "confirmed_at": "2026-07-16",
+      "note": "用户选(A)并要求基于此利基联网搜产品推荐，视为对主利基无异议，正式确认。"
+    },
+    {
+      "id": "D-09",
+      "topic": "一字成文会员推广·合规路径（已确认）",
+      "decision": "用户持有「一字成文(yizipaper.com)」会员推广权，推广链接 https://www.yizipaper.com/?tuid=189990 、福利码 LYG646。采用「渠道拆分」：小红书站内仅做种草涨粉（不挂任何外链/二维码/微信），转化放到允许外链的站外渠道（落地页/公众号/个人站）承载 ?tuid 链接；笔记中仅以纯文字出现福利码 LYG646（灰色地带，非链接/二维码），引导用户主动搜索「一字成文」。",
+      "source": "用户指令（2026-07-16 深夜）+ 主理人合规核查（交易导流细则/图书治理公告）",
+      "confirmed_at": "2026-07-16",
+      "note": "红线：?tuid 外链、微信小程序二维码(方式三)、海报二维码(方式五) 均禁止上小红书；方式一(链接)违规封号；方式二(福利码纯文字)可灰色操作；方式四(创作记录截图)可作种草素材。站外落地页 yizipaper-landing.html + 公众号文章 yizipaper-articles.md 已产出。",
+      "related_assets": [
+        "opc-doc/outputs/02-niche/yizipaper-landing.html",
+        "opc-doc/outputs/02-niche/yizipaper-articles.md",
+        "opc-doc/outputs/02-niche/xhs-ai-weekly-framework.md",
+        "opc-doc/outputs/02-niche/c-class-affiliate-checklist.md"
+      ]
+    },
+    {
+      "id": "D-11",
+      "topic": "一字成文会员推广·用途边界（已确认）",
+      "decision": "一字成文(yizipaper.com) 会员推广权（?tuid=189990 / 福利码LYG646）不用于「接单代做」PPT/简历——代做属服务交易，踩个人店类目限制+站内导流红线，且学术类(论文/开题)代写为学术不端红线绝对不可碰。正确定位=「生产引擎 + affiliate 双用」：① affiliate 推广客户自用走 D-09 渠道拆分路径赚佣金；② 作为创始人自身内容生产引擎，快速生成简历/PPT 高质量初稿与模板，再包装成自家店铺虚拟品上架变现。",
+      "source": "主理人合规判定（用户问询'是否用一字成文接PPT/简历单子' 2026-07-17）",
+      "confirmed_at": "2026-07-17",
+      "note": "与 D-09 协同：affiliate 走站外；与 D-07 主利基协同：一字成文 AI超级简历/AI答辩PPT 与'简历+汇报PPT'主利基同源，可作生产提效。AI答辩PPT 实际产出格式(.pptx vs 大纲)待实测确认。"
+    },
+    {
+      "id": "D-13",
+      "topic": "选品矩阵·B1 蓝海虚拟决策（已确认）",
+      "decision": "保留 B1「AI原创头像/壁纸」蓝海虚拟（头像壁纸属 2026 合规三大类之一），定位为【后期试水、非核心主利基】。主利基(D-07)仍以简历+汇报PPT组合为锚；B1 待主利基跑通、资质达标后，作为低竞争蓝海补充试探，不与核心流量争主轴。",
+      "source": "用户指令 2026-07-17（'选品矩阵确认 加不加拿 B1 蓝海虚拟'）",
+      "confirmed_at": "2026-07-17",
+      "note": "对标 product-market-research.md '可选扩展 AI原创头像/壁纸 蓝海 后期试水'。蓝海信号：通用模板内卷、垂直场景+AI指南胜出；头像壁纸竞争弱可作差异化入口。"
+    },
+    {
+      "id": "D-12",
+      "topic": "阶段04 商业模式核心（已确认）",
+      "decision": "主利基(D-07)商模结构锁定：客户端=0-3年职场新人/应届生/跳槽者；价值主张=「简历模板+职场汇报PPT+通用PPT」组合叠加AI优化指南/SOP(UVP:一次搞定求职→入职连续场景,不止给模板还教用AI改得专业)；收入=店铺虚拟品梯度(简历1元钩子/汇报PPT 9.9-39.9/通用PPT 4.9-19.9/Excel看板19.9-59)+私域升单+affiliate过渡(网盘拉新/一字成文);成本=零物流,主要创始人时间+自动化P0修复;渠道=小红书种草+搜索触达、私域承接、资质达标后店铺放量;不公平优势=AI/Python技能+已成品资产+合规门槛护城河+私域钩子资产。收入结构与定价为假设层,待06/07验证。",
+      "source": "opc-model-architect 阶段04 Lean Canvas 产出 (opc-doc/outputs/04-model/lean-canvas.md 等)",
+      "confirmed_at": "2026-07-17",
+      "note": "本商模建立在 H0资质达标/H1养号涨粉/H5自动化P0 三个P0前提与 H2私域转化/H3组合溢价/H4连续升单 三个P1假设上,详见 04-model/risky-assumptions.md,供06 MVP 优先验证。店铺成交严格后置(D-01)。"
+    },
+    {
+      "id": "D-14",
+      "topic": "工程步骤4 规划决策（5项拍板）",
+      "decision": "步骤4规划(step4-plan.md)5项待决已拍板：①采纳修正口径=前10仓库系研究资料(仅README链接集)，真正融合对象=本地代码资产(28个*_mcp/ArgusBot/12_Micro_SaaS出海/内容引擎)；②记忆权威后端=mem0_mcp(通用轻量、有MCP封装)，其余降备选；③线程A(小红书虚拟商品核心)优先，线程B(AI编程出海)作副链，resumeforge/promptgen-pro反哺A内容生产(与D-07同源)，B整体主线跑通后接入；④步骤5触发=阶段0 P0止血+阶段1融合验收通过且维持D-08半自动后启动；⑤Open SaaS(#07)暂不补全克隆，以本地12_Micro_SaaS出海26产品为准。",
+      "source": "主理人拍板（用户指令'所有任务自动执行' 2026-07-17）",
+      "confirmed_at": "2026-07-17",
+      "note": "步骤4落地形态=能力中台(MCP服务层)+ArgusBot编排层为骨架，接入贯通线程A主链路+线程B副链；阶段0 P0止血已启动实现。无持续运行时→逐会话推进。"
+    },
+    {
+      "id": "D-15",
+      "topic": "新产品开发方向决策（2026-07 联网调研后）",
+      "decision": "基于 2026-04~07 小红书最新规则调研（AI治理主张04-27 + 虚拟商品准入收紧 180天/1000粉/30篇/月流水6000 + 教育类严审 + 0粉买手合作笔记带货），**首选开发方向② AI降重/降AI SaaS（订阅制）**：自建Web SaaS+站外转化，绕开虚拟商品门槛，踩7月毕业季需求峰，与一字成文降重&降AI能力层同源。方向①/④ 短期不自建店铺卖模板（门槛封死），改走路径B买手合作/affiliate+养号至1000粉/180天，长期再转自营。方向③ 数字人吃内容端流量红利（AI角色创作属平台鼓励3类）+ affiliate验需，不自建重资产。",
+      "source": "主理人联网调研评估（opc-doc/outputs/product-strategy/market-research-2026-07.md）",
+      "confirmed_at": "2026-07-17",
+      "note": "修正07转化闭环认知：路径A(自营虚拟商品)改为'长期养号达标后'目标；路径B'0粉即跑'仅适用买手合作挂第三方/affiliate商品+图书佣金(标准类目)，不适用于自有虚拟商品自营上架。合规更新：compliance_gate 加AI标识逻辑；强化D-08禁止无人值守/AI托管式自动发布(属明确违规运营=封禁)。调研报告见 product-strategy/market-research-2026-07.md。"
+    },
+    {
+      "id": "D-16",
+      "topic": "另一台电脑全自动上架核实 + 合规子集采纳",
+      "decision": "核实另一台电脑'全自动上架'链路 = IMA知识库(RAG中枢, 双机共用GitHub私有库 ima-knowledge-base) + 内容工厂/XSH Pro技能 + ArgusBot(codex_autoloop)无人值守循环，跑在WSL/Linux(/mnt/e/路径+python3)。该模式=无人值守批量发布，**与D-08半自动姿态冲突，且违反小红书2026-04-27治理(AI托管账号直接封禁)**，本项目不复制。仅采纳合规子集：①IMA知识库作跨机知识中枢(归集SOP/产品数据/历史爆款+RAG检索)；②AI痕迹检测+合规闸门(生成草稿时跑, 已有compliance_gate.py)；③发布维持人工目检+扫码重登(半自动边界)。已落盘 ima-auto-listing-verify.md + 写 ima_kb.py(合规适配器, 仅知识归集/RAG, 不含发布)。",
+      "source": "主理人联网调研(tencent_ima_mcp / ima-knowledge-ai / content-swarm / 腾讯云文档) + 本地 resource-inventory.md 双机事实",
+      "confirmed_at": "2026-07-17",
+      "note": "ima_kb.py 基于 hdsz25/tencent_ima_mcp + IMA OpenAPI v1 写, 认证从 env/config.json 读取(禁硬编码), 无凭证优雅跳过不静默。真连需用户提供 IMA OpenAPI ClientID/Key 或 cookie。绝不为'全自动上架'接 @xiaohongshu-upload 无人值守发布循环。"
+    },
+    {
+      "id": "D-17",
+      "topic": "M0.2 Supabase 接通 + 2026 密钥体系变更",
+      "decision": "M0.2 已完成代码/配置层自动推进：schema.sql（profiles/documents/rewrite_results/subscriptions + RLS + 触发器 + is_paid_member() + storage 桶 docs，订阅字段 waffo_*）；Auth 链路（middleware.ts 会话刷新 + auth/callback 验码头 + auth-provider 上下文 + login/signout）；server.ts 兼容 2026 publishable/secret 密钥命名（旧 anon/service_role 仍可 fallback，2026 底 deprecated）。联网调研确认 Supabase 2026 起弃用 anon/service_role，改用 sb_publishable_/sb_secret_，client/server 已双命名兼容。",
+      "source": "主理人联网调研(@supabase/ssr 官方文档 + frontendhorizon 实战 + Supabase RLS 付费门控模式) + 亲自读码/tsc 验证",
+      "confirmed_at": "2026-07-17",
+      "note": "验证纪律：sandbox 无 Docker daemon（无法起本地 Postgres）且无真实 Supabase 凭证，远端 DDL 执行未做；改用 Supabase 官方 pgsql-parser 做 schema.sql 真实语法解析(通过) + tsc 类型检查(EXIT 0) + 脚本语法检查(通过)。真连待用户填 SUPABASE_DB_URL 后 npm run db:apply 一键完成。next build 仍受 sandbox 网络限制(挂起)，tsc 已覆盖类型关卡。"
+    },
+    {
+      "id": "D-18",
+      "topic": "为 PurePen 优化完善 OPC（2026-07-19 用户指令，后纠正为'不要重写'）",
+      "decision": "用户先指令'按opc模式跑一遍进行优化和完善'并初选(A)重跑 01–07；主理人已归档 XHS 阶段产出并改 current-stage。随后用户明确纠正：'在原来的基础上优化完善，不要重写'。→ 有效指令 = 在原有 OPC 文档（XHS 01–07 基线 + D-15/D-17 PurePen pivot）基础上做【增量优化完善】，**不起 agent 从零重写**；归档已撤销并还原（outputs/ 恢复原貌）。",
+      "source": "用户 AskUserQuestion q-0 选(A) + 用户纠正指令'在原来的基础上优化完善，不要重写'",
+      "confirmed_at": "2026-07-19",
+      "execution": "重跑已撤销；current-stage.json 恢复 opc-xhs-virtual-goods 基线，engagement 不再改为 opc-purepen-ai。",
+      "implication": "后续优化 = 轻量 refinement（增量编辑既有产出），目标让 01–07 战略阶段与 PurePen（净文 AI 降重降AI SaaS）对齐、并补全 product-strategy/转化闭环中的 PurePen 视角，而非重新生成文档。"
+    },
+    {
+      "id": "D-19",
+      "topic": "阶段04 商业模式核心（PurePen 视角增量修订，已落盘）",
+      "decision": "主利基(D-15)商模结构锁定（PurePen 视角，已覆盖写入 04-model/）：客户=中文语境学术/专业写作者(硕博/教师/科研/撰稿人)+非母语向上细分；价值主张=「语义保真(SPS>0.7)+术语保护+合规去AI味」中文降重降AI SaaS(UVP继承03主推版)；解决方案=检测报告钩子→语义保真改写→术语保护→合规去AI味(P2已实跑)；收入=钩子检测报告免费/极低价→主力改写订阅(保真溢价H1)→非母语/企业升单(H2)+affiliate协同(D-09)；成本=LLM按量+云资源+创始人双线精力，零物流边际成本趋零；渠道=落地页/affiliate/小红书种草(不挂链)/目录站触达、独立站+Waffo承接；不公平优势=已实跑代码资产+创始人即用户+可度量思维产品化+合规护城河+平台链全通。收入结构与定价为假设框架，不写最终数字(属06/07验证)。",
+      "source": "opc-model-architect 阶段04 Lean Canvas 增量修订产出 (opc-doc/outputs/04-model/lean-canvas.md + risky-assumptions.md + pricing-notes.md)",
+      "confirmed_at": "2026-07-19",
+      "note": "P2语义保真/术语保护/软降级已实跑→能力可行性假设收敛，不占验证队列；模型成立前提改为H0上线前置三缺口(凭证+部署+流量)，原XHS的H0资质/H1养号/H5自动化P0不适用SaaS。H1保真溢价/H2细分扩展/H3合规护城河继承03；H4站外获客冷启动/H5订阅单位经济结合01资源4项待核实(资金/人脉/内容)标注依赖。state/assumptions.json已同步为H0-H5。4项待核实缺口影响验证节奏与早期爬坡，不影响02利基。"
+    },
+    {
+      "id": "D-20",
+      "topic": "阶段08 资产沉淀优先级决策（已确认）",
+      "decision": "产出 29 项可复用资产登记表 v2（P0×11 / P1×14 / P2×4）。P0 立即沉淀：H4 起量侧 E1 md-splitter、E2 案例库草稿生成器、E3 文案中台、E4 封面对比条、M1 选题库、C1 周度复盘 SOP、C2 合规护栏、G1 资产登记表；H0 上线侧 E7 上线闸门包、E5 PurePen 核心 lib；治理 E11 agent.md。双瓶颈杠杆：H4 起量资产均'已实跑、不依赖凭证、现在就能跑'，为 7 月唯一可控且不可逆窗口，优先投入蓄转化基数；H0 上线卡用户凭证但已 SOP 化（15 分钟可触发动作）。",
+      "source": "opc-asset-strategist 阶段08 产出（opc-doc/outputs/assets/asset-strategy-20260721.md + asset-register-v2.md），主理人易牧汇总，用户确认落盘 2026-07-21",
+      "confirmed_at": "2026-07-21",
+      "note": "资产登记表 v2 为复利飞轮记账层，每次运营/开发产出当天回填、追加不覆盖（v1→v2→…）。H4 起量不依赖凭证即启动；H0 上线待用户填 Supabase/LLM/Waffo 凭证 + Vercel 部署。P1 内建议优先固化 C3 合规词表/话术库（接进生成前审查）。"
+    },
+    {
+      "id": "D-21",
+      "topic": "执行期验证闭环：微信生态六步法实证 + 数据飞轮写回实测（已确认）",
+      "decision": "用微信生态六步法（MVP 验证协议）实跑 PurePen 微信生态需求验证，结论=需求强度强（政策强制+年度复现/付费市场1-8元千字已验证/微信原生使用+海量讨论），产出 wechat-demand-validation-purepen-20260721.md；并触发 09 复盘实测「数据飞轮写回」机制——把验证数据真实写回 assumptions.json(H4 confidence+evidence_log)/记忆/asset-register-v2.md(E12)，证明该机制可运行闭环。下周期唯一重点：执行 H4 零凭证最小体验方案(优先B小红书不挂链+A公众号钩子)，按漏斗阈值(自然曝光+咨询率>0+留资率>1%)读数，达标才触发 H0 上线闸门，不抢跑烧凭证。",
+      "source": "opc-mvp-designer(②验证报告)+opc-dashboard-reviewer(③复盘+飞轮写回)，主理人易牧汇总，用户授权推进 2026-07-21",
+      "confirmed_at": "2026-07-21",
+      "note": "源自两篇公众号文章优化(①镜像进 agent.md §3.10)。飞轮写回三载体全部实测成功，是今天 OPC skill 增量优化(§3.10.2)的真实闭环验证。H4 需求真实性底层风险已消解，瓶颈收敛为'执行未动'与7月窗口不可逆。资产登记表升 29→30 项(E12 P1)。"
+    }
+  ],
+  "open_questions": [
+    "上线前置三缺口：Supabase迁移SQL执行/LLM·Waffo·Embedding凭证配置/Vercel部署——四者落实前订阅零收入(H0)",
+    "4项待核实(时间/资金/人脉/内容，01资源)须创始人补齐，影响04定价与07获客节奏",
+    "订阅最终定价数字与ARPU/LLM成本比待06 MVP小样本+07真实成交回测(H1/H5)"
+  ]
+}

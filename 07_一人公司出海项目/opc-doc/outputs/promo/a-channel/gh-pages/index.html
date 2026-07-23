@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>免费测AI率 · 论文/材料 AI 痕迹初诊（本地估算）</title>
+<style>
+  :root{
+    --bg:#f6f8fb; --card:#fff; --ink:#1f2937; --sub:#6b7280; --line:#e5e7eb;
+    --brand:#2563eb; --brand2:#0ea5e9; --warn:#f59e0b; --danger:#ef4444; --ok:#10b981;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.6}
+  .wrap{max-width:680px;margin:0 auto;padding:18px 16px 48px}
+  header h1{font-size:22px;margin:8px 0 4px}
+  header p{color:var(--sub);font-size:13px;margin:0}
+  .disclaimer{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;font-size:12px;padding:10px 12px;border-radius:10px;margin:14px 0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:14px 0}
+  textarea{width:100%;min-height:150px;border:1px solid var(--line);border-radius:10px;padding:12px;font-size:15px;resize:vertical;outline:none}
+  textarea:focus{border-color:var(--brand)}
+  .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:12px}
+  button{background:var(--brand);color:#fff;border:0;border-radius:10px;padding:11px 20px;font-size:15px;font-weight:600;cursor:pointer}
+  button:active{transform:translateY(1px)}
+  .hint{color:var(--sub);font-size:12px}
+  .result{display:none}
+  .score{display:flex;align-items:center;gap:16px;margin:6px 0 4px}
+  .score .num{font-size:46px;font-weight:800;line-height:1}
+  .badge{font-size:13px;padding:4px 12px;border-radius:999px;font-weight:600}
+  .b-high{background:#fee2e2;color:#b91c1c}
+  .b-mid{background:#fef3c7;color:#92400e}
+  .b-low{background:#d1fae5;color:#065f46}
+  .meter{height:10px;border-radius:999px;background:#eef2f7;overflow:hidden;margin:8px 0 4px}
+  .meter > i{display:block;height:100%;background:linear-gradient(90deg,var(--ok),var(--warn),var(--danger))}
+  .segs{margin-top:14px}
+  .seg{display:flex;gap:10px;padding:8px 10px;border-radius:10px;margin-bottom:8px;border-left:4px solid var(--line);background:#fafbfc}
+  .seg.s-warn{background:#fffbeb;border-left-color:var(--warn)}
+  .seg.s-danger{background:#fef2f2;border-left-color:var(--danger)}
+  .seg .risk{font-size:12px;font-weight:700;min-width:54px;text-align:right;white-space:nowrap}
+  .seg .txt{flex:1;font-size:14px;word-break:break-word}
+  .cta{background:linear-gradient(135deg,#eff6ff,#f0f9ff);border:1px solid #bfdbfe;border-radius:14px;padding:16px;margin:14px 0}
+  .cta h3{margin:0 0 6px;font-size:16px}
+  .cta p{margin:6px 0;font-size:14px;color:#334155}
+  .cta code{background:#dbeafe;color:#1e40af;padding:1px 6px;border-radius:6px;font-size:13px}
+  footer{color:var(--sub);font-size:12px;margin-top:18px;border-top:1px solid var(--line);padding-top:12px}
+  footer b{color:#b91c1c}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>免费测AI率 · AI 痕迹初诊</h1>
+    <p>论文 / 材料 / 公号文粘贴即测 · 本地估算 · 零凭证</p>
+  </header>
+
+  <div class="disclaimer">
+    ⚠️ 本工具为<b>本地启发式估算</b>，仅看「句长均匀度 + 用字重复度」两个软信号，准确性有限。
+    短文本 / 非母语噪声较大，<b>正式检测以朱雀 / 度小满 / 多检测器为准</b>。本工具仅作方法演示，<b>非代写代做</b>。
+  </div>
+
+  <div class="card">
+    <textarea id="input" placeholder="把要自查的段落粘贴到这里（建议 ≥ 50 字，越长越准）…"></textarea>
+    <div class="row">
+      <button id="run">测一下</button>
+      <span class="hint">纯前端计算，文本不会上传任何服务器。</span>
+    </div>
+  </div>
+
+  <div class="card result" id="result">
+    <div class="score">
+      <span class="num" id="scoreNum">--</span>
+      <div>
+        <div id="scoreLabel" class="badge b-mid">等待检测</div>
+        <div class="hint" id="scoreHint">AI 率估算（本地）</div>
+      </div>
+    </div>
+    <div class="meter"><i id="meterFill" style="width:0%"></i></div>
+
+    <div class="segs" id="segs"></div>
+  </div>
+
+  <div class="cta" id="cta" style="display:none">
+    <h3>下一步：语义保真改写（意思不变 · 术语不丢 · 只换表达）</h3>
+    <p>本页是<b>零凭证初诊</b>，不在这一步实跑改写（避免凭证依赖）。</p>
+    <p>📌 公众号内：回复关键词 <code>预约</code> 加入「语义保真改写」等待列表，正式版上线优先通知；或点菜单 <code>术语不丢的降重</code> 看案例对照。</p>
+    <p class="hint">（仅登记与工具/方法分享，不接单代写 —— 合规红线 D-11）</p>
+  </div>
+
+  <footer>
+    来源：净文 PurePen · 语义保真降重 / 降AI率方法分享。本地 heuristic 镜像 PurePen
+    <code>detect.ts/localHeuristic</code> 与 <code>local_ai_rate.py</code>。
+    <b>非代写代做</b>；正式检测以多检测器为准。
+  </footer>
+</div>
+
+<script>
+// ---- 忠实移植 local_ai_rate.py 的 localHeuristic ----
+function clamp01(n){ return Math.min(1, Math.max(0, n)); }
+
+function analyze(text){
+  var clean = text.replace(/\s+/g, "");
+  if(clean.length < 50){
+    return { tooShort:true, score:null, label:"unknown" };
+  }
+  var rawSent = clean.split(/[。！？.!?]/);
+  var sentences = rawSent.filter(function(s){ return s.length>0; });
+  var avgLen = clean.length / Math.max(1, sentences.length);
+
+  var burst = 0.0;
+  if(sentences.length > 1){
+    var variance = 0;
+    for(var i=0;i<sentences.length;i++){
+      var d = sentences[i].length - avgLen;
+      variance += d*d;
+    }
+    variance = variance / sentences.length;
+    burst = Math.sqrt(variance) / avgLen;
+  }
+
+  var chars = clean.split("");
+  var uniq = new Set(chars).size / Math.max(1, chars.length);
+
+  var est = clamp01(0.5 + (0.35 - burst)*1.2 + (0.45 - uniq)*1.5);
+  var score = Math.round(est*100);
+  var label = est > 0.7 ? "high" : (est < 0.3 ? "low" : "mid");
+
+  // 逐句高危段标红（可视化启发式：均匀句长 + 低用字多样性 → 偏 AI 模板腔）
+  var segs = [];
+  for(var j=0;j<sentences.length;j++){
+    var s = sentences[j];
+    var dev = avgLen>0 ? Math.abs(s.length - avgLen)/avgLen : 0;
+    var uniformity = clamp01(1 - dev);                       // 1 = 与平均句长一致
+    var sUniq = new Set(s.split("")).size / Math.max(1, s.length);
+    var vocabDeficit = clamp01((0.45 - sUniq)/0.45);         // 1 = 用字很重复
+    var sRisk = clamp01(0.35 + 0.30*uniformity + 0.40*vocabDeficit);
+    segs.push({ text:s, risk:Math.round(sRisk*100), level: sRisk>=0.7?"danger":(sRisk>=0.55?"warn":"ok") });
+  }
+
+  return { tooShort:false, score:score, label:label, burst:burst, uniq:uniq, segs:segs };
+}
+
+var labelMap = {
+  high:{ cls:"b-high", txt:"偏高 · 疑似 AI 痕迹重" },
+  mid:{ cls:"b-mid", txt:"中等 · 人机混合" },
+  low:{ cls:"b-low", txt:"偏低 · 像人写" },
+  unknown:{ cls:"b-mid", txt:"样本不足" }
+};
+
+document.getElementById("run").addEventListener("click", function(){
+  var text = document.getElementById("input").value || "";
+  var r = analyze(text);
+  var box = document.getElementById("result");
+  var cta = document.getElementById("cta");
+  box.style.display = "block";
+
+  if(r.tooShort){
+    document.getElementById("scoreNum").textContent = "—";
+    document.getElementById("meterFill").style.width = "0%";
+    var b0 = document.getElementById("scoreLabel");
+    b0.className = "badge b-mid"; b0.textContent = "文本过短";
+    document.getElementById("scoreHint").textContent = "请粘贴 ≥ 50 字，越长越准";
+    document.getElementById("segs").innerHTML = "";
+    cta.style.display = "none";
+    return;
+  }
+
+  document.getElementById("scoreNum").textContent = r.score + "%";
+  document.getElementById("meterFill").style.width = r.score + "%";
+  var lm = labelMap[r.label];
+  var bl = document.getElementById("scoreLabel");
+  bl.className = "badge " + lm.cls; bl.textContent = lm.txt;
+  document.getElementById("scoreHint").textContent =
+    "AI 率估算（本地）· 句长突发 " + r.burst.toFixed(2) + " · 用字多样性 " + r.uniq.toFixed(2);
+
+  var html = "";
+  for(var i=0;i<r.segs.length;i++){
+    var s = r.segs[i];
+    var cls = s.level==="danger"?"s-danger":(s.level==="warn"?"s-warn":"");
+    var tag = s.level==="danger"?"高危":(s.level==="warn"?"注意":"正常");
+    html += '<div class="seg '+cls+'"><span class="txt">'+ escapeHtml(s.text) +
+            '</span><span class="risk">'+tag+' '+s.risk+'%</span></div>';
+  }
+  document.getElementById("segs").innerHTML = html;
+  cta.style.display = "block";
+});
+
+function escapeHtml(str){
+  return str.replace(/[&<>"']/g, function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+  });
+}
+</script>
+</body>
+</html>

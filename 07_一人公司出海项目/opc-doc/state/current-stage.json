@@ -1,0 +1,171 @@
+{
+  "engagement": "opc-xhs-virtual-goods",
+  "current_layer": "execution",
+  "current_stage": "execution-ready",
+  "stage_status": "completed",
+  "build_phase": "completed",
+  "completed_stages": ["01-resource", "02-niche", "03-value", "04-model", "06-mvp", "07-conversion", "08-asset", "09-dashboard", "product-strategy"],
+  "pivot": {
+    "decision": "D-15",
+    "direction": "首选方向② AI降重/降AI SaaS（订阅制）= PurePen AI",
+    "engineering": "D-17 M0.2 Supabase 接通（schema/profiles/documents/rewrite_results/subscriptions + RLS + Auth + 2026 密钥兼容）"
+  },
+  "revision": {
+    "mode": "increment-do-not-rewrite",
+    "xhs_baseline_done": ["01-resource", "02-niche", "03-value", "04-model", "06-mvp", "07-conversion", "09-dashboard"],
+    "purepen_revision_done": ["01-resource", "02-niche", "03-value", "04-model", "06-mvp", "07-conversion", "09-dashboard", "product-strategy"],
+    "purepen_revision_in_progress": [],
+    "purepen_revision_pending": []
+  },
+  "asset_ops": {
+    "status": "completed",
+    "date": "2026-07-21",
+    "decision_ref": "D-20",
+    "register": "opc-doc/outputs/assets/asset-register-v2.md",
+    "strategy": "opc-doc/outputs/assets/asset-strategy-20260721.md"
+  },
+  "wechat_demand_verify": {
+    "status": "completed",
+    "date": "2026-07-21",
+    "decision_ref": "D-21",
+    "method": "微信生态六步法（MVP 验证协议）",
+    "finding": "PurePen 微信生态需求强度=强（政策强制+年度复现 / 付费市场1-8元千字已验证 / 微信原生使用+海量讨论）",
+    "validation_report": "opc-doc/outputs/06-mvp/wechat-demand-validation-purepen-20260721.md",
+    "review": "opc-doc/outputs/09-dashboard-review/review-20260721.md",
+    "flywheel_writeback": [
+      "assumptions.json (H4 confidence + evidence_log)",
+      ".workbuddy/memory/2026-07-21.md",
+      "asset-register-v2.md (E12)"
+    ],
+    "next_focus": "执行 H4 零凭证方案(优先 B 小红书不挂链 + A 公众号钩子)，按漏斗阈值读数，达标触发 H0"
+  },
+  "h4_draft_scale": {
+    "status": "expanded",
+    "date": "2026-07-22",
+    "count_before": 3,
+    "count_after": 11,
+    "new_ids": ["sample-004","sample-005","sample-006","sample-007","sample-008","sample-009","sample-010","sample-011"],
+    "engine": "E2 case-lib (case_to_xhs.py, local_ai_rate/risk 启发式镜像)",
+    "ai_rate_direction": "全部 前>后（38→18 / 23→0 / 52→8 / 47→27 / 52→16 / 33→7 / 28→0 / 45→0）",
+    "compliance": "D-09 无 http；D-11 非代写代做声明已含；11 测试回归通过",
+    "note": "纯草稿骨架（需人工润色+承接词后发布，D-08 半自动不自动化发布）；本地AI率为启发式估算，上线接朱雀/度小满后为准。"
+  },
+  "h4_draft_polish": {
+    "status": "polished",
+    "date": "2026-07-22",
+    "scope": "sample-004~011 八篇（sample-001~003 此前已手补承接词）",
+    "action": "标题对齐 ② 承接词「降AI率」+ 前后 AI 率对比；补钩子/痛点段（桥接产品价值：语义保真降重红线降幅）",
+    "compliance": "D-09 无 http；D-11 非代写声明保留；无残留「人工补」占位",
+    "publish_readiness": "草稿已达可发布质量（标题+钩子齐全）；发布仍属人工(D-08 半自动)，待 B 渠道小红书账号 / A 渠道订阅号承接"
+  },
+  "a_channel": {
+    "status": "built",
+    "date": "2026-07-22",
+    "plan_source": "opc-doc/outputs/06-mvp/wechat-demand-validation-purepen-20260721.md 方案 A（公众号+智能体闭环）",
+    "design_doc": "opc-doc/outputs/execution/a-channel-wechat-hook.md",
+    "hook_html": "opc-doc/outputs/promo/a-channel/ai-rate-checker.html",
+    "naming": "订阅号主名『论文降AI率』(备选降AI率)；菜单 免费测AI率→语义保真改写→术语不丢的降重",
+    "zero_credential_hook": "本地 heuristic 镜像 local_ai_rate.py（句长突发+用字多样性），纯前端零依赖零凭证；逐句高危段标红；引导预约等待列表(不接单,D-11)",
+    "compliance": "D-08 发布属人工 / D-09 不挂链仅限小红书口径(公众号内可菜单/关键词引导) / D-11 非代写",
+    "h4_integration": "channel=wechat 接入 h4-daily.csv 同一追踪表",
+    "hook_deployed": true,
+    "hook_url": "https://fbfb4e17ac1940f68a1e6afce5ee3d09.app.codebuddy.work",
+    "deploy_date": "2026-07-22",
+    "menu_target": "公众号菜单『免费测AI率』可直接挂此 HTTPS（注册订阅号论文降AI率后人工配置）"
+  },
+  "h4_publish_calendar": {
+    "status": "built",
+    "date": "2026-07-22",
+    "doc": "opc-doc/outputs/promo/h4-publish-calendar.md",
+    "scope": "11 篇草稿(sample-001~011)两周排期 + 每篇 D-09/D-11 自检 + 公众号(A)复用说明 + H0 闸门联动",
+    "channel_primary": "B 小红书不挂链(xhs)",
+    "channel_secondary": "A 公众号钩子(wechat，复用 hook_url)",
+    "next_action": "人工按日历逐日发布(B渠道) / 注册订阅号并挂 hook_url(A渠道)；发布后回填 h4-daily.csv"
+  },
+  "h4_automation": {
+    "status": "active",
+    "date": "2026-07-22",
+    "automation_id": "automation-1784683501454",
+    "schedule": "每日 08:00 (FREQ=DAILY;BYHOUR=8;BYMINUTE=0)",
+    "command": "env -u PYTHONPATH C:/Users/lixingliang/.workbuddy/binaries/python/versions/3.13.12/python/python.exe h4_tracker.py (cwd=opc-doc/outputs/execution)",
+    "scope": "计算/预警/H0触发判定全自动；唯一人工步骤=每日填 h4-daily.csv；不自动烧凭证/发布(D-08)"
+  },
+  "h4_draft_csv_export": {
+    "status": "built",
+    "date": "2026-07-22",
+    "export_script": "opc-doc/outputs/promo/export_drafts_csv.py",
+    "csv": "opc-doc/outputs/promo/h4-drafts-export.csv",
+    "columns": ["id", "title", "body", "hook", "full_post"],
+    "encoding": "utf-8-sig (Excel 中文直开)",
+    "count": 11,
+    "purpose": "降低人工复制到小红书后台成本；full_post=正文+钩子整篇可一键复制；草稿改动后重跑脚本即刷新",
+    "compliance": "仅格式搬运，不改写文案；D-09 无链/D-11 声明随原文保留"
+  },
+  "h4_compliance_preflight": {
+    "status": "built",
+    "date": "2026-07-22",
+    "script": "opc-doc/outputs/promo/check_drafts_compliance.py",
+    "checks": ["D-09 不挂链(无 http/www/域名)", "D-11 非代写声明存在", "标题≤20字", "钩子非空"],
+    "result": "11/11 绿灯（初检 sample-001/002/003 标题 23-25 字，已对齐为 ≤20 字同款格式后复检全绿）",
+    "usage": "发布前重跑本脚本，exit=0 才进人工发布(D-08)"
+  },
+  "a_channel_ghpages": {
+    "status": "packaged",
+    "date": "2026-07-22",
+    "reason": "CloudStudio 沙箱 URL 临时可能过期；公众号菜单需永久 HTTPS",
+    "package_dir": "opc-doc/outputs/promo/a-channel/gh-pages/",
+    "files": ["index.html (=ai-rate-checker.html 副本)", "README.md (push+开Pages 部署指引)"],
+    "deploy_action": "人工：建 GitHub 仓库 push index.html → Settings/Pages 选 main/(root) → 得 https://<user>.github.io/<repo>/",
+    "post_deploy": "回填 a_channel.hook_url=新永久地址(hook_deployed 标注 github-pages)；订阅号菜单挂新 URL",
+    "note": "纯前端零凭证页，与 current a_channel.hook_url(CloudStudio 临时) 同源；上线前仍仅零凭证初诊+等待列表(D-11)"
+  },
+  "asset_backfill_h4": {
+    "status": "done",
+    "date": "2026-07-22",
+    "action": "将 H4 执行期 4 项新交付物回填资产登记表 v2（D-20 飞轮纪律：当天回填、追加不覆盖）",
+    "entries": ["#31 H4草稿CSV导出器(P0)", "#32 合规预检器(P0)", "#33 钩子GH Pages包(P1)", "#34 每日追踪自动化(P0)"],
+    "register_total": "v2 共 34 项（P0×14 / P1×16 / P2×4）",
+    "health_check": "h4_tracker.py 重跑 exit=0（h4-daily.csv 仅表头=预期无数据）；python 路径与脚本均存在；automation-1784683501454 命令有效"
+  },
+  "ima_kb_synthesis": {
+    "status": "done",
+    "date": "2026-07-23",
+    "trigger": "用户要求查看 ima 知识库订阅文档以优化升级",
+    "source_kbs": ["AI编程出海独立开发资源库(7354338238295398)", "AI出海精选知识库(7389943097721763)"],
+    "key_docs": ["普通人靠AI编程+小红书从0到1变现", "出海没流量？低门槛冷启动跑通闭环的社区平台", "AI编程做的网站单月营收5w", "出海冷启动：为什么要发 Product Hunt"],
+    "extracted_tactics": ["小红书封面=截图+卖点/标题覆盖关键词/Claude Code批量商详/虚拟类目风险", "Reddit Build-in-Community+问题思维+自问自答标题公式+真诚利他主页+Karma养成+SEO文章+MVP邮箱闭环", "蓝链过渡(小红书评论区引导/公众号菜单挂钩子)", "Product Hunt 冷启动(备选)"],
+    "note": "由资产沉淀师沉墨(opc-asset-strategist)在 opc-ima-upgrade 专队内完成专业合成"
+  },
+  "h4_tactics_upgrade": {
+    "status": "built",
+    "date": "2026-07-23",
+    "doc": "opc-doc/outputs/execution/h4-tactics-upgrade.md",
+    "scope": "① 小红书B渠道精细化(对比条封面+痛点标题+类目合规) ② 新增C渠道Reddit零凭证方案 ③ 蓝链过渡合规化(D-09边界) ④ 11篇草稿×三渠道映射 ⑤ H0闸门联动",
+    "compliance": "全程 D-08/D-09/D-11；小红书侧不挂链仅模糊引导；转化落公众号菜单(ai-rate-checker)"
+  },
+  "c_channel_reddit": {
+    "status": "built",
+    "date": "2026-07-23",
+    "sop": "opc-doc/outputs/execution/c-channel-reddit-sop.md",
+    "target_communities": ["r/AcademicWriting","r/GradSchool","r/PhD","r/AskAcademia","r/EssayWriting","r/StatementOfPurpose","r/Chinese","r/IntltoUSA"],
+    "tracker_integration": "h4-daily.csv 将增 reddit 行(exposure/clicks/inquiries/leads)，与 xhs/wechat 分列；连续3天达标任一渠道即可建议H0闸门",
+    "compliance": "D-08 发帖人工 / D-11 tool-method-share-not代写 / 组规第一不硬广"
+  },
+  "ima_kb_v2_integrate": {
+    "status": "done",
+    "date": "2026-07-23",
+    "trigger": "用户要求基于已有 ima 知识库继续系统优化升级，新内容与现有体系有机融合、避免重复或冲突",
+    "scope": "系统盘点全部 4 个 ima 订阅库（7354338238295398 / 7389943097721763 / 7307200439519008 / 7285197179473599），共 416 unique docs / 231 relevant candidates",
+    "method": "资产沉淀师沉墨(opc-asset-strategist)在 opc-ima-kb-integrate 专队内查重→合成",
+    "deliverables": [
+      "opc-doc/outputs/knowledge/kb-integration-hub.md (#38 知识中枢索引·查重边界与4库映射)",
+      "opc-doc/outputs/execution/h0-launch-infra.md (#39 H0 上线基建知识包·支付/Stripe/RLS红线/应急, P0)",
+      "opc-doc/outputs/execution/seo-organic-growth.md (#40 SEO 有机增长知识包·pSEO/Google红线/搜索模式, P1)",
+      "#41 ima Agent/智能体库低相关索引注记（并入 hub §6，不单列）"
+    ],
+    "dedup_principle": "以资产登记表(#29)为唯一记账层：能交叉引用不重做(H4三渠道战术#36/#37/#33)、能索引不展开(Agent库#41)、仅补真正缺口(H0上线基建#39/SEO有机增长#40)",
+    "note": "本轮为 v2 深度融合，与 2026-07-23 首轮 ima 升级(#35/#36/#37)互补不重复；资产总数 37→41"
+  },
+  "note": "2026-07-19 增量优化续推全队列收口：01/02/03/04/06/07/09（PurePen 版）+ product-strategy 深化 均已落盘。2026-07-21 阶段08 资产沉淀完成（29项登记表v2, D-20）。2026-07-21 执行期验证闭环（①②③）。建盘期 01-07 + 08资产沉淀 + 09复盘 全完成，进入执行期。2026-07-22 H4 执行期4项交付(草稿CSV/合规预检/钩子GH Pages/资产回填)。2026-07-23 接入 ima 知识库订阅文档，由沉墨合成 H4 战术升级补遗(#36)+C渠道Reddit SOP(#37)+ima来源资产(#35)，升级三渠道起量结构。2026-07-23（续）ima 知识库 v2 融合：4 库系统盘点后补齐知识中枢索引(#38)/H0上线基建(#39)/SEO有机增长(#40)，Agent库仅索引(#41)，资产总数 37→41，严格去重不重复。",
+  "next": "下周期唯一重点：执行 H4 零凭证最小体验方案（优先 B 小红书种草不挂链 + A 公众号钩子），按 ② 漏斗阈值(自然曝光+咨询率>0+留资率>1%)读数，达标才触发 H0 上线闸门（不抢跑烧凭证）。H0 改为受闸门控制。H0 上线基建知识包(#39)/SEO有机增长(#40)已就绪，H0 触发前回查支付/RLS红线/应急，H0 后启动自有搜索流量。触发回归 OPC：运营卡住→复明(09)；新产出想系统化→沉墨(08)。"
+}

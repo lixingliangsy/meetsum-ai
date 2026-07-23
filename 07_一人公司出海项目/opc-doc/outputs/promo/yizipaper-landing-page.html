@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>一字成文 · 写作一次搞定（个人体验分享）</title>
+<meta name="description" content="一字成文内置 12 类文书模板 + 8 项 AI 能力，从开题到答辩写作全流程辅助。个人体验分享页面，非官方。" />
+<style>
+  :root{
+    --brand:#4f46e5; --brand-d:#3730a3; --accent:#f59e0b; --accent-d:#d97706;
+    --ink:#1f2937; --ink-soft:#4b5563; --line:#e5e7eb; --bg:#ffffff; --bg-soft:#f8fafc;
+    --radius:16px; --shadow:0 6px 24px rgba(31,41,55,.08);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.7;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:0 18px}
+  section{padding:40px 0;border-bottom:1px solid var(--line)}
+  h1,h2,h3{line-height:1.3}
+  a{color:var(--brand);text-decoration:none}
+
+  /* HERO */
+  .hero{background:linear-gradient(135deg,#4f46e5 0%,#7c3aed 100%);color:#fff;padding:64px 0 56px;text-align:center}
+  .hero h1{font-size:30px;font-weight:800;letter-spacing:.5px}
+  .hero .sub{margin-top:14px;font-size:16px;opacity:.92;font-weight:400}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-weight:700;font-size:17px;padding:14px 30px;border-radius:999px;box-shadow:0 8px 20px rgba(245,158,11,.45);transition:transform .15s}
+  .btn:hover{transform:translateY(-2px)}
+  .hero .btn{margin-top:26px}
+  .hero .note{margin-top:14px;font-size:13px;opacity:.9}
+  .code{background:rgba(255,255,255,.18);padding:2px 8px;border-radius:6px;font-weight:700;letter-spacing:1px}
+
+  /* generic block heading */
+  .bh{font-size:23px;font-weight:800;text-align:center;margin-bottom:24px;color:var(--brand-d)}
+  .lead{text-align:center;color:var(--ink-soft);max-width:600px;margin:0 auto 24px;font-size:15px}
+
+  /* two-column audience */
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .card{background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+  .card h3{font-size:18px;margin-bottom:10px}
+  .card ul{list-style:none;font-size:14px;color:var(--ink-soft)}
+  .card li{padding:4px 0;border-bottom:1px dashed var(--line)}
+  .card li:last-child{border-bottom:none}
+
+  /* pain points */
+  .pains{list-style:none;display:grid;gap:12px}
+  .pains li{background:#fff7ed;border-left:4px solid var(--accent);border-radius:10px;padding:14px 16px;font-size:15px}
+
+  /* type wall */
+  .tagrow{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:10px 0 22px}
+  .tag{background:#eef2ff;color:var(--brand-d);font-size:13px;padding:7px 14px;border-radius:999px;font-weight:600}
+  .wall-title{text-align:center;font-weight:700;color:var(--ink-soft);margin-bottom:6px;font-size:15px}
+
+  /* AI capabilities */
+  .feat{display:grid;gap:14px}
+  .feat .item{background:var(--bg-soft);border-radius:12px;padding:16px 18px;font-size:15px}
+  .feat .item b{color:var(--brand-d)}
+  .callout{background:linear-gradient(135deg,#fffbeb,#fef3c7);border:2px solid var(--accent);border-radius:14px;padding:18px 20px;margin:16px 0;font-size:16px;font-weight:600;color:#92400e;text-align:center}
+  .callout .star{font-size:20px}
+
+  /* pipeline steps */
+  .steps{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:10px}
+  .step{background:var(--brand);color:#fff;border-radius:10px;padding:12px 16px;font-size:14px;font-weight:600;position:relative}
+  .step span{display:block;font-size:11px;opacity:.8;font-weight:400}
+
+  /* how-to numbered */
+  .how{display:grid;gap:12px;counter-reset:n}
+  .how .h{display:flex;gap:14px;align-items:flex-start;background:var(--bg-soft);border-radius:12px;padding:16px 18px}
+  .how .h::before{counter-increment:n;content:counter(n);flex:0 0 30px;height:30px;background:var(--brand);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800}
+  .how .h b{color:var(--brand-d)}
+
+  /* benefits */
+  .ben{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .ben .b{background:var(--bg-soft);border-radius:12px;padding:16px;font-size:14px}
+  .ben .b b{display:block;font-size:16px;color:var(--brand-d);margin-bottom:4px}
+
+  /* FAQ */
+  .faq details{background:var(--bg-soft);border-radius:12px;padding:14px 18px;margin-bottom:10px}
+  .faq summary{font-weight:700;cursor:pointer;color:var(--brand-d)}
+  .faq p{margin-top:8px;font-size:14px;color:var(--ink-soft)}
+
+  /* CTA bottom */
+  .cta{background:linear-gradient(135deg,#3730a3,#4f46e5);color:#fff;text-align:center;padding:48px 0}
+  .cta h2{font-size:24px;margin-bottom:18px}
+  .cta .note{margin-top:14px;font-size:13px;opacity:.9}
+
+  /* compliance footer */
+  .legal{background:#111827;color:#9ca3af;font-size:12px;line-height:1.8;padding:26px 0}
+  .legal .wrap{max-width:680px}
+  .legal b{color:#d1d5db}
+
+  @media (max-width:560px){
+    .hero h1{font-size:25px}
+    .grid2,.ben{grid-template-columns:1fr}
+    .bh{font-size:20px}
+  }
+</style>
+</head>
+<body>
+
+<!-- 区块一 · HERO -->
+<header class="hero">
+  <div class="wrap">
+    <h1>从开题到答辩，写作一次搞定</h1>
+    <p class="sub">一字成文——内置 12 类文书模板 ＋ 8 项 AI 能力，帮你跳过最痛苦的"从零开始"</p>
+    <a class="btn" href="https://www.yizipaper.com/?tuid=189990" target="_blank" rel="noopener">🎁 免费体验一字成文</a>
+    <p class="note">新朋友输入福利码 <span class="code">LYG646</span> 注册有专属优惠</p>
+  </div>
+</header>
+
+<!-- 区块二 · 双人群 -->
+<section>
+  <div class="wrap">
+    <h2 class="bh">谁在用一字成文</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3>🎓 学生党</h3>
+        <ul>
+          <li>论文 / 开题报告</li>
+          <li>文献综述 / 降重降 AI</li>
+          <li>答辩 PPT</li>
+          <li>毕业全流程刚需</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>💼 职场人</h3>
+        <ul>
+          <li>AI 超级简历</li>
+          <li>周报月报</li>
+          <li>工作报告</li>
+          <li>实习日记 · 从校园到职场一次收工</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 区块三 · 痛点共鸣 -->
+<section style="background:var(--bg-soft)">
+  <div class="wrap">
+    <h2 class="bh">这些场景，你中了几条</h2>
+    <ul class="pains">
+      <li>开题报告被毙三次，连"研究背景"和"研究意义"都分不清？</li>
+      <li>20 篇文献摊桌上，每个字都认识，连起来不知道在说啥？</li>
+      <li>查重明明过了，却被「AI 检测」标红，整篇要重改到大半夜？</li>
+      <li>答辩前三天，内容写完了，PPT 还是一片空白？</li>
+      <li>工作后周报月报从空白页憋，简历投出去没回音？</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 区块四 · 文档类型墙 -->
+<section>
+  <div class="wrap">
+    <h2 class="bh">覆盖你的写作场景</h2>
+    <p class="wall-title">📚 学术写作</p>
+    <div class="tagrow">
+      <span class="tag">毕业论文</span><span class="tag">任务书</span><span class="tag">开题报告</span>
+      <span class="tag">文献综述</span><span class="tag">论文选题</span><span class="tag">文献综述 Pro</span>
+    </div>
+    <p class="wall-title">🏫 校园实践</p>
+    <div class="tagrow">
+      <span class="tag">课程总结</span><span class="tag">实习日记</span><span class="tag">实践报告</span>
+      <span class="tag">读/观后感</span><span class="tag">心得体会</span><span class="tag">工作报告</span>
+    </div>
+  </div>
+</section>
+
+<!-- 区块五 · AI 能力层 -->
+<section style="background:var(--bg-soft)">
+  <div class="wrap">
+    <h2 class="bh">8 项 AI 能力，不止是聊天</h2>
+    <div class="feat">
+      <div class="item"><b>AI 毕业论文 / AI 论文改稿</b>：结构与语言一次成型，初稿不用从零憋</div>
+      <div class="item"><b>AI 解读文献</b>：参考文献看不懂？快速吃透、提炼可用观点</div>
+      <div class="item"><b>AI 答辩 PPT</b>：演示文稿一键生成，答辩不再熬夜排版</div>
+      <div class="item"><b>AI 学术对话</b>：写作中任何卡点，随时聊、随时解</div>
+      <div class="item"><b>AI 超级简历</b>：把你的经历写出竞争力</div>
+      <div class="item"><b>AI 职场写作</b>：周报月报一次性收工</div>
+    </div>
+    <div class="callout"><span class="star">⭐</span> 降重 &amp; 降 AI（最戳毕业生）：同时针对查重库和 AI 检测特征双优化，既过查重、又过 AI 检测</div>
+  </div>
+</section>
+
+<!-- 区块六 · 学术一条龙 -->
+<section>
+  <div class="wrap">
+    <h2 class="bh">一个工具，管完整个周期</h2>
+    <div class="steps">
+      <div class="step">选题<span>确定方向</span></div>
+      <div class="step">读文献<span>AI 解读</span></div>
+      <div class="step">写初稿<span>结构成型</span></div>
+      <div class="step">过检测<span>降重降AI</span></div>
+      <div class="step">答辩<span>PPT 生成</span></div>
+      <div class="step">随时问<span>学术对话</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 区块七 · 使用流程 -->
+<section style="background:var(--bg-soft)">
+  <div class="wrap">
+    <h2 class="bh">四步出初稿，不用会 prompt</h2>
+    <div class="how">
+      <div class="h"><div><b>选类型 / 选 AI 功能</b><br/>毕业论文、开题报告、文献综述、降重降 AI、答辩 PPT……</div></div>
+      <div class="h"><div><b>填要点</b><br/>把你的关键词、参考文献、课题方向丢进去</div></div>
+      <div class="h"><div><b>生成</b><br/>几分钟出结构完整、措辞专业的初稿</div></div>
+      <div class="h"><div><b>导出</b><br/>往骨架里填你自己的内容，导出成稿</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 区块八 · 收益点 -->
+<section>
+  <div class="wrap">
+    <h2 class="bh">用它能得到什么</h2>
+    <div class="ben">
+      <div class="b"><b>⏱ 省时间</b>初稿不用从零憋，最痛的"开头"一步跨过</div>
+      <div class="b"><b>🎯 显专业</b>内置文书结构与学术流程，产出贴合场景</div>
+      <div class="b"><b>📚 覆盖广</b>12 类模板 ＋ 8 项 AI 能力，学生职场通吃</div>
+      <div class="b"><b>✅ 过检测</b>降重 &amp; 降 AI 双保险，既过查重又过 AI 检测</div>
+    </div>
+  </div>
+</section>
+
+<!-- 区块九 · FAQ -->
+<section style="background:var(--bg-soft)">
+  <div class="wrap">
+    <h2 class="bh">常见问题</h2>
+    <div class="faq">
+      <details open><summary>Q1：我不会写 prompt 也能用吗？</summary><p>能。它内置了各类文书的结构，你只需选类型、填要点，不用反复教它"开题报告要哪些章节"。</p></details>
+      <details><summary>Q2：降重 &amp; 降 AI 真的有用吗？</summary><p>它是同时针对查重库和 AI 检测特征双优化，帮你把文本改到既过查重、又过 AI 检测。但检测结果受平台算法影响，建议以学校/单位最终要求为准。</p></details>
+      <details><summary>Q3：它跟普通聊天机器人有什么区别？</summary><p>普通机器人要你反复教它场景；一字成文内置了文书结构和学术流程，产出直接贴合"周报该怎么写""开题报告哪些章节"这类具体场景。</p></details>
+      <details><summary>Q4：生成的内容能直接交吗？</summary><p>它给的是结构初稿，课题内容/研究数据得是你自己的。请遵守学术规范，将其作为辅助工具使用，勿直接提交未校验内容。</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- 区块十 · CTA -->
+<section class="cta">
+  <div class="wrap">
+    <h2>🎁 免费体验一字成文</h2>
+    <a class="btn" href="https://www.yizipaper.com/?tuid=189990" target="_blank" rel="noopener">立即免费体验</a>
+    <p class="note">新朋友输入福利码 <span class="code">LYG646</span> 注册有专属优惠 · 链接与福利码双保险</p>
+  </div>
+</section>
+
+<!-- 区块十一 · 合规声明 -->
+<footer class="legal">
+  <div class="wrap">
+    <p><b>免责与说明：</b>本站为个人体验分享页面，非一字成文官方页面。一字成文是写作辅助工具，产出需使用者本人填充、校对并遵守学术与职场规范，请勿将其用于代写、抄袭或提交未校验内容。部分页面内容由 AI 辅助生成。推广链接含推广标识 <b>?tuid=189990</b>，通过本链接注册你可能为我带来推广收益，不影响你的权益。</p>
+  </div>
+</footer>
+
+</body>
+</html>
