@@ -29,17 +29,18 @@ git push -u origin main
 4. Framework: Next.js (自动检测)
 5. 点击 "Environment Variables" 添加以下变量：
 
+> 下表为占位符。真实值请从各服务商控制台（OpenRouter / Jina / DeepSeek / 火山方舟 / 智谱）或本地凭据目录 `E:\AgentCPM\_credentials\07_一人公司出海项目\` 获取，切勿写回仓库。
 | 变量名 | 值 |
 |--------|-----|
 | NEXT_PUBLIC_SUPABASE_URL | 你的Supabase URL |
 | NEXT_PUBLIC_SUPABASE_ANON_KEY | 你的Supabase Anon Key |
 | SUPABASE_SERVICE_ROLE_KEY | 你的Supabase Service Role Key |
 | OPENAI_API_KEY | 你的OpenAI API Key |
-| OPENROUTER_API_KEY | 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 |
-| JINA_API_KEY | sk-pmatjxbphiuldahrpibzqrxokpvawtdssgvratkfogshkyvj |
-| DEEPSEEK_API_KEY | sk-0f68cb8ec61a4eac90ef792f70a6e4f0 |
-| DOUBAO_API_KEY | 01f19f51-230d-4466-8b31-a0bc010bc94c |
-| ZHIPU_API_KEY | e605b3e3f62744d49d2536fa5ce0bfcc.IpAbjWQaE9ZBwOGf |
+| OPENROUTER_API_KEY | your-openrouter-api-key |
+| JINA_API_KEY | your-jina-api-key |
+| DEEPSEEK_API_KEY | your-deepseek-api-key |
+| DOUBAO_API_KEY | your-doubao-api-key |
+| ZHIPU_API_KEY | your-zhipu-api-key |
 | DEFAULT_AI_PROVIDER | deepseek |
 | NEXT_PUBLIC_APP_URL | https://meetsum-ai.vercel.app |
 
