@@ -1,5 +1,7 @@
 .env.local
 .env.production
+_credentials/
+07_一人公司出海项目/2026-11-05/workspace-audit/work/
 node_modules/
 .vercel/
 .next/
