@@ -31,13 +31,15 @@
 
 在Vercel项目设置中添加以下环境变量：
 
+> 下表为占位符。真实值请从 Supabase Dashboard → Project Settings → API、各服务商控制台，或本地凭据目录 `E:\AgentCPM\_credentials\07_一人公司出海项目\` 获取，切勿写回仓库。
+
 | 变量名 | 值 |
 |--------|-----|
-| `NEXT_PUBLIC_SUPABASE_URL` | `https://ztebchkdzlbqbdtssjao.supabase.co` |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp0ZWJjaGtkemxicWJkdHNzamFvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYyNjQ3NjMsImV4cCI6MjA5MTg0MDc2M30.iVgrmlRC5h2GsIKXrqDIBGjV774MasGfFdaNGet7MTY` |
-| `SUPABASE_SERVICE_ROLE_KEY` | `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp0ZWJjaGtkemxicWJkdHNzamFvIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NjI2NDc2MywiZXhwIjoyMDkxODQwNzYzfQ.twwRghlk7lpbWXyWRAeEBL4raYLIPfOhNQmaeR4S` |
+| `NEXT_PUBLIC_SUPABASE_URL` | `https://<your-project-ref>.supabase.co` |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | `your-anon-key` |
+| `SUPABASE_SERVICE_ROLE_KEY` | `your-service-role-key` |
 | `DEFAULT_AI_PROVIDER` | `deepseek` |
-| `DEEPSEEK_API_KEY` | `sk-0f68cb8ec61a4eac90ef792f70a6e4f0` |
+| `DEEPSEEK_API_KEY` | `your-deepseek-api-key` |
 
 ### 步骤5：部署
 

@@ -16,17 +16,19 @@
 
 在 Project Settings → Environment Variables 中添加以下变量：
 
+> 下表为占位符。真实值请从 Supabase Dashboard → Project Settings → API、各服务商控制台，或本地凭据目录 `E:\AgentCPM\_credentials\07_一人公司出海项目\` 获取，切勿写回仓库。
+
 | 变量名 | 值 | 环境 |
 |--------|-----|------|
-| NEXT_PUBLIC_SUPABASE_URL | `https://ztebchkdzlbqbdtssjao.supabase.co` | Production, Preview, Development |
-| NEXT_PUBLIC_SUPABASE_ANON_KEY | `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp0ZWJjaGtkemxicWJkdHNzamFvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYyNjQ3NjMsImV4cCI6MjA5MTg0MDc2M30.iVgrmlRC5h2GsIKXrqDIBGjV774MasGfFdaNGet7MTY` | All |
-| SUPABASE_SERVICE_ROLE_KEY | `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp0ZWJjaGtkemxicWJkdHNzamFvIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NjI2NDc2MywiZXhwIjoyMDkxODQwNzYzfQ.twwRghlk7lpbWXyWRAeEBL4raYLIPfOhNQmaeR4S` | Production |
+| NEXT_PUBLIC_SUPABASE_URL | `https://<your-project-ref>.supabase.co` | Production, Preview, Development |
+| NEXT_PUBLIC_SUPABASE_ANON_KEY | `your-anon-key` | All |
+| SUPABASE_SERVICE_ROLE_KEY | `your-service-role-key` | Production |
 | OPENAI_API_KEY | `sk-your-openai-api-key` | Production |
-| OPENROUTER_API_KEY | `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` | All |
-| DEEPSEEK_API_KEY | `sk-0f68cb8ec61a4eac90ef792f70a6e4f0` | All |
-| ZHIPU_API_KEY | `e605b3e3f62744d49d2536fa5ce0bfcc.IpAbjWQaE9ZBwOGf` | All |
-| DOUBAO_API_KEY | `01f19f51-230d-4466-8b31-a0bc010bc94c` | All |
-| JINA_API_KEY | `sk-pmatjxbphiuldahrpibzqrxokpvawtdssgvratkfogshkyvj` | All |
+| OPENROUTER_API_KEY | `your-openrouter-api-key` | All |
+| DEEPSEEK_API_KEY | `your-deepseek-api-key` | All |
+| ZHIPU_API_KEY | `your-zhipu-api-key` | All |
+| DOUBAO_API_KEY | `your-doubao-api-key` | All |
+| JINA_API_KEY | `your-jina-api-key` | All |
 | DEFAULT_AI_PROVIDER | `deepseek` | All |
 | NEXT_PUBLIC_APP_URL | `https://meetsum-ai.vercel.app` | All |
 
